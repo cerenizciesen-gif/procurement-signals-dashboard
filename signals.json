@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T05:00:00+00:00",
+  "generated_at": "2026-07-28T23:42:31+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "legend": {
@@ -41,7 +41,7 @@
       "material": "Steel",
       "date": "2026-07-01",
       "volume_tons_year": 5000,
-      "current_price_eur": 785,
+      "current_price_eur": 785.0,
       "price_trend": "Up",
       "macro_risk_factor": "Geopolitical supply disruption",
       "macro_risk_value": "High severity",
