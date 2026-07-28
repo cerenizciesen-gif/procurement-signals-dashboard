@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-07-29T05:00:00+00:00",
+  "source_file": "procurement_dataset.csv",
+  "as_of": "2026-07-01",
+  "legend": {
+    "positive": "#2e7d4f",
+    "negative": "#c04a3b"
+  },
+  "signals": [
+    {
+      "material": "PP",
+      "date": "2026-07-01",
+      "volume_tons_year": 600,
+      "current_price_eur": 1.17,
+      "price_trend": "Up",
+      "macro_risk_factor": "Turkey minimum wage increase",
+      "macro_risk_value": "+15%",
+      "driver": "Turkey minimum wage increase",
+      "driver_value": "+15%",
+      "signal": "Buy now",
+      "rationale": "Local conversion costs will rise with the wage increase; secure volumes before suppliers reprice.",
+      "sentiment": "positive",
+      "color": "#2e7d4f"
+    },
+    {
+      "material": "PA6",
+      "date": "2026-07-01",
+      "volume_tons_year": 1300,
+      "current_price_eur": 2.64,
+      "price_trend": "Down",
+      "macro_risk_factor": "Red Sea shipping disruption",
+      "macro_risk_value": "Freight costs +20%",
+      "driver": "Red Sea shipping disruption",
+      "driver_value": "Freight costs +20%",
+      "signal": "Buy now",
+      "rationale": "Freight costs are surging; build stock before the increase feeds into local prices.",
+      "sentiment": "positive",
+      "color": "#2e7d4f"
+    },
+    {
+      "material": "Steel",
+      "date": "2026-07-01",
+      "volume_tons_year": 5000,
+      "current_price_eur": 785,
+      "price_trend": "Up",
+      "macro_risk_factor": "Geopolitical supply disruption",
+      "macro_risk_value": "High severity",
+      "driver": "Geopolitical supply disruption",
+      "driver_value": "High severity",
+      "signal": "Delay",
+      "rationale": "Market volatility is extreme; wait it out rather than buying at a peak.",
+      "sentiment": "negative",
+      "color": "#c04a3b"
+    }
+  ]
+}
