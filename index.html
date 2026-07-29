@@ -9,6 +9,7 @@
 <x-dc>
 <helmet>
 <link rel="stylesheet" href="styles.css">
+<script src="_ds_bundle.js"></script>
 <style>
   body{margin:0}
   a{color:var(--color-accent)}
@@ -21,10 +22,10 @@
      design system's uppercase kickers/table headers here rather than in the shared stylesheet. */
   .card-kicker, .table th { text-transform: none; letter-spacing: 0.02em; }
   :root{
-    --color-positive: oklch(0.56 0.13 148);
+    --color-positive: #2e7d4f;
     --color-positive-100: oklch(0.95 0.035 148);
     --color-positive-800: oklch(0.32 0.09 148);
-    --color-negative: oklch(0.56 0.15 27);
+    --color-negative: #c04a3b;
     --color-negative-100: oklch(0.95 0.035 27);
     --color-negative-800: oklch(0.32 0.11 27);
   }
@@ -39,6 +40,7 @@
     <a href="#" onClick="{{ goDashboard }}" aria-current="{{ dashCurrent }}">Dashboard</a>
     <a href="#" onClick="{{ goAlerts }}" aria-current="{{ alertsCurrent }}">Alerts</a>
     <div class="seg" style="margin-left:auto">
+      <label class="seg-opt"><input type="radio" name="cur" checked="{{ isEUR }}" onChange="{{ setEUR }}"/>EUR</label>
       <label class="seg-opt"><input type="radio" name="cur" checked="{{ isUSD }}" onChange="{{ setUSD }}"/>USD</label>
       <label class="seg-opt"><input type="radio" name="cur" checked="{{ isTRY }}" onChange="{{ setTRY }}"/>TRY</label>
     </div>
@@ -48,9 +50,15 @@
 
     <sc-if value="{{ isDashboard }}" hint-placeholder-val="{{ true }}">
       <div style="display:flex;flex-direction:column;gap:24px">
-        <div>
-          <h1 style="margin:0">Procurement dashboard</h1>
-          <p class="text-muted" style="margin:4px 0 0">Raw material price forecasts and negotiation timing for the sourcing team</p>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px">
+          <div>
+            <h1 style="margin:0">Procurement dashboard</h1>
+            <p class="text-muted" style="margin:4px 0 0">Raw material price forecasts and negotiation timing for the sourcing team</p>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="tag {{ feed.tagClass }}">{{ feed.label }}</span>
+            <span class="text-muted" style="font-size:11px">{{ feed.detail }}</span>
+          </div>
         </div>
 
         <sc-if value="{{ showNegotiationBanner }}" hint-placeholder-val="{{ true }}">
@@ -68,19 +76,20 @@
           <sc-for list="{{ materials }}" as="m" hint-placeholder-count="3">
             <div class="card blueprint elev-sm" style="gap:8px">
               <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
-              <div class="card-kicker">{{ m.unit }}</div>
+              <div class="card-kicker">per {{ m.unit }} · {{ m.volumeLabel }}</div>
               <div class="card-title">{{ m.name }}</div>
               <div style="font-size:24px;font-family:var(--font-heading);font-weight:600">{{ m.priceLabel }}</div>
               <div class="card-meta">
-                <span class="tag {{ m.changeTagClass }}">{{ m.changeArrow }} {{ m.change30Label }}</span>
-                <span class="text-muted">30d</span>
+                <span class="tag {{ m.changeTagClass }}">{{ m.changeArrow }} {{ m.change1mLabel }}</span>
+                <span class="text-muted">1 mo</span>
               </div>
               <svg width="100%" height="36" viewBox="0 0 130 36" preserveAspectRatio="none" style="margin-top:2px">
                 <polyline points="{{ m.sparkPoints }}" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
               </svg>
               <div class="hr" style="margin:2px 0"></div>
               <div class="signal-line">{{ m.summaryLine }}</div>
-              <span class="tag {{ m.signalTagClass }}" style="align-self:flex-start">Signal: {{ m.signalLabel }}</span>
+              <span class="tag {{ m.signalTagClass }}" style="align-self:flex-start;color:{{ m.signalColor }}">Signal: {{ m.signalLabel }}</span>
+              <div style="font-size:12px;color:{{ m.signalColor }}">{{ m.rationale }}</div>
               <button class="btn btn-ghost" style="align-self:flex-start;padding-inline:0" onClick="{{ m.onDetail }}">View details →</button>
             </div>
           </sc-for>
@@ -143,16 +152,16 @@
 
         <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px">
           <div>
-            <div class="card-kicker">{{ detailMaterial.unit }}</div>
+            <div class="card-kicker">per {{ detailMaterial.unit }} · {{ detailMaterial.volumeLabel }}</div>
             <h1 style="margin:0">{{ detailMaterial.name }}</h1>
             <div class="signal-line" style="margin-top:6px">{{ detailMaterial.summaryLine }}</div>
           </div>
           <div style="text-align:right">
             <div style="font-size:36px;font-family:var(--font-heading);font-weight:600">{{ detailMaterial.priceLabel }}</div>
             <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:4px">
-              <span class="tag {{ detailMaterial.changeTagClass }}">{{ detailMaterial.changeArrow }} {{ detailMaterial.change7Label }} (7d)</span>
-              <span class="tag {{ detailMaterial.changeTagClass }}">{{ detailMaterial.changeArrow }} {{ detailMaterial.change30Label }} (30d)</span>
-              <span class="tag {{ detailMaterial.signalTagClass }}">Signal: {{ detailMaterial.signalLabel }}</span>
+              <span class="tag {{ detailMaterial.changeTagClass }}">{{ detailMaterial.changeArrow }} {{ detailMaterial.change1mLabel }} (1 mo)</span>
+              <span class="tag {{ detailMaterial.change6mTagClass }}">{{ detailMaterial.change6mArrow }} {{ detailMaterial.change6mLabel }} (6 mo)</span>
+              <span class="tag {{ detailMaterial.signalTagClass }}" style="color:{{ detailMaterial.signalColor }}">Signal: {{ detailMaterial.signalLabel }}</span>
             </div>
           </div>
         </div>
@@ -181,6 +190,8 @@
                 <span class="tag tag-outline">{{ f.name }} · {{ f.impact }}</span>
               </sc-for>
             </div>
+            <div class="card-kicker" style="margin-top:16px">Active macro risk</div>
+            <div style="font-size:14px">{{ detailMaterial.macroRiskLine }}</div>
             <div class="card-kicker" style="margin-top:16px">Negotiation tip</div>
             <div style="font-size:14px">{{ detailMaterial.negotiation }}</div>
           </div>
@@ -292,40 +303,48 @@
 </div>
 
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1400,&quot;height&quot;:900},&quot;defaultScreen&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;dashboard&quot;,&quot;options&quot;:[&quot;dashboard&quot;,&quot;alerts&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Behavior&quot;},&quot;defaultCurrency&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;USD&quot;,&quot;options&quot;:[&quot;USD&quot;,&quot;TRY&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Behavior&quot;},&quot;showConfidenceBand&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Behavior&quot;},&quot;showNegotiationBanner&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Behavior&quot;}}">
-const FX_RATE = 34.10;
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1400,&quot;height&quot;:900},&quot;defaultScreen&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;dashboard&quot;,&quot;options&quot;:[&quot;dashboard&quot;,&quot;alerts&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Behavior&quot;},&quot;defaultCurrency&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;EUR&quot;,&quot;options&quot;:[&quot;EUR&quot;,&quot;USD&quot;,&quot;TRY&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Behavior&quot;},&quot;showConfidenceBand&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Behavior&quot;},&quot;showNegotiationBanner&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Behavior&quot;}}">
+/* Data flow: the backend job (analyze_data.py) writes signals.json from
+   procurement_dataset.csv. This dashboard fetches both on load — signals.json drives the
+   signal, rationale and color; the CSV drives price history. The constants below are only a
+   fallback for when the files can't be fetched (e.g. opened straight off the filesystem). */
+
+const SIGNALS_URL = 'signals.json';
+const DATASET_URL = 'procurement_dataset.csv';
+
+const RATES = { EUR: 1, USD: 1.08, TRY: 36.80 };
+const SYMBOLS = { EUR: '€', USD: '$', TRY: '₺' };
+
+const COLOR_POSITIVE = '#2e7d4f';
+const COLOR_NEGATIVE = '#c04a3b';
+
 const MONTH_LABELS = ['Aug 25','Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26','Mar 26','Apr 26','May 26','Jun 26','Jul 26'];
 const FORECAST_LABELS = ['Aug 26','Sep 26','Oct 26','Nov 26','Dec 26','Jan 27'];
 
+/* Shape per material: forecast curves, drivers and negotiation copy live here; prices,
+   volume, macro risk and signals come from the backend files. */
 const MATERIALS_SEED = [
-  { id:'steel', name:'Steel', unit:'ton', change7:1.6, change30:4.1, macroRisk:'USD/TRY rate',
-    history:[780,785,790,795,802,808,815,822,828,835,842,850],
-    forecast:[858,865,872,878,884,890],
-    forecastLow:[852,856,860,863,866,868],
-    forecastHigh:[864,876,888,898,908,916],
+  { id:'steel', name:'Steel', unit:'ton', volume:5000,
+    history:[724,729,726,735,741,738,748,757,761,758,772,785],
+    forecast:[795,806,816,825,834,842],
+    forecastLow:[789,795,800,804,808,811],
+    forecastHigh:[801,817,832,846,860,873],
     factors:[{name:'USD/TRY rate',impact:'High'},{name:'Turkey minimum wage',impact:'Medium'},{name:'Global scrap prices',impact:'High'},{name:'Energy costs',impact:'Medium'}],
     negotiation:'Steel prices have been climbing for two weeks on a weaker lira; close near-term contracts by the end of this week before the next mill price revision.' },
-  { id:'pa6', name:'PA6', unit:'kg', change7:-0.5, change30:-2.8, macroRisk:'USD/TRY rate',
-    history:[3.10,3.08,3.05,3.02,2.99,2.96,2.94,2.91,2.89,2.86,2.84,2.82],
-    forecast:[2.80,2.78,2.77,2.76,2.75,2.74],
-    forecastLow:[2.76,2.73,2.71,2.69,2.68,2.66],
-    forecastHigh:[2.84,2.83,2.83,2.83,2.82,2.82],
-    factors:[{name:'USD/TRY rate',impact:'High'},{name:'Caprolactam feedstock',impact:'High'},{name:'Automotive demand',impact:'Medium'},{name:'Turkey minimum wage',impact:'Low'}],
-    negotiation:'PA6 feedstock costs are easing; hold off on locking annual volumes and revisit pricing again in 3-4 weeks.' },
-  { id:'pp', name:'PP', unit:'kg', volumeLabel:'600 T/year', change7:0.8, change30:3.4, macroRisk:'Turkey minimum wage',
-    history:[1.10,1.12,1.13,1.15,1.16,1.18,1.19,1.21,1.22,1.24,1.25,1.27],
-    forecast:[1.29,1.31,1.33,1.35,1.37,1.39],
-    forecastLow:[1.28,1.29,1.31,1.32,1.33,1.34],
-    forecastHigh:[1.30,1.33,1.36,1.38,1.41,1.44],
+  { id:'pa6', name:'PA6', unit:'kg', volume:1300,
+    history:[2.88,2.86,2.87,2.83,2.80,2.78,2.79,2.74,2.71,2.72,2.68,2.64],
+    forecast:[2.61,2.58,2.56,2.54,2.52,2.50],
+    forecastLow:[2.58,2.54,2.50,2.47,2.44,2.41],
+    forecastHigh:[2.64,2.62,2.62,2.61,2.60,2.59],
+    factors:[{name:'Red Sea freight',impact:'High'},{name:'Caprolactam feedstock',impact:'High'},{name:'Automotive demand',impact:'Medium'},{name:'Turkey minimum wage',impact:'Low'}],
+    negotiation:'PA6 feedstock costs are easing, but freight is the swing factor; secure stock before shipping surcharges reach local price lists.' },
+  { id:'pp', name:'PP', unit:'kg', volume:600,
+    history:[1.02,1.04,1.03,1.06,1.07,1.09,1.08,1.11,1.13,1.12,1.15,1.17],
+    forecast:[1.19,1.21,1.23,1.25,1.27,1.29],
+    forecastLow:[1.18,1.19,1.20,1.21,1.22,1.23],
+    forecastHigh:[1.20,1.23,1.26,1.29,1.32,1.35],
     factors:[{name:'Turkey minimum wage',impact:'High'},{name:'USD/TRY rate',impact:'Medium'},{name:'Naphtha prices',impact:'Medium'},{name:'Local conversion capacity',impact:'Medium'}],
     negotiation:'PP conversion costs are rising with the latest minimum wage increase; lock in the 600 T/year volume commitment this week before suppliers reprice.' }
-];
-
-const ALERTS_SEED = [
-  { id:1, materialId:'steel', condition:'Price > $900/ton', status:'Active', created:'Jul 20, 2026' },
-  { id:2, materialId:'pa6', condition:'Price < $2.70/kg', status:'Pending', created:'Jul 22, 2026' },
-  { id:3, materialId:'pp', condition:'Price > $1.30/kg', status:'Triggered', created:'Jul 24, 2026' },
-  { id:4, materialId:'pp', condition:'Weekly change > 3%', status:'Active', created:'Jul 27, 2026' }
 ];
 
 function scalePoints(vals, xs, w, h, min, max, padX, padY){
@@ -354,51 +373,159 @@ function buildChart(m, w, h){
   return { histPts, fcPts, bandPts: topStr + ' ' + botStr };
 }
 
-function fmtPrice(val, unit, currency){
-  const v = currency === 'TRY' ? val * FX_RATE : val;
+function fmtPrice(valEur, unit, currency){
+  const v = valEur * (RATES[currency] || 1);
   const decimals = unit === 'kg' ? 2 : 0;
   const num = v.toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
-  return (currency === 'TRY' ? '₺' : '$') + num;
+  return (SYMBOLS[currency] || '') + num;
 }
 
-function signalFor(m){
-  const positive = m.change30 < 0;
-  return {
-    isPositive: positive,
-    signalLabel: positive ? 'Buy now' : 'Delay',
-    signalTagClass: positive ? 'tag-positive' : 'tag-negative'
-  };
+function pct(a, b){ return b ? ((a - b) / b) * 100 : 0; }
+
+function parseDataset(text){
+  const lines = text.trim().split(/\r?\n/);
+  const cols = lines[0].split(',');
+  const byMaterial = {};
+  lines.slice(1).forEach(line => {
+    const cells = line.split(',');
+    const row = {};
+    cols.forEach((c, i) => { row[c] = (cells[i] || '').trim(); });
+    if (!row.Material) return;
+    (byMaterial[row.Material] = byMaterial[row.Material] || []).push(row);
+  });
+  Object.values(byMaterial).forEach(rows => rows.sort((a, b) => a.Date < b.Date ? -1 : 1));
+  return byMaterial;
 }
 
 class Component extends DCLogic {
   state = {
     screen: this.props.defaultScreen === 'alerts' ? 'alerts' : 'dashboard',
-    currency: this.props.defaultCurrency === 'TRY' ? 'TRY' : 'USD',
+    currency: RATES[this.props.defaultCurrency] ? this.props.defaultCurrency : 'EUR',
     chartMaterialId: 'pp',
     detailMaterialId: null,
     scenario: { fx: 0, demand: 0, wage: 0 },
-    alerts: ALERTS_SEED.map(a => ({...a})),
+    feedState: 'loading',
+    signals: null,
+    dataset: null,
+    alerts: [],
     newAlert: { materialId: 'steel', cond: 'above', threshold: '', channel: 'email' }
   };
 
-  findMaterial(id){ return MATERIALS_SEED.find(m => m.id === id) || MATERIALS_SEED[0]; }
+  componentDidMount(){ this.loadBackendData(); }
+
+  async loadBackendData(){
+    try {
+      const [signalsRes, datasetRes] = await Promise.all([
+        fetch(SIGNALS_URL, { cache: 'no-store' }),
+        fetch(DATASET_URL, { cache: 'no-store' }).catch(() => null)
+      ]);
+      if (!signalsRes || !signalsRes.ok) throw new Error('signals.json unavailable');
+      const signals = await signalsRes.json();
+      let dataset = null;
+      if (datasetRes && datasetRes.ok) {
+        try { dataset = parseDataset(await datasetRes.text()); } catch (e) { dataset = null; }
+      }
+      this.setState({ signals, dataset, feedState: 'live', alerts: this.deriveAlerts(signals) });
+    } catch (err) {
+      this.setState({ feedState: 'fallback' });
+    }
+  }
+
+  /* Alerts are seeded from the live signals so the list reflects what the backend flagged. */
+  deriveAlerts(signals){
+    const list = (signals && signals.signals) || [];
+    const asOf = this.formatDate(signals && signals.as_of);
+    return list.map((s, i) => ({
+      id: i + 1,
+      materialName: s.material,
+      condition: s.macro_risk_factor
+        ? s.macro_risk_factor + (s.macro_risk_value ? ' (' + s.macro_risk_value + ')' : '')
+        : 'Price trend ' + String(s.price_trend || '').toLowerCase(),
+      status: s.signal === 'Buy now' ? 'Triggered' : 'Active',
+      created: asOf
+    }));
+  }
+
+  formatDate(iso){
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  signalRecordFor(name){
+    const list = (this.state.signals && this.state.signals.signals) || [];
+    return list.find(s => s.material === name) || null;
+  }
+
+  /* Merge the seed shape with whatever the backend delivered. */
+  resolveMaterial(seed){
+    const live = this.signalRecordFor(seed.name);
+    const rows = this.state.dataset && this.state.dataset[seed.name];
+    const m = { ...seed };
+
+    if (rows && rows.length >= 2) {
+      const prices = rows.map(r => Number(r.Current_Price_EUR)).filter(v => !isNaN(v));
+      if (prices.length >= 2) {
+        const ratio = prices[prices.length-1] / seed.history[seed.history.length-1];
+        m.history = prices;
+        m.forecast = seed.forecast.map(v => v * ratio);
+        m.forecastLow = seed.forecastLow.map(v => v * ratio);
+        m.forecastHigh = seed.forecastHigh.map(v => v * ratio);
+      }
+      const lastRow = rows[rows.length-1];
+      if (lastRow.Volume_Tons_Year) m.volume = Number(lastRow.Volume_Tons_Year);
+    }
+
+    if (live) {
+      if (typeof live.current_price_eur === 'number' && !rows) {
+        const ratio = live.current_price_eur / m.history[m.history.length-1];
+        m.history = m.history.map((v,i) => i === m.history.length-1 ? live.current_price_eur : v * ratio);
+      }
+      if (live.volume_tons_year) m.volume = live.volume_tons_year;
+      m.macroRisk = live.macro_risk_factor || 'Price trend';
+      m.macroRiskValue = live.macro_risk_value || live.price_trend || '';
+      m.signalLabel = live.signal;
+      m.rationale = live.rationale;
+      m.signalColor = live.color || (live.signal === 'Buy now' ? COLOR_POSITIVE : COLOR_NEGATIVE);
+      m.signalPositive = live.sentiment ? live.sentiment === 'positive' : live.signal === 'Buy now';
+    } else {
+      const falling = pct(m.history[m.history.length-1], m.history[m.history.length-2]) < 0;
+      m.macroRisk = 'Price trend';
+      m.macroRiskValue = falling ? 'Down' : 'Up';
+      m.signalLabel = falling ? 'Buy now' : 'Delay';
+      m.rationale = falling
+        ? 'Prices are easing; current levels offer a cost saving against last month.'
+        : 'Prices are trending up; revisit once the move settles.';
+      m.signalColor = falling ? COLOR_POSITIVE : COLOR_NEGATIVE;
+      m.signalPositive = falling;
+    }
+
+    m.signalTagClass = m.signalPositive ? 'tag-positive' : 'tag-negative';
+    m.volumeLabel = m.volume ? 'Volume: ' + m.volume.toLocaleString('en-US') + ' T/year' : '';
+    m.macroRiskLine = m.macroRisk + (m.macroRiskValue ? ' — ' + m.macroRiskValue : '');
+    m.change1m = pct(m.history[m.history.length-1], m.history[m.history.length-2]);
+    m.change6m = pct(m.history[m.history.length-1], m.history[Math.max(0, m.history.length-7)]);
+    m.summaryLine = 'Material: ' + m.name + (m.volume ? ' | Volume: ' + m.volume + 'T' : '') +
+      ' | Macro risk: ' + m.macroRisk + ' | Signal: ' + m.signalLabel;
+    return m;
+  }
 
   buildMaterialRow(m, currency){
-    const current = m.history[m.history.length-1];
-    const up = m.change30 >= 0;
+    const up = m.change1m >= 0;
     const sparkAll = m.history.concat(m.forecast);
     const sparkXs = sparkAll.map((_,i)=>i);
     const sparkPoints = scalePoints(sparkAll, sparkXs, 130, 36, Math.min(...sparkAll), Math.max(...sparkAll), 3, 4);
-    const sig = signalFor(m);
-    const summaryLine = 'Material: ' + m.name + (m.volumeLabel ? ' | Volume: ' + m.volumeLabel : '') + ' | Macro risk: ' + m.macroRisk + ' | Signal: ' + sig.signalLabel;
     return {
-      id: m.id, name: m.name, unit: m.unit,
-      priceLabel: fmtPrice(current, m.unit, currency),
-      change30Label: Math.abs(m.change30).toFixed(1) + '%',
+      id: m.id, name: m.name, unit: m.unit, volumeLabel: m.volumeLabel,
+      priceLabel: fmtPrice(m.history[m.history.length-1], m.unit, currency),
+      change1mLabel: Math.abs(m.change1m).toFixed(1) + '%',
       changeArrow: up ? '▲' : '▼',
       changeTagClass: up ? 'tag-negative' : 'tag-positive',
-      sparkPoints, summaryLine,
-      signalLabel: sig.signalLabel, signalTagClass: sig.signalTagClass,
+      sparkPoints,
+      summaryLine: m.summaryLine,
+      signalLabel: m.signalLabel, signalTagClass: m.signalTagClass, signalColor: m.signalColor,
+      rationale: m.rationale,
       onDetail: () => this.setState({ screen:'detail', detailMaterialId: m.id })
     };
   }
@@ -407,7 +534,7 @@ class Component extends DCLogic {
     const base = m.history[m.history.length-1];
     const fx = this.state.scenario.fx, demand = this.state.scenario.demand, wage = this.state.scenario.wage;
     const adjusted = base * (1 + fx*0.006 + demand*0.009 + wage*0.004);
-    const delta = ((adjusted - base) / base) * 100;
+    const delta = pct(adjusted, base);
     return {
       fx, demand, wage,
       fxLabel: (fx>0?'+':'') + fx + '%',
@@ -422,28 +549,32 @@ class Component extends DCLogic {
   renderVals(){
     const currency = this.state.currency;
     const showBand = this.props.showConfidenceBand ?? true;
-    const chartMat = this.findMaterial(this.state.chartMaterialId);
+
+    const resolved = MATERIALS_SEED.map(seed => this.resolveMaterial(seed));
+    const byId = id => resolved.find(m => m.id === id) || resolved[0];
+
+    const chartMat = byId(this.state.chartMaterialId);
     const chart = buildChart(chartMat, 640, 220);
-    const detailId = this.state.detailMaterialId || this.state.chartMaterialId;
-    const detailMat = this.findMaterial(detailId);
+    const detailMat = byId(this.state.detailMaterialId || this.state.chartMaterialId);
     const detailChart = buildChart(detailMat, 760, 260);
 
-    const materials = MATERIALS_SEED.map(m => this.buildMaterialRow(m, currency));
+    const materials = resolved.map(m => this.buildMaterialRow(m, currency));
 
-    const chartOptions = MATERIALS_SEED.map(m => ({
+    const chartOptions = resolved.map(m => ({
       id: m.id, name: m.name, active: m.id === this.state.chartMaterialId,
       onSelect: () => this.setState({ chartMaterialId: m.id })
     }));
 
     const detailTableRows = (() => {
-      const last6 = detailMat.history.slice(-6);
-      const labels = MONTH_LABELS.slice(-6);
-      return last6.map((v,i) => {
-        const prev = i === 0 ? detailMat.history[detailMat.history.length-7] : last6[i-1];
-        const delta = prev ? ((v-prev)/prev)*100 : 0;
+      const hist = detailMat.history;
+      const start = Math.max(0, hist.length - 6);
+      const labels = MONTH_LABELS.slice(Math.max(0, MONTH_LABELS.length - (hist.length - start)));
+      return hist.slice(start).map((v, i) => {
+        const prev = hist[start + i - 1];
+        const delta = prev ? pct(v, prev) : 0;
         const up = delta >= 0;
         return {
-          label: labels[i],
+          label: labels[i] || '',
           priceLabel: fmtPrice(v, detailMat.unit, currency),
           deltaLabel: (up?'▲ +':'▼ ') + Math.abs(delta).toFixed(1) + '%',
           tagClass: up ? 'tag-negative' : 'tag-positive'
@@ -452,21 +583,34 @@ class Component extends DCLogic {
     })();
 
     const statusClassFor = s => s === 'Active' ? 'tag-accent' : s === 'Triggered' ? 'tag-outline' : 'tag-neutral';
-
-    const alerts = this.state.alerts.map(a => {
-      const m = this.findMaterial(a.materialId);
-      return {
-        materialName: m ? m.name : a.materialId,
-        condition: a.condition, status: a.status, createdLabel: a.created,
-        statusClass: statusClassFor(a.status),
-        onDelete: () => this.setState(s => ({ alerts: s.alerts.filter(x => x.id !== a.id) }))
-      };
-    });
+    const alerts = this.state.alerts.map(a => ({
+      materialName: a.materialName,
+      condition: a.condition,
+      status: a.status,
+      createdLabel: a.created,
+      statusClass: statusClassFor(a.status),
+      onDelete: () => this.setState(s => ({ alerts: s.alerts.filter(x => x.id !== a.id) }))
+    }));
 
     const na = this.state.newAlert;
-    const naMaterial = this.findMaterial(na.materialId);
-    const detailSig = signalFor(detailMat);
-    const detailSummary = 'Material: ' + detailMat.name + (detailMat.volumeLabel ? ' | Volume: ' + detailMat.volumeLabel : '') + ' | Macro risk: ' + detailMat.macroRisk + ' | Signal: ' + detailSig.signalLabel;
+    const naMaterial = byId(na.materialId);
+
+    const feed = (() => {
+      if (this.state.feedState === 'live') {
+        const asOf = this.formatDate(this.state.signals && this.state.signals.as_of);
+        const generated = this.formatDate(this.state.signals && this.state.signals.generated_at);
+        return {
+          label: 'Live signals',
+          tagClass: 'tag-accent',
+          detail: (asOf ? 'Data as of ' + asOf : '') + (generated ? ' · generated ' + generated : '') +
+            (this.state.dataset ? ' · price history from dataset' : '')
+        };
+      }
+      if (this.state.feedState === 'fallback') {
+        return { label: 'Sample data', tagClass: 'tag-neutral', detail: 'Could not reach signals.json — showing the built-in fallback' };
+      }
+      return { label: 'Loading signals', tagClass: 'tag-outline', detail: 'Reading ' + SIGNALS_URL };
+    })();
 
     return {
       isDashboard: this.state.screen === 'dashboard',
@@ -476,12 +620,12 @@ class Component extends DCLogic {
       alertsCurrent: this.state.screen === 'alerts' ? 'page' : undefined,
       goDashboard: () => this.setState({ screen: 'dashboard' }),
       goAlerts: () => this.setState({ screen: 'alerts' }),
-      isUSD: currency === 'USD', isTRY: currency === 'TRY',
+      isEUR: currency === 'EUR', isUSD: currency === 'USD', isTRY: currency === 'TRY',
+      setEUR: () => this.setState({ currency: 'EUR' }),
       setUSD: () => this.setState({ currency: 'USD' }),
       setTRY: () => this.setState({ currency: 'TRY' }),
       showNegotiationBanner: this.props.showNegotiationBanner ?? true,
-      showBand,
-      materials,
+      showBand, feed, materials,
       chartMaterial: { ...chartMat, startLabel: MONTH_LABELS[0], endLabel: FORECAST_LABELS[FORECAST_LABELS.length-1] },
       chart, chartOptions,
       recentAlerts: alerts.slice(0,3),
@@ -489,12 +633,12 @@ class Component extends DCLogic {
       detailMaterial: {
         ...detailMat,
         priceLabel: fmtPrice(detailMat.history[detailMat.history.length-1], detailMat.unit, currency),
-        change7Label: Math.abs(detailMat.change7).toFixed(1) + '%',
-        change30Label: Math.abs(detailMat.change30).toFixed(1) + '%',
-        changeArrow: detailMat.change30 >= 0 ? '▲' : '▼',
-        changeTagClass: detailMat.change30 >= 0 ? 'tag-negative' : 'tag-positive',
-        signalLabel: detailSig.signalLabel, signalTagClass: detailSig.signalTagClass,
-        summaryLine: detailSummary,
+        change1mLabel: Math.abs(detailMat.change1m).toFixed(1) + '%',
+        changeArrow: detailMat.change1m >= 0 ? '▲' : '▼',
+        changeTagClass: detailMat.change1m >= 0 ? 'tag-negative' : 'tag-positive',
+        change6mLabel: Math.abs(detailMat.change6m).toFixed(1) + '%',
+        change6mArrow: detailMat.change6m >= 0 ? '▲' : '▼',
+        change6mTagClass: detailMat.change6m >= 0 ? 'tag-negative' : 'tag-positive',
         startLabel: MONTH_LABELS[0], endLabel: FORECAST_LABELS[FORECAST_LABELS.length-1],
         tableRows: detailTableRows
       },
@@ -515,9 +659,9 @@ class Component extends DCLogic {
       onThresholdChange: e => this.setState(s => ({ newAlert: { ...s.newAlert, threshold: e.target.value } })),
       onAddAlert: () => {
         if (!na.threshold) return;
-        const condText = (na.cond === 'above' ? 'Price > ' : 'Price < ') + na.threshold + ' ' + (naMaterial ? naMaterial.unit : '');
+        const condText = (na.cond === 'above' ? 'Price > ' : 'Price < ') + na.threshold + ' per ' + (naMaterial ? naMaterial.unit : '');
         this.setState(s => ({
-          alerts: [...s.alerts, { id: Date.now(), materialId: na.materialId, condition: condText, status: 'Active', created: 'Jul 29, 2026' }],
+          alerts: [...s.alerts, { id: Date.now(), materialName: naMaterial ? naMaterial.name : '', condition: condText, status: 'Active', created: this.formatDate(new Date().toISOString()) }],
           newAlert: { materialId: 'steel', cond: 'above', threshold: '', channel: 'email' }
         }));
       }
