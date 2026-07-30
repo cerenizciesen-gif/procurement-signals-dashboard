@@ -17,17 +17,26 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Scan external sources
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python monitor_sources.py
+
       - name: Generate signals
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          USE_LIVE_MACRO: "0"
         run: python analyze_data.py
 
       - name: Commit and push updated signals
         run: |
           git config user.name "procurement-bot"
           git config user.email "procurement-bot@users.noreply.github.com"
-          if git diff --quiet -- signals.json; then
-            echo "No signal changes to commit."
+          git add -A signals.json macro_signals.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
           else
-            git add signals.json
             git commit -m "Update procurement signals"
             git push
           fi
