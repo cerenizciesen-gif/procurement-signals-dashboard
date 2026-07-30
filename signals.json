@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T05:00:00+00:00",
+  "generated_at": "2026-07-30T17:58:02+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -20,7 +20,7 @@
     {
       "material": "PP",
       "date": "2026-07-01",
-      "volume_tons_year": 600,
+      "volume_tons_year": 600.0,
       "price_unit": "kg",
       "current_price_eur": 1.17,
       "price_trend": "Up",
@@ -33,7 +33,7 @@
       "sentiment": "positive",
       "color": "#2e7d4f",
       "opportunity": {
-        "annual_spend_eur": 702000,
+        "annual_spend_eur": 702000.0,
         "monthly_trend_pct": 1.18,
         "horizon_months": 6,
         "projected_price_delta_pct": 7.07,
@@ -46,7 +46,7 @@
     {
       "material": "PA6",
       "date": "2026-07-01",
-      "volume_tons_year": 1300,
+      "volume_tons_year": 1300.0,
       "price_unit": "kg",
       "current_price_eur": 2.64,
       "price_trend": "Down",
@@ -59,7 +59,7 @@
       "sentiment": "positive",
       "color": "#2e7d4f",
       "opportunity": {
-        "annual_spend_eur": 3432000,
+        "annual_spend_eur": 3432000.0,
         "monthly_trend_pct": -0.86,
         "horizon_months": 6,
         "projected_price_delta_pct": -5.19,
@@ -72,9 +72,9 @@
     {
       "material": "Steel",
       "date": "2026-07-01",
-      "volume_tons_year": 5000,
+      "volume_tons_year": 5000.0,
       "price_unit": "ton",
-      "current_price_eur": 785,
+      "current_price_eur": 785.0,
       "price_trend": "Up",
       "macro_risk_factor": "Geopolitical supply disruption",
       "macro_risk_value": "High severity",
@@ -85,7 +85,7 @@
       "sentiment": "negative",
       "color": "#c04a3b",
       "opportunity": {
-        "annual_spend_eur": 3925000,
+        "annual_spend_eur": 3925000.0,
         "monthly_trend_pct": 1.05,
         "horizon_months": 6,
         "projected_price_delta_pct": 6.27,

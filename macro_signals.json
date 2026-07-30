@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-07-30T17:58:02+00:00",
+  "classification_method": "keyword rules",
+  "sources": {
+    "exchange_rate": {
+      "available": true,
+      "source": "Turkish central bank daily reference rate",
+      "pair": "USD/TRY",
+      "rate": 47.4126,
+      "rate_date": "2026-07-30",
+      "reference_rate": 46.6586,
+      "reference_date": "2026-06-30",
+      "change_pct": 1.62,
+      "lookback_days": 30,
+      "is_risk": false
+    },
+    "news": {
+      "queries": [
+        "Red Sea shipping container freight rates",
+        "Turkey minimum wage decision",
+        "steel scrap price Turkey mill",
+        "polypropylene polyamide resin supply Europe",
+        "export ban sanctions raw material supply disruption"
+      ],
+      "unavailable_queries": [],
+      "headlines_screened": 24
+    }
+  },
+  "findings": [
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "matched_on": "freight rate",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Red Sea transit fee proposal could add fresh costs for shipping - Logistics Middle East",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWZmcm9ZNl92ZUlHSUE5TWtnTjE4Mnp6T2dXbDEtcldDWHVaWWdFSnBEUzRFeG5qX2ZDN2ticE9PdjBwS0ZSb1ZzRGtvUFRWVUV1N0hidEtaNEwyS2VKTVJqdFY4Y0IxNVEtSURNYm4tMzY0Ujl2ZTExQ3doS0JXTGtHaVJMX2M0NjJHaENvd0pxRXRiZE9tTG4xbVdOdkdlX2dWb0ROcw?oc=5",
+      "published": "Thu, 30 Jul 2026 07:37:22 GMT",
+      "matched_on": "red sea",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
+      "published": "Fri, 24 Jul 2026 20:49:10 GMT",
+      "matched_on": "freight rate",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Freight Rates Rally on Early Peak Season Demand - czapp.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHlpQzhoSkJ1MGxHeGdLUGY1VmdLTVZTQmFFVmhzNDk3TXk1V3B1YWhzRElWUUZPaXMyOTlNVXQ5SDNEX3hhN0dQeE1CRjZBTHMtOFpwdmVDaE5qakI3cVRWUUtjSWY0bGVkSzk2UzNTRVd6MXpJYXZnTXJZQzNkUURTU1d6b2lUSk9SV251SDY?oc=5",
+      "published": "Wed, 15 Jul 2026 07:45:52 GMT",
+      "matched_on": "freight rate",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Red Sea container traffic falls to seven-month low as shipping disruptions deepen - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR2JrXzBBN2RsZnFnVVc3d25QTG5iZ0JxSzZJemhGb1RQX1V2RmJCQl9UTkJmc2VaQkd0QVZOZHJJbVRHa0lMajh5MDM2RUZSUXVnYjNhT0h2RVQtdHFZeGxpcF9fb2VFaUlLM3NrbHZ0azl2THJlMW56U0hXZmZHb3VNWW8xQWJzczdxU28yOEhLS3V3dnpidVNSVlBvNmp2SWFkNGJGWUo4VmprcUpEcUplX21iNnRnTW9VLWk3aFVxNUpfcEdtZFR3R2dHOV9lNTJ1NHhLTnA3WG1TclRZ0gHkAUFVX3lxTFBHZ0FrLUJFNEp6MXVKSjFOb3dDUXRaVVktZGpmVGNXVVJSanlvaFlvVEJ5ejdSVkxxTGVYcnVNcGhmekFmSWpxeUtSclZqTE1zUjlFQXR5dVkwcEZpcUktUE84cW0taTlyN1JIT25STkd6S01oTWVwVWFYSnVuN1d0dUktVE1UYW5YQTlwem1oV04tUFEwSkxDbFdKX190M3liSVVfOU9wY012VzRWcDhxcWZQVWlxbVNBTXNzNXdOVVd4RFNrOVd3b2dfMlpzU0ZqRkk0TU1KbzNZYTBSaHp0dlp3MA?oc=5",
+      "published": "Wed, 29 Jul 2026 11:10:25 GMT",
+      "matched_on": "red sea",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
+      "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+      "matched_on": "minimum wage",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - Daily Sabah",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB0gGTAUFVX3lxTFAzclBHS29xMG8zalJEQ1p3dlVCVHpSSEkwV0tKMmpPdy0zak1YSmt4QUd3UUFROGNJc0dTbGVCZUNvX0ZTaTdQOHZQNjdVTnZJS3FzRUdPTXpTMzFFZ2Qzcm1nV3Zhb0tQNmwwLUVDeVlpQkw2VjBvRVNmSUt1ejlBeFdCbGs1TXlVb2ExMmRiQXpnQQ?oc=5",
+      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+      "matched_on": "minimum wage",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
+      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+      "matched_on": "minimum wage",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "T\u00fcrkiye\u2019s minimum wage debate heats up under inflation\u2019s shadow amid living cost strain - T\u00fcrkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclpoeXhyR0psXzNVSGtLVS1fOXlzakMtUl9KajRmeGd5Q3VUWUlNLWdINGk1YUlybGU4anp2U2hlcmlDVFl1aEJrdk5VMkwxeU9UeURjY1p5T2xCM0xaVklDSWlNSmlzWWtnMmhtYzIzbHR1OVVZdko4OERBUDBmTnQzSDNYSHZSNzN0UTdYVVZxVUdoSnFBcmJNMGlfX1RzSkRoZ243TU5panMtVFd3UDdMS2V0MXV4RmRhX1pKUnBuWFZpQzExb2xkcw?oc=5",
+      "published": "Tue, 09 Dec 2025 08:00:00 GMT",
+      "matched_on": "minimum wage",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Turkey\u2019s hunger line nears 30,000 lira for family of 4 as minimum wage talks begin - Stockholm Center for Freedom",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeFFXd3k4TTZzbzdBUXJ4TkJiQXR2dVpDYkNJQnl2SFdrdENveEUzdGtPZVNxQlk3Qnhzc2w0QjZDOHV3bXA1VThSYmRlWTRzTXlPQmdZWHllSXJJT3ZKRjdfVkl5UVhJNndSMXdXOUR4UFdlRFFaMEVqcjZrZDJMQThvR3JPcnR4dGhFOURjUjZYbWxhTm9VYl9ndGU2bVphN1dUN1RCSkg?oc=5",
+      "published": "Mon, 15 Dec 2025 08:00:00 GMT",
+      "matched_on": "minimum wage",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "'Condemned to hunger': Turkey's below-inflation minimum wage rise sparks anger - Middle East Eye",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVByNEFlR05IWWhaODBpOVpJMFhCRkpwaXVfWTNpcUs1VDMtczJpY1FDdDZhaGtNZUhCUVJxdzhYanpZbmthWGNfQjNoZWNmZk5PejZRbFNHUURMMVFRSEtXV2JnQnFFMW00cUdoOTFHVGJPdE5UUXo3RTVaaVFXV1ZOVjd6Ukg4ZUZzd0lQRVo?oc=5",
+      "published": "Fri, 27 Dec 2024 08:00:00 GMT",
+      "matched_on": "minimum wage",
+      "method": "keyword rules"
+    }
+  ],
+  "by_material": {
+    "PP": {
+      "risk_factor": "Red Sea shipping disruption",
+      "value": null,
+      "severity": "medium",
+      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "method": "keyword rules"
+    },
+    "PA6": {
+      "risk_factor": "Red Sea shipping disruption",
+      "value": null,
+      "severity": "medium",
+      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "method": "keyword rules"
+    },
+    "Steel": {
+      "risk_factor": "Turkey minimum wage increase",
+      "value": null,
+      "severity": "medium",
+      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
+      "method": "keyword rules"
+    }
+  }
+}
