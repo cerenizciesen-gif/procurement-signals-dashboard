@@ -87,9 +87,23 @@
                 <polyline points="{{ m.sparkPoints }}" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
               </svg>
               <div class="hr" style="margin:2px 0"></div>
+              <sc-if value="{{ m.hasOpportunity }}" hint-placeholder-val="{{ true }}">
+                <div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px">
+                  <div>
+                    <div class="card-kicker" style="font-size:10px">{{ m.oppLabelText }}</div>
+                    <div style="font-size:20px;font-family:var(--font-heading);font-weight:600;color:{{ m.oppColor }}">{{ m.oppAmountLabel }}</div>
+                    <div class="text-muted" style="font-size:10px">{{ m.oppEffectNote }}</div>
+                  </div>
+                  <div style="text-align:right">
+                    <div class="card-kicker" style="font-size:10px">Annual spend</div>
+                    <div style="font-size:13px" class="text-muted">{{ m.oppSpendLabel }}</div>
+                  </div>
+                </div>
+                <div class="text-muted" style="font-size:11px;line-height:1.4;text-wrap:pretty">{{ m.oppReconciliation }}</div>
+              </sc-if>
               <div class="signal-line">{{ m.summaryLine }}</div>
-              <span class="tag {{ m.signalTagClass }}" style="align-self:flex-start;color:{{ m.signalColor }}">Signal: {{ m.signalLabel }}</span>
-              <div style="font-size:12px;color:{{ m.signalColor }}">{{ m.rationale }}</div>
+              <span class="tag {{ m.signalTagClass }}" style="align-self:flex-start">{{ m.signalLabel }}</span>
+              <div style="font-size:12px;line-height:1.45;color:{{ m.signalTextColor }}">{{ m.rationale }}</div>
               <button class="btn btn-ghost" style="align-self:flex-start;padding-inline:0" onClick="{{ m.onDetail }}">View details →</button>
             </div>
           </sc-for>
@@ -143,6 +157,54 @@
             </sc-for>
           </div>
         </div>
+
+        <div class="card blueprint elev-sm" style="padding:20px;gap:14px">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+            <div class="card-kicker">Market monitor — external sources</div>
+            <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+              <span class="tag tag-outline" style="font-size:10px">{{ monitor.methodLabel }}</span>
+              <span class="tag {{ monitor.driveClass }}" style="font-size:10px">{{ monitor.driveLabel }}</span>
+            </div>
+          </div>
+
+          <sc-if value="{{ monitor.available }}" hint-placeholder-val="{{ false }}">
+            <div style="display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:start">
+              <div>
+                <sc-if value="{{ monitor.hasFx }}" hint-placeholder-val="{{ true }}">
+                  <div>
+                    <div class="card-kicker" style="font-size:10px">Exchange rate</div>
+                    <div style="font-size:20px;font-family:var(--font-heading);font-weight:600">{{ monitor.fxLabel }}</div>
+                    <div style="display:flex;gap:8px;align-items:center;margin-top:4px">
+                      <span class="tag {{ monitor.fxChangeClass }}" style="font-size:10px">{{ monitor.fxChangeLabel }}</span>
+                    </div>
+                    <div class="text-muted" style="font-size:10px;margin-top:4px">{{ monitor.fxDateLabel }}</div>
+                  </div>
+                </sc-if>
+                <div class="text-muted" style="font-size:11px;margin-top:10px">{{ monitor.screenedLabel }}</div>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <sc-for list="{{ monitor.findings }}" as="f" hint-placeholder-count="3">
+                  <div style="display:flex;gap:12px;align-items:baseline;padding-bottom:8px;border-bottom:1px solid var(--color-divider)">
+                    <span class="tag {{ f.severityClass }}" style="font-size:10px;flex:none">{{ f.severityLabel }}</span>
+                    <div style="flex:1">
+                      <div style="font-size:13px;font-weight:500">{{ f.riskFactor }}</div>
+                      <div class="text-muted" style="font-size:11px;text-wrap:pretty">{{ f.headline }}</div>
+                    </div>
+                    <span class="text-muted" style="font-size:11px;flex:none">{{ f.materialsLabel }}</span>
+                  </div>
+                </sc-for>
+                <sc-if value="{{ monitor.hasFindings }}" hint-placeholder-val="{{ false }}">
+                  <div class="text-muted" style="font-size:11px">Findings are screened against a fixed risk taxonomy; anything outside it is discarded rather than reported.</div>
+                </sc-if>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ monitor.notRun }}" hint-placeholder-val="{{ true }}">
+            <div class="text-muted" style="font-size:13px">The monitor has not produced results yet. It reads the central bank exchange rate and screens news headlines for supply, freight and wage events, then maps them onto the risk taxonomy. Run the scheduled workflow to populate it.</div>
+          </sc-if>
+        </div>
       </div>
     </sc-if>
 
@@ -161,7 +223,7 @@
             <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:4px">
               <span class="tag {{ detailMaterial.changeTagClass }}">{{ detailMaterial.changeArrow }} {{ detailMaterial.change1mLabel }} (1 mo)</span>
               <span class="tag {{ detailMaterial.change6mTagClass }}">{{ detailMaterial.change6mArrow }} {{ detailMaterial.change6mLabel }} (6 mo)</span>
-              <span class="tag {{ detailMaterial.signalTagClass }}" style="color:{{ detailMaterial.signalColor }}">Signal: {{ detailMaterial.signalLabel }}</span>
+              <span class="tag {{ detailMaterial.signalTagClass }}">{{ detailMaterial.signalLabel }}</span>
             </div>
           </div>
         </div>
@@ -192,8 +254,11 @@
             </div>
             <div class="card-kicker" style="margin-top:16px">Active macro risk</div>
             <div style="font-size:14px">{{ detailMaterial.macroRiskLine }}</div>
-            <div class="card-kicker" style="margin-top:16px">Negotiation tip</div>
-            <div style="font-size:14px">{{ detailMaterial.negotiation }}</div>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px">
+              <div class="card-kicker">Negotiation argument</div>
+              <span class="tag {{ detailMaterial.aiBadgeClass }}" style="font-size:10px">{{ detailMaterial.aiBadge }}</span>
+            </div>
+            <div style="font-size:14px;line-height:1.5;text-wrap:pretty">{{ detailMaterial.negotiation }}</div>
           </div>
 
           <div class="card blueprint elev-sm" style="padding:20px;gap:14px">
@@ -221,6 +286,37 @@
             </div>
           </div>
         </div>
+
+        <sc-if value="{{ detailMaterial.hasOpportunity }}" hint-placeholder-val="{{ true }}">
+          <div class="card blueprint elev-sm" style="padding:20px;gap:14px">
+            <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+            <div class="card-kicker">Opportunity cost — timing the decision</div>
+            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px">
+              <div>
+                <div class="card-kicker" style="font-size:10px">Annual spend</div>
+                <div style="font-size:22px;font-family:var(--font-heading);font-weight:600">{{ detailMaterial.oppSpendLabel }}</div>
+                <div class="text-muted" style="font-size:11px">{{ detailMaterial.volumeLabel }}</div>
+              </div>
+              <div>
+                <div class="card-kicker" style="font-size:10px">Observed trend</div>
+                <div style="font-size:22px;font-family:var(--font-heading);font-weight:600">{{ detailMaterial.oppTrendLabel }}</div>
+                <div class="text-muted" style="font-size:11px">3-month average</div>
+              </div>
+              <div>
+                <div class="card-kicker" style="font-size:10px">Projected price delta</div>
+                <div style="font-size:22px;font-family:var(--font-heading);font-weight:600">{{ detailMaterial.oppDeltaLabel }}</div>
+                <div class="text-muted" style="font-size:11px">over {{ detailMaterial.oppHorizonLabel }}</div>
+              </div>
+              <div>
+                <div class="card-kicker" style="font-size:10px">Effect on annual volume</div>
+                <div style="font-size:22px;font-family:var(--font-heading);font-weight:600;color:{{ detailMaterial.oppColor }}">{{ detailMaterial.oppAmountLabel }}</div>
+                <div class="text-muted" style="font-size:11px">{{ detailMaterial.oppEffectNote }}</div>
+              </div>
+            </div>
+            <div style="font-size:13px;border-top:1px solid var(--color-divider);padding-top:12px">{{ detailMaterial.oppReconciliation }}</div>
+            <div class="text-muted" style="font-size:11px">Basis: {{ detailMaterial.oppBasis }}. Extrapolation, not a forecast model — figures are computed in the backend, never by the language model.</div>
+          </div>
+        </sc-if>
 
         <div class="card blueprint elev-sm" style="padding:20px;gap:10px">
           <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
@@ -317,6 +413,10 @@ const SYMBOLS = { EUR: '€', USD: '$', TRY: '₺' };
 
 const COLOR_POSITIVE = '#2e7d4f';
 const COLOR_NEGATIVE = '#c04a3b';
+/* Deeper steps for small body copy — the signal colours are tuned for tags and figures and
+   fall short of the contrast a 12px paragraph needs on this ground. */
+const COLOR_POSITIVE_TEXT = '#1f5636';
+const COLOR_NEGATIVE_TEXT = '#8a2f24';
 
 const MONTH_LABELS = ['Aug 25','Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26','Mar 26','Apr 26','May 26','Jun 26','Jul 26'];
 const FORECAST_LABELS = ['Aug 26','Sep 26','Oct 26','Nov 26','Dec 26','Jan 27'];
@@ -378,6 +478,16 @@ function fmtPrice(valEur, unit, currency){
   const decimals = unit === 'kg' ? 2 : 0;
   const num = v.toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
   return (SYMBOLS[currency] || '') + num;
+}
+
+/* Money totals — no decimals, and compacted above a million so the cards stay readable. */
+function fmtMoney(valEur, currency){
+  const v = Math.abs(valEur) * (RATES[currency] || 1);
+  const sym = SYMBOLS[currency] || '';
+  const sign = valEur < 0 ? '−' : '';
+  if (v >= 1000000) return sign + sym + (v/1000000).toFixed(2) + ' m';
+  if (v >= 10000) return sign + sym + Math.round(v/1000).toLocaleString('en-US') + ' k';
+  return sign + sym + Math.round(v).toLocaleString('en-US');
 }
 
 function pct(a, b){ return b ? ((a - b) / b) * 100 : 0; }
@@ -486,7 +596,12 @@ class Component extends DCLogic {
       m.macroRisk = live.macro_risk_factor || 'Price trend';
       m.macroRiskValue = live.macro_risk_value || live.price_trend || '';
       m.signalLabel = live.signal;
-      m.rationale = live.rationale;
+      /* The generative step writes negotiation_argument; reasoning is the rule sentence
+         behind the signal. Older payloads only carried rationale. */
+      m.rationale = live.negotiation_argument || live.reasoning || live.rationale;
+      m.argumentSource = live.argument_source || null;
+      m.aiGenerated = !!(live.argument_source && live.argument_source !== 'rule-based fallback');
+      m.opportunity = live.opportunity || null;
       m.signalColor = live.color || (live.signal === 'Buy now' ? COLOR_POSITIVE : COLOR_NEGATIVE);
       m.signalPositive = live.sentiment ? live.sentiment === 'positive' : live.signal === 'Buy now';
     } else {
@@ -502,11 +617,37 @@ class Component extends DCLogic {
     }
 
     m.signalTagClass = m.signalPositive ? 'tag-positive' : 'tag-negative';
+    m.signalTextColor = m.signalPositive ? COLOR_POSITIVE_TEXT : COLOR_NEGATIVE_TEXT;
     m.volumeLabel = m.volume ? 'Volume: ' + m.volume.toLocaleString('en-US') + ' T/year' : '';
     m.macroRiskLine = m.macroRisk + (m.macroRiskValue ? ' — ' + m.macroRiskValue : '');
+    /* Opportunity cost per the concept: Einsparpotenzial = annual volume x price delta.
+       A positive delay cost means waiting is dearer, a negative one means waiting saves. */
+    if (m.opportunity) {
+      const delay = m.opportunity.delay_cost_eur;
+      /* This figure is an input to the decision, not a second recommendation — so it is
+         labelled for what it measures (the price-trend effect) rather than as an
+         instruction, and green/red stay reserved for saving vs. extra cost. */
+      m.oppCostsToWait = delay >= 0;
+      m.oppHorizonLabel = m.opportunity.horizon_months + ' mo';
+      m.oppLabelText = 'Price-trend effect · ' + m.oppHorizonLabel;
+      m.oppEffectNote = m.oppCostsToWait ? 'extra cost if the decision waits' : 'saving if the decision waits';
+      m.oppTagClass = m.oppCostsToWait ? 'tag-negative' : 'tag-positive';
+      m.oppColor = m.oppCostsToWait ? COLOR_NEGATIVE : COLOR_POSITIVE;
+      m.oppTrendLabel = (m.opportunity.monthly_trend_pct >= 0 ? '+' : '') + m.opportunity.monthly_trend_pct.toFixed(2) + '% / mo';
+      m.oppDeltaLabel = (m.opportunity.projected_price_delta_pct >= 0 ? '+' : '') + m.opportunity.projected_price_delta_pct.toFixed(1) + '%';
+      m.oppBasis = m.opportunity.basis || '';
+      /* When the trend points the other way than the signal, say so explicitly instead of
+         leaving the buyer with two contradictory readouts. */
+      m.oppOpposesSignal = (m.signalPositive && !m.oppCostsToWait) || (!m.signalPositive && m.oppCostsToWait);
+      m.oppReconciliation = m.oppOpposesSignal
+        ? (m.oppCostsToWait
+            ? 'The rising price trend argues against waiting — ' + m.macroRisk + ' outweighs it in this recommendation.'
+            : 'The falling price trend argues for waiting — ' + m.macroRisk + ' outweighs it in this recommendation.')
+        : 'Price trend and macro risk point the same way.';
+    }
     m.change1m = pct(m.history[m.history.length-1], m.history[m.history.length-2]);
     m.change6m = pct(m.history[m.history.length-1], m.history[Math.max(0, m.history.length-7)]);
-    m.summaryLine = 'Material: ' + m.name + (m.volume ? ' | Volume: ' + m.volume + 'T' : '') +
+    m.summaryLine = 'Material: ' + m.name + (m.volume ? ' | Volume: ' + m.volume.toLocaleString('en-US') + ' T' : '') +
       ' | Macro risk: ' + m.macroRisk + ' | Signal: ' + m.signalLabel;
     return m;
   }
@@ -525,7 +666,14 @@ class Component extends DCLogic {
       sparkPoints,
       summaryLine: m.summaryLine,
       signalLabel: m.signalLabel, signalTagClass: m.signalTagClass, signalColor: m.signalColor,
+      signalTextColor: m.signalTextColor,
       rationale: m.rationale,
+      hasOpportunity: !!m.opportunity,
+      oppLabelText: m.oppLabelText, oppTagClass: m.oppTagClass, oppColor: m.oppColor,
+      oppHorizonLabel: m.oppHorizonLabel, oppEffectNote: m.oppEffectNote,
+      oppReconciliation: m.oppReconciliation,
+      oppAmountLabel: m.opportunity ? (m.oppCostsToWait ? '+' : '−') + fmtMoney(Math.abs(m.opportunity.delay_cost_eur), currency) : '',
+      oppSpendLabel: m.opportunity ? fmtMoney(m.opportunity.annual_spend_eur, currency) : '',
       onDetail: () => this.setState({ screen:'detail', detailMaterialId: m.id })
     };
   }
@@ -595,6 +743,34 @@ class Component extends DCLogic {
     const na = this.state.newAlert;
     const naMaterial = byId(na.materialId);
 
+    /* Market monitor — what monitor_sources.py found in external sources. Present for
+       display even when the dataset (not the monitor) drives the recommendation. */
+    const mm = (this.state.signals && this.state.signals.market_monitor) || null;
+    const fx = mm && mm.exchange_rate;
+    const monitor = {
+      available: !!(mm && mm.available),
+      byModel: !!(mm && mm.classification_method && mm.classification_method !== 'keyword rules'),
+      methodLabel: mm && mm.classification_method ? 'Classified by ' + mm.classification_method : 'Not classified',
+      screenedLabel: mm && mm.headlines_screened != null ? mm.headlines_screened + ' headlines screened' : '',
+      driveLabel: mm && mm.drives_decision ? 'Drives the recommendation' : 'Display only — the dataset drives the recommendation',
+      driveClass: mm && mm.drives_decision ? 'tag-accent' : 'tag-neutral',
+      hasFx: !!(fx && fx.available),
+      fxLabel: fx && fx.available ? fx.pair + ' ' + fx.rate : '',
+      fxChangeLabel: fx && fx.change_pct != null ? (fx.change_pct >= 0 ? '▲ +' : '▼ ') + Math.abs(fx.change_pct).toFixed(2) + '% / ' + fx.lookback_days + 'd' : '',
+      fxChangeClass: fx && fx.change_pct >= 0 ? 'tag-negative' : 'tag-positive',
+      fxDateLabel: fx && fx.rate_date ? 'as of ' + fx.rate_date : '',
+      findings: ((mm && mm.findings) || []).map((f, i) => ({
+        key: i,
+        riskFactor: f.risk_factor,
+        headline: f.headline,
+        materialsLabel: (f.materials || []).join(', '),
+        severityLabel: f.severity || '',
+        severityClass: f.severity === 'high' ? 'tag-negative' : f.severity === 'low' ? 'tag-neutral' : 'tag-outline'
+      })),
+      hasFindings: !!(mm && mm.findings && mm.findings.length)
+    };
+    monitor.notRun = !monitor.available;
+
     const feed = (() => {
       if (this.state.feedState === 'live') {
         const asOf = this.formatDate(this.state.signals && this.state.signals.as_of);
@@ -625,8 +801,8 @@ class Component extends DCLogic {
       setUSD: () => this.setState({ currency: 'USD' }),
       setTRY: () => this.setState({ currency: 'TRY' }),
       showNegotiationBanner: this.props.showNegotiationBanner ?? true,
-      showBand, feed, materials,
-      chartMaterial: { ...chartMat, startLabel: MONTH_LABELS[0], endLabel: FORECAST_LABELS[FORECAST_LABELS.length-1] },
+      showBand, feed, monitor, materials,
+      chartMaterial: { ...chartMat, negotiation: chartMat.rationale || chartMat.negotiation, startLabel: MONTH_LABELS[0], endLabel: FORECAST_LABELS[FORECAST_LABELS.length-1] },
       chart, chartOptions,
       recentAlerts: alerts.slice(0,3),
 
@@ -639,6 +815,13 @@ class Component extends DCLogic {
         change6mLabel: Math.abs(detailMat.change6m).toFixed(1) + '%',
         change6mArrow: detailMat.change6m >= 0 ? '▲' : '▼',
         change6mTagClass: detailMat.change6m >= 0 ? 'tag-negative' : 'tag-positive',
+        /* The backend argument replaces the seed copy whenever signals.json was reached. */
+        negotiation: detailMat.rationale || detailMat.negotiation,
+        aiBadge: detailMat.aiGenerated ? 'Generated by ' + detailMat.argumentSource : 'Rule-based fallback · model layer ready, awaiting API key',
+        aiBadgeClass: detailMat.aiGenerated ? 'tag-accent' : 'tag-neutral',
+        hasOpportunity: !!detailMat.opportunity,
+        oppAmountLabel: detailMat.opportunity ? (detailMat.oppCostsToWait ? '+' : '−') + fmtMoney(Math.abs(detailMat.opportunity.delay_cost_eur), currency) : '',
+        oppSpendLabel: detailMat.opportunity ? fmtMoney(detailMat.opportunity.annual_spend_eur, currency) : '',
         startLabel: MONTH_LABELS[0], endLabel: FORECAST_LABELS[FORECAST_LABELS.length-1],
         tableRows: detailTableRows
       },
