@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-07-30T12:03:32+00:00",
+  "generated_at": "2026-07-30T05:00:00+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
+  "scope": {
+    "function": "Direct purchasing",
+    "market": "Turkey",
+    "materials": [
+      "PP",
+      "PA6",
+      "Steel"
+    ],
+    "currency": "EUR"
+  },
   "legend": {
     "positive": "#2e7d4f",
     "negative": "#c04a3b"
@@ -11,6 +21,7 @@
       "material": "PP",
       "date": "2026-07-01",
       "volume_tons_year": 600,
+      "price_unit": "kg",
       "current_price_eur": 1.17,
       "price_trend": "Up",
       "macro_risk_factor": "Turkey minimum wage increase",
@@ -18,14 +29,25 @@
       "driver": "Turkey minimum wage increase",
       "driver_value": "+15%",
       "signal": "Buy now",
-      "rationale": "Local conversion costs will rise with the wage increase; secure volumes before suppliers reprice.",
+      "reasoning": "Local conversion costs rise with the wage increase, so current price levels will not hold.",
       "sentiment": "positive",
-      "color": "#2e7d4f"
+      "color": "#2e7d4f",
+      "opportunity": {
+        "annual_spend_eur": 702000,
+        "monthly_trend_pct": 1.18,
+        "horizon_months": 6,
+        "projected_price_delta_pct": 7.07,
+        "delay_cost_eur": 49599.76,
+        "basis": "annual volume 600 t x current price, three-month trend extrapolated over 6 months"
+      },
+      "negotiation_argument": "Local conversion costs rise with the wage increase, so current price levels will not hold.",
+      "argument_source": "rule-based fallback"
     },
     {
       "material": "PA6",
       "date": "2026-07-01",
       "volume_tons_year": 1300,
+      "price_unit": "kg",
       "current_price_eur": 2.64,
       "price_trend": "Down",
       "macro_risk_factor": "Red Sea shipping disruption",
@@ -33,24 +55,45 @@
       "driver": "Red Sea shipping disruption",
       "driver_value": "Freight costs +20%",
       "signal": "Buy now",
-      "rationale": "Freight costs are surging; build stock before the increase feeds into local prices.",
+      "reasoning": "Freight costs are surging and will feed into local list prices with a delay.",
       "sentiment": "positive",
-      "color": "#2e7d4f"
+      "color": "#2e7d4f",
+      "opportunity": {
+        "annual_spend_eur": 3432000,
+        "monthly_trend_pct": -0.86,
+        "horizon_months": 6,
+        "projected_price_delta_pct": -5.19,
+        "delay_cost_eur": -178060.52,
+        "basis": "annual volume 1,300 t x current price, three-month trend extrapolated over 6 months"
+      },
+      "negotiation_argument": "Freight costs are surging and will feed into local list prices with a delay.",
+      "argument_source": "rule-based fallback"
     },
     {
       "material": "Steel",
       "date": "2026-07-01",
       "volume_tons_year": 5000,
-      "current_price_eur": 785.0,
+      "price_unit": "ton",
+      "current_price_eur": 785,
       "price_trend": "Up",
       "macro_risk_factor": "Geopolitical supply disruption",
       "macro_risk_value": "High severity",
       "driver": "Geopolitical supply disruption",
       "driver_value": "High severity",
       "signal": "Delay",
-      "rationale": "Market volatility is extreme; wait it out rather than buying at a peak.",
+      "reasoning": "Market volatility is extreme, so committing now risks buying at a peak.",
       "sentiment": "negative",
-      "color": "#c04a3b"
+      "color": "#c04a3b",
+      "opportunity": {
+        "annual_spend_eur": 3925000,
+        "monthly_trend_pct": 1.05,
+        "horizon_months": 6,
+        "projected_price_delta_pct": 6.27,
+        "delay_cost_eur": 246229.8,
+        "basis": "annual volume 5,000 t x current price, three-month trend extrapolated over 6 months"
+      },
+      "negotiation_argument": "Market volatility is extreme, so committing now risks buying at a peak.",
+      "argument_source": "rule-based fallback"
     }
   ]
 }

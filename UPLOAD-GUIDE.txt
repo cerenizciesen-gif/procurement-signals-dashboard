@@ -1,0 +1,58 @@
+UPLOAD GUIDE
+============
+
+STATE OF THE PROTOTYPE
+The generative layer is implemented and documented. No API key is configured,
+so the system runs on its rule-based fallback. The dashboard states this
+openly on every argument:
+  "Rule-based fallback - model layer ready, awaiting API key"
+This is the intended state, not a defect.
+
+
+1) UPLOAD THESE FIVE FILES TO THE REPOSITORY ROOT
+   Code -> Add file -> Upload files -> drag all five -> Commit changes
+
+   analyze_data.py    updated: generative layer, opportunity cost, fallback handling
+   signals.json       updated: opportunity cost figures
+   index.html         updated: opportunity cost card, negotiation argument block
+   prompts.md         new: prompt protocol (required by the assignment)
+   architecture.md    new: justification for GitHub instead of AWS (required)
+
+
+2) EDIT THE WORKFLOW FILE BY HAND
+   Code -> .github -> workflows -> procurement_bot.yml -> pencil icon
+
+   Make the "Generate signals" step look like this. The env block is new;
+   it does no harm while no key exists.
+
+      - name: Generate signals
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python analyze_data.py
+
+   Commit changes.
+
+
+3) RUN IT
+   Actions -> Procurement signals -> Run workflow
+   Expect a green tick. The log will read:
+     PP: no API key configured, using rule-based text
+   That line is the planned behaviour, not an error.
+
+
+IF A KEY IS ADDED LATER
+   Settings -> Secrets and variables -> Actions -> New repository secret
+   Name: ANTHROPIC_API_KEY
+   Then run the workflow again. The badge starts showing the model name.
+   Nothing else needs to change.
+
+   The script keeps a genuinely generated argument rather than overwriting it
+   with the rule sentence, so a scheduled run without a key cannot degrade
+   output that was produced with a model.
+
+
+HOW TO PRESENT THIS
+   "The generative component is implemented and documented in prompts.md.
+   For the interim status the system runs on its rule-based fallback, since no
+   API key is available yet. The dashboard reports that state transparently
+   rather than presenting rule output as model output."
