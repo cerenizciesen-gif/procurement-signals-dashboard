@@ -29,7 +29,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 DATA_FILE = Path("procurement_dataset.csv")
+MONITOR_FILE = Path("macro_signals.json")
 OUTPUT_FILE = Path("signals.json")
+
+# The dataset is the deterministic input the test plan relies on, so live detections from
+# monitor_sources.py are only allowed to drive the decision when explicitly switched on.
+# Either way the monitor's findings are attached to the output so the dashboard can show
+# what was detected.
+USE_LIVE_MACRO = os.environ.get("USE_LIVE_MACRO", "").strip() in {"1", "true", "yes"}
 
 MATERIALS = ("PP", "PA6", "Steel")
 
@@ -87,6 +94,10 @@ RISK_RULES = {
     "Geopolitical supply disruption": {
         "signal": "Delay",
         "reasoning": "Market volatility is extreme, so committing now risks buying at a peak.",
+    },
+    "USD/TRY rate surge": {
+        "signal": "Buy now",
+        "reasoning": "A weaker lira raises the local cost of imported material, so waiting means paying more in local currency.",
     },
 }
 
@@ -182,15 +193,31 @@ def build_opportunity(material: str, prices: list[float], volume_tons: float) ->
     }
 
 
-def decide(row: dict[str, str]) -> tuple[dict[str, str], str, str | None]:
+def read_monitor() -> dict[str, object]:
+    """Findings written by monitor_sources.py, or an empty structure if it has not run."""
+    if not MONITOR_FILE.exists():
+        return {}
+    try:
+        return json.loads(MONITOR_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def decide(row: dict[str, str], live: dict[str, object] | None) -> tuple[dict[str, str], str, str | None, str]:
+    """Returns (rule, driver, driver value, where the driver came from)."""
+    if USE_LIVE_MACRO and live and live.get("risk_factor") in RISK_RULES:
+        factor = live["risk_factor"]
+        value = live.get("value") or live.get("severity")
+        return RISK_RULES[factor], factor, value, "live monitor"
+
     risk_factor = row.get("Macro_Risk_Factor", "")
     risk_value = row.get("Macro_Risk_Value", "")
 
     if has_value(risk_factor) and risk_factor in RISK_RULES:
-        return RISK_RULES[risk_factor], risk_factor, risk_value if has_value(risk_value) else None
+        return RISK_RULES[risk_factor], risk_factor, risk_value if has_value(risk_value) else None, "dataset"
 
     rule = TREND_RULES.get(row.get("Price_Trend", "Stable"), TREND_RULES["Stable"])
-    return rule, "Price trend", row.get("Price_Trend")
+    return rule, "Price trend", row.get("Price_Trend"), "dataset"
 
 
 def build_prompt(record: dict[str, object]) -> str:
@@ -300,13 +327,18 @@ def generate_argument(record: dict[str, object], previous: dict[str, dict[str, s
         return fall_back(f"generation failed ({error})")
 
 
-def build_signal(rows: list[dict[str, str]], previous: dict[str, dict[str, str]]) -> dict[str, object]:
+def build_signal(
+    rows: list[dict[str, str]],
+    previous: dict[str, dict[str, str]],
+    monitor: dict[str, object],
+) -> dict[str, object]:
     latest = rows[-1]
     material = latest["Material"]
     prices = [float(row["Current_Price_EUR"]) for row in rows]
     volume_tons = float(latest["Volume_Tons_Year"])
 
-    rule, driver, driver_value = decide(latest)
+    live = (monitor.get("by_material") or {}).get(material)
+    rule, driver, driver_value, driver_origin = decide(latest, live)
     is_positive = rule["signal"] == "Buy now"
 
     record: dict[str, object] = {
@@ -320,6 +352,8 @@ def build_signal(rows: list[dict[str, str]], previous: dict[str, dict[str, str]]
         "macro_risk_value": latest["Macro_Risk_Value"] if has_value(latest.get("Macro_Risk_Value")) else None,
         "driver": driver,
         "driver_value": driver_value,
+        "driver_origin": driver_origin,
+        "detected_risk": live,
         "signal": rule["signal"],
         "reasoning": rule["reasoning"],
         "sentiment": "positive" if is_positive else "negative",
@@ -336,8 +370,12 @@ def build_signal(rows: list[dict[str, str]], previous: dict[str, dict[str, str]]
 def main() -> None:
     rows = read_rows(DATA_FILE)
     previous = read_previous_arguments()
+    monitor = read_monitor()
+    if monitor:
+        mode = "driving the decision" if USE_LIVE_MACRO else "attached for display only"
+        print(f"Market monitor found ({mode}).")
     print("Generating signals:")
-    signals = [build_signal(series_for(rows, material), previous) for material in MATERIALS]
+    signals = [build_signal(series_for(rows, material), previous, monitor) for material in MATERIALS]
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -350,6 +388,15 @@ def main() -> None:
             "currency": "EUR",
         },
         "legend": {"positive": COLOR_POSITIVE, "negative": COLOR_NEGATIVE},
+        "market_monitor": {
+            "available": bool(monitor),
+            "drives_decision": USE_LIVE_MACRO,
+            "generated_at": monitor.get("generated_at"),
+            "classification_method": monitor.get("classification_method"),
+            "exchange_rate": (monitor.get("sources") or {}).get("exchange_rate"),
+            "headlines_screened": ((monitor.get("sources") or {}).get("news") or {}).get("headlines_screened"),
+            "findings": (monitor.get("findings") or [])[:6],
+        },
         "signals": signals,
     }
 
