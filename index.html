@@ -138,6 +138,7 @@
               <span style="color:var(--color-accent)">– – Forecast</span>
               <span><span style="display:inline-block;width:14px;height:8px;background:var(--color-accent-100);vertical-align:middle"></span> Confidence band</span>
             </div>
+            <div class="text-muted" style="font-size:10px">{{ forecastNote }}</div>
           </div>
 
           <div class="card blueprint elev-sm" style="padding:20px;gap:10px">
@@ -343,14 +344,18 @@
         <div style="display:grid;grid-template-columns:1.6fr 1fr;gap:16px;align-items:start">
           <div class="card blueprint elev-sm" style="padding:20px;gap:10px">
             <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
-            <div class="card-kicker">Configured alerts</div>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+              <div class="card-kicker">Configured alerts</div>
+              <span class="tag {{ alertDelivery.tagClass }}" style="font-size:10px">{{ alertDelivery.label }}</span>
+            </div>
             <table class="table">
-              <thead><tr><th>Material</th><th>Condition</th><th>Status</th><th>Created</th><th></th></tr></thead>
+              <thead><tr><th>Material</th><th>Condition</th><th>Observed</th><th>Status</th><th>Created</th><th></th></tr></thead>
               <tbody>
                 <sc-for list="{{ alerts }}" as="al" hint-placeholder-count="4">
                   <tr>
                     <td>{{ al.materialName }}</td>
                     <td>{{ al.condition }}</td>
+                    <td class="text-muted">{{ al.observed }}</td>
                     <td><span class="tag {{ al.statusClass }}">{{ al.status }}</span></td>
                     <td class="text-muted">{{ al.createdLabel }}</td>
                     <td><button class="btn btn-icon btn-ghost" onClick="{{ al.onDelete }}">✕</button></td>
@@ -358,6 +363,7 @@
                 </sc-for>
               </tbody>
             </table>
+            <div class="text-muted" style="font-size:11px;text-wrap:pretty">{{ alertDelivery.note }}</div>
           </div>
 
           <div class="card blueprint elev-sm" style="padding:20px;gap:12px">
@@ -541,8 +547,20 @@ class Component extends DCLogic {
     }
   }
 
-  /* Alerts are seeded from the live signals so the list reflects what the backend flagged. */
+  /* Alert rules are evaluated in the backend against the latest figures; the dashboard only
+     displays the outcome. Older payloads without an alerts block fall back to the signals. */
   deriveAlerts(signals){
+    const evaluated = signals && signals.alerts && signals.alerts.rules;
+    if (Array.isArray(evaluated) && evaluated.length) {
+      return evaluated.map(a => ({
+        id: a.id,
+        materialName: a.material,
+        condition: a.condition,
+        observed: a.observed,
+        status: a.status,
+        created: this.formatDate(a.created)
+      }));
+    }
     const list = (signals && signals.signals) || [];
     const asOf = this.formatDate(signals && signals.as_of);
     return list.map((s, i) => ({
@@ -593,6 +611,15 @@ class Component extends DCLogic {
         m.history = m.history.map((v,i) => i === m.history.length-1 ? live.current_price_eur : v * ratio);
       }
       if (live.volume_tons_year) m.volume = live.volume_tons_year;
+      /* Forecast path and band are computed in the backend from the observed series. The
+         seed arrays below are only a fallback for when signals.json can't be reached. */
+      if (live.forecast && Array.isArray(live.forecast.values) && live.forecast.values.length) {
+        m.forecast = live.forecast.values;
+        m.forecastLow = live.forecast.low;
+        m.forecastHigh = live.forecast.high;
+        m.forecastMethod = live.forecast.method;
+        m.forecastVolatility = live.forecast.monthly_volatility_pct;
+      }
       m.macroRisk = live.macro_risk_factor || 'Price trend';
       m.macroRiskValue = live.macro_risk_value || live.price_trend || '';
       m.signalLabel = live.signal;
@@ -734,11 +761,19 @@ class Component extends DCLogic {
     const alerts = this.state.alerts.map(a => ({
       materialName: a.materialName,
       condition: a.condition,
+      observed: a.observed || '',
       status: a.status,
       createdLabel: a.created,
       statusClass: statusClassFor(a.status),
       onDelete: () => this.setState(s => ({ alerts: s.alerts.filter(x => x.id !== a.id) }))
     }));
+
+    const delivery = (this.state.signals && this.state.signals.alerts && this.state.signals.alerts.delivery) || null;
+    const alertDelivery = {
+      label: delivery && delivery.implemented ? 'Dispatch active' : 'Evaluated on every run · dispatch not implemented',
+      tagClass: delivery && delivery.implemented ? 'tag-accent' : 'tag-neutral',
+      note: delivery ? delivery.note : ''
+    };
 
     const na = this.state.newAlert;
     const naMaterial = byId(na.materialId);
@@ -801,7 +836,10 @@ class Component extends DCLogic {
       setUSD: () => this.setState({ currency: 'USD' }),
       setTRY: () => this.setState({ currency: 'TRY' }),
       showNegotiationBanner: this.props.showNegotiationBanner ?? true,
-      showBand, feed, monitor, materials,
+      showBand, feed, monitor, materials, alertDelivery,
+      forecastNote: chartMat.forecastMethod
+        ? 'Forecast: ' + chartMat.forecastMethod + ' · monthly volatility ' + chartMat.forecastVolatility + '%'
+        : 'Forecast: illustrative fallback values',
       chartMaterial: { ...chartMat, negotiation: chartMat.rationale || chartMat.negotiation, startLabel: MONTH_LABELS[0], endLabel: FORECAST_LABELS[FORECAST_LABELS.length-1] },
       chart, chartOptions,
       recentAlerts: alerts.slice(0,3),

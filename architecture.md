@@ -56,9 +56,9 @@ hallucinated figure cannot reach the recommendation. Details in `prompts.md`.
 
 ## Current state of the generative layer
 
-The generative component is implemented and documented, but no API key is configured. The
-system therefore runs on its rule-based fallback, and the dashboard labels this state openly
-("Rule-based fallback · model layer ready, awaiting API key") rather than presenting rule
+The generative components are implemented and documented, but no API key is configured. The
+system therefore runs on non-model fallbacks — keyword rules for screening, the rule sentence
+for the argument — and the dashboard labels both states openly rather than presenting rule
 output as model output.
 
 Two consequences are deliberate:
@@ -69,6 +69,30 @@ Two consequences are deliberate:
 - Supplying a key is the only change needed to activate the generative path. No code or
   configuration change is required.
 
+## External source monitoring
+
+The concept promised news and industry monitoring. `monitor_sources.py` implements it against
+two public sources, neither of which needs a credential:
+
+| Source | What it provides | How it is processed |
+| --- | --- | --- |
+| Turkish central bank daily reference rate | USD/TRY today and roughly thirty days back | The change is computed in code and flagged as a risk above a fixed threshold |
+| Public news search feed | Headlines for freight, wage, supply and sanction topics | Classified into the risk taxonomy by a language model, or by keyword rules without a key |
+
+Two design decisions are worth defending:
+
+1. **The monitor does not decide.** Its findings are written to a separate file and attached
+   to the output for display. They only drive the recommendation when `USE_LIVE_MACRO` is set.
+   The default is off, so the test plan runs against the deterministic mockup dataset and its
+   expected values remain valid. Live inputs and test fixtures are kept apart deliberately.
+2. **The taxonomy is closed.** The classifier may only return one of three known risk factors.
+   Anything else is discarded in code. A monitor that could invent categories would produce
+   findings the decision logic cannot act on.
+
+A source that cannot be reached is recorded as unavailable and the run continues. The
+monitoring step is also marked `continue-on-error` in the workflow, so an outage in an
+external feed can never block the signal generation that follows it.
+
 ## What is given up by not using AWS
 
 Stated openly so the limits of the implementation are clear:
@@ -76,6 +100,8 @@ Stated openly so the limits of the implementation are clear:
 - **No vector index.** Retrieval is a file read that passes the relevant rows in full, not a
   semantic search over a knowledge base. At the data volume in question — three materials,
   twelve months — a vector index is not functionally necessary.
+- **No historical archive of detected events.** Each monitoring run overwrites the previous
+  findings. Trend analysis over detected risks would need a stored history.
 - **No scaling to many concurrent users.** The dashboard is a static page reading a
   pre-computed file. Sufficient for pilot operation, not for production use with role-based
   permissions.

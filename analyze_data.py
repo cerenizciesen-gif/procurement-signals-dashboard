@@ -22,7 +22,9 @@ from __future__ import annotations
 
 import csv
 import json
+import math
 import os
+import statistics
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -47,6 +49,28 @@ KG_PER_TON = 1000
 
 # Horizon the opportunity cost is projected over, in months.
 OPPORTUNITY_HORIZON_MONTHS = 6
+
+# Forecast horizon shown on the dashboard chart, in months.
+FORECAST_HORIZON_MONTHS = 6
+
+# Alert rules. Evaluated against the latest month on every run. Delivery to a real channel
+# is not implemented — see ALERT_DELIVERY below; the status here is the honest result of
+# checking the rule, not a claim that anyone was notified.
+ALERT_RULES = [
+    {"id": 1, "material": "Steel", "type": "price_above", "threshold": 800.0, "channel": "email", "created": "2026-07-20"},
+    {"id": 2, "material": "PA6", "type": "price_below", "threshold": 2.55, "channel": "email", "created": "2026-07-22"},
+    {"id": 3, "material": "PP", "type": "price_above", "threshold": 1.15, "channel": "email", "created": "2026-07-24"},
+    {"id": 4, "material": "Steel", "type": "monthly_change_above", "threshold": 1.0, "channel": "sms", "created": "2026-07-27"},
+]
+
+ALERT_DELIVERY = {
+    "implemented": False,
+    "note": (
+        "Conditions are evaluated on every run against the latest data. Dispatch to an email "
+        "or SMS channel is not implemented: it needs a provider credential and a recipient "
+        "list, both of which are the practice partner's to supply."
+    ),
+}
 
 # Signal colors for the dashboard: green for actionable/positive, red for warning/negative.
 COLOR_POSITIVE = "#2e7d4f"
@@ -201,6 +225,86 @@ def read_monitor() -> dict[str, object]:
         return json.loads(MONITOR_FILE.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return {}
+
+
+def build_forecast(prices: list[float]) -> dict[str, object]:
+    """Forward price path and a confidence band, computed from the observed series.
+
+    The central path extrapolates the same three-month trend the opportunity cost uses, so
+    the chart and the money figure can never disagree. The band is the historical volatility
+    of month-on-month changes, widened with the square root of the horizon — the standard
+    way uncertainty grows over a random walk. This is an extrapolation with an error
+    estimate, not a forecast model, and it is labelled as such wherever it is shown.
+    """
+    current = prices[-1]
+    trend = monthly_trend(prices)
+
+    steps = [
+        (prices[i] - prices[i - 1]) / prices[i - 1]
+        for i in range(1, len(prices))
+        if prices[i - 1]
+    ]
+    volatility = statistics.pstdev(steps) if len(steps) > 1 else 0.0
+
+    values, low, high = [], [], []
+    for month in range(1, FORECAST_HORIZON_MONTHS + 1):
+        centre = current * (1 + trend * month)
+        spread = centre * volatility * math.sqrt(month)
+        values.append(round(centre, 4))
+        low.append(round(centre - spread, 4))
+        high.append(round(centre + spread, 4))
+
+    return {
+        "horizon_months": FORECAST_HORIZON_MONTHS,
+        "values": values,
+        "low": low,
+        "high": high,
+        "monthly_volatility_pct": round(volatility * 100, 2),
+        "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)",
+    }
+
+
+def evaluate_alerts(signals: list[dict[str, object]]) -> list[dict[str, object]]:
+    """Check every alert rule against the latest figures."""
+    by_material = {s["material"]: s for s in signals}
+    results = []
+
+    for rule in ALERT_RULES:
+        signal = by_material.get(rule["material"])
+        if not signal:
+            continue
+
+        price = signal["current_price_eur"]
+        change = signal["opportunity"]["monthly_trend_pct"]
+        unit = signal["price_unit"]
+
+        if rule["type"] == "price_above":
+            triggered = price > rule["threshold"]
+            condition = f"Price > EUR {rule['threshold']:g} per {unit}"
+            observed = f"EUR {price:g} per {unit}"
+        elif rule["type"] == "price_below":
+            triggered = price < rule["threshold"]
+            condition = f"Price < EUR {rule['threshold']:g} per {unit}"
+            observed = f"EUR {price:g} per {unit}"
+        else:
+            triggered = change > rule["threshold"]
+            condition = f"Monthly change > {rule['threshold']:g}%"
+            observed = f"{change:+.2f}% per month"
+
+        results.append(
+            {
+                "id": rule["id"],
+                "material": rule["material"],
+                "condition": condition,
+                "observed": observed,
+                "status": "Triggered" if triggered else "Active",
+                "channel": rule["channel"],
+                "created": rule["created"],
+                "delivered": False,
+            }
+        )
+
+    return results
 
 
 def decide(row: dict[str, str], live: dict[str, object] | None) -> tuple[dict[str, str], str, str | None, str]:
@@ -359,6 +463,7 @@ def build_signal(
         "sentiment": "positive" if is_positive else "negative",
         "color": COLOR_POSITIVE if is_positive else COLOR_NEGATIVE,
         "opportunity": build_opportunity(material, prices, volume_tons),
+        "forecast": build_forecast(prices),
     }
 
     argument, source = generate_argument(record, previous)
@@ -388,6 +493,7 @@ def main() -> None:
             "currency": "EUR",
         },
         "legend": {"positive": COLOR_POSITIVE, "negative": COLOR_NEGATIVE},
+        "alerts": {"delivery": ALERT_DELIVERY, "rules": evaluate_alerts(signals)},
         "market_monitor": {
             "available": bool(monitor),
             "drives_decision": USE_LIVE_MACRO,

@@ -1,12 +1,24 @@
 # Prompt protocol
 
-Reproducible documentation of the generative step in `analyze_data.py`, as required by the
-group assignment ("Reproduzierbare Dokumentation: Prompts, Workflow-Export, Repository").
+Reproducible documentation of the generative steps in this project, as required by the group
+assignment ("Reproduzierbare Dokumentation: Prompts, Workflow-Export, Repository").
+
+There are two generative steps, in two different scripts:
+
+| Step | Script | Task |
+| --- | --- | --- |
+| Screening | `monitor_sources.py` | Read news headlines and classify them into the risk taxonomy |
+| Phrasing | `analyze_data.py` | Turn computed figures into the negotiation argument |
+
+Both follow the same principle and both degrade to a non-model fallback when no credential
+is configured.
 
 ## Where generative AI is used — and where it is not
 
 | Step | Method | Why |
 | --- | --- | --- |
+| Reading the exchange rate | HTTP request, arithmetic | A published reference rate is a fact, not an interpretation |
+| Screening headlines | Language model, or keyword rules without a key | Deciding whether a headline describes a price-moving event is a language task |
 | Price series, annual spend, opportunity cost | Python arithmetic | Money must be recalculable by hand and identical on every run |
 | Buy now / Delay signal | Rule table (`RISK_RULES`, `TREND_RULES`) | The buyer must be able to see why a signal appeared; an auditable rule survives a compliance review, a model output does not |
 | Negotiation argument | Language model | Turning figures into a usable argument is a language task, not a calculation |
@@ -15,7 +27,60 @@ The model is never asked to calculate, forecast or decide. It receives figures t
 exist and phrases them. A hallucinated number therefore cannot enter the recommendation —
 this is the core governance argument of the prototype and the reason the split exists.
 
-## Model and parameters
+## Screening prompt — `monitor_sources.py`
+
+Headlines are retrieved from a public news search feed, numbered, and sent in one request.
+The model may only classify into the three categories the rest of the system understands; a
+reply naming anything else is discarded in code rather than accepted.
+
+### System prompt used for screening
+
+```
+You screen news headlines for a procurement team that buys Steel, PA6 and PP for
+automotive production in Turkey.
+
+For each headline decide whether it describes an event that would move the purchase
+price of one of those materials in Turkey.
+
+Rules you must follow:
+1. Classify only into these three categories, using the exact wording:
+   - Turkey minimum wage increase
+   - Red Sea shipping disruption
+   - Geopolitical supply disruption
+   If a headline fits none of them, mark it as not relevant. Never invent a category.
+2. Judge only what the headline states. Do not infer facts that are not there, and
+   never invent a number, a percentage or a date.
+3. Only extract a value if the headline itself contains one. Otherwise use null.
+4. Severity is one of low, medium, high — your assessment of the price impact.
+5. Reply with a JSON array and nothing else. No prose, no code fence.
+
+Each element must be exactly:
+{"index": <int>, "relevant": <bool>, "risk_factor": <string or null>,
+ "materials": [<subset of PP, PA6, Steel>], "value": <string or null>,
+ "severity": <"low"|"medium"|"high"|null>}
+```
+
+### Design rationale for the screening rules
+
+- **Closed taxonomy.** The downstream rule table only understands three risk factors. Letting
+  the model name a fourth would produce a finding nothing can act on, so the constraint is
+  stated in the prompt *and* enforced in code after the reply.
+- **No inference beyond the headline.** Headlines are short and often ambiguous; the failure
+  mode to avoid is a confident classification built on an assumed detail.
+- **Values only when present.** Prevents the model from supplying a plausible percentage that
+  the source never stated.
+- **Structured reply.** The output is parsed, not read, so free prose would break the run.
+
+### Fallback without a key
+
+Keyword matching against a fixed list per category (`RISK_TAXONOMY`). This is pattern
+matching, not language understanding: it cannot tell "freight rates fall" from "freight rates
+surge". The limitation is real and is recorded in the output as `method: keyword rules`, so a
+reader can tell which findings were understood and which were merely matched.
+
+## Phrasing prompt — `analyze_data.py`
+
+### Model and parameters
 
 | Parameter | Value |
 | --- | --- |

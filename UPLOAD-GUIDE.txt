@@ -1,0 +1,41 @@
+UPLOAD GUIDE
+============
+
+NEW IN THIS ROUND
+Two gaps closed:
+
+1. FORECAST is now computed, not hardcoded.
+   The chart's forward path and confidence band come from the observed
+   price series: the centre line uses the same three-month trend as the
+   opportunity cost (so chart and money can never disagree), and the band
+   is the historical monthly volatility widened by sqrt(month).
+   The frontend holds no fixed forecast values any more.
+
+2. ALERTS are now evaluated against real data.
+   Every rule is checked on each run and the observed value is shown next
+   to it. Dispatch to email or SMS is deliberately NOT implemented - it
+   needs a provider credential and a recipient list. The dashboard states
+   this instead of pretending a message was sent.
+
+
+UPLOAD THESE FILES (repository root, overwrite existing)
+   analyze_data.py    forecast + alert evaluation
+   signals.json       carries forecast and alert blocks
+   index.html         reads both from the backend
+   monitor_sources.py unchanged - upload only if missing
+   prompts.md         unchanged
+   architecture.md    unchanged
+
+Then: Actions -> Procurement signals -> Run workflow.
+
+
+HOW TO ANSWER THE TWO CRITICISMS
+   Forecast: "The curve is computed in the backend from the observed
+   series, with a volatility-based band. It is an extrapolation with an
+   error estimate, not a trained forecast model - and it is labelled as
+   such on the chart."
+
+   Alerts: "Conditions are evaluated on every run against live figures
+   and the observed value is shown. Delivery needs a provider credential
+   and a recipient list from the practice partner, so it is out of scope
+   for the prototype - and the dashboard says so rather than faking it."
