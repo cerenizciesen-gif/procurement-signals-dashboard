@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T19:12:45+00:00",
+  "generated_at": "2026-07-31T12:33:22+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,19 +67,11 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-07-30T19:12:45+00:00",
+    "generated_at": "2026-07-31T12:33:22+00:00",
     "classification_method": "keyword rules",
     "exchange_rate": {
-      "available": true,
-      "source": "Turkish central bank daily reference rate",
-      "pair": "USD/TRY",
-      "rate": 47.4126,
-      "rate_date": "2026-07-30",
-      "reference_rate": 46.6586,
-      "reference_date": "2026-06-30",
-      "change_pct": 1.62,
-      "lookback_days": 30,
-      "is_risk": false
+      "available": false,
+      "source": "Turkish central bank daily reference rate"
     },
     "headlines_screened": 24,
     "findings": [
@@ -105,10 +97,10 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Red Sea transit fee proposal could add fresh costs for shipping - logisticsmiddleeast.com",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWZmcm9ZNl92ZUlHSUE5TWtnTjE4Mnp6T2dXbDEtcldDWHVaWWdFSnBEUzRFeG5qX2ZDN2ticE9PdjBwS0ZSb1ZzRGtvUFRWVUV1N0hidEtaNEwyS2VKTVJqdFY4Y0IxNVEtSURNYm4tMzY0Ujl2ZTExQ3doS0JXTGtHaVJMX2M0NjJHaENvd0pxRXRiZE9tTG4xbVdOdkdlX2dWb0ROcw?oc=5",
-        "published": "Thu, 30 Jul 2026 07:37:22 GMT",
-        "matched_on": "red sea",
+        "headline": "Freight Rates Rally on Early Peak Season Demand - czapp.com",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHlpQzhoSkJ1MGxHeGdLUGY1VmdLTVZTQmFFVmhzNDk3TXk1V3B1YWhzRElWUUZPaXMyOTlNVXQ5SDNEX3hhN0dQeE1CRjZBTHMtOFpwdmVDaE5qakI3cVRWUUtjSWY0bGVkSzk2UzNTRVd6MXpJYXZnTXJZQzNkUURTU1d6b2lUSk9SV251SDY?oc=5",
+        "published": "Wed, 15 Jul 2026 07:45:52 GMT",
+        "matched_on": "freight rate",
         "method": "keyword rules"
       },
       {
@@ -119,7 +111,7 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
         "published": "Fri, 24 Jul 2026 20:49:10 GMT",
         "matched_on": "freight rate",
@@ -133,10 +125,10 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Freight Rates Rally on Early Peak Season Demand - czapp.com",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHlpQzhoSkJ1MGxHeGdLUGY1VmdLTVZTQmFFVmhzNDk3TXk1V3B1YWhzRElWUUZPaXMyOTlNVXQ5SDNEX3hhN0dQeE1CRjZBTHMtOFpwdmVDaE5qakI3cVRWUUtjSWY0bGVkSzk2UzNTRVd6MXpJYXZnTXJZQzNkUURTU1d6b2lUSk9SV251SDY?oc=5",
-        "published": "Wed, 15 Jul 2026 07:45:52 GMT",
-        "matched_on": "freight rate",
+        "headline": "Red Sea transit fee proposal could add fresh costs for shipping - Logistics Middle East",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWZmcm9ZNl92ZUlHSUE5TWtnTjE4Mnp6T2dXbDEtcldDWHVaWWdFSnBEUzRFeG5qX2ZDN2ticE9PdjBwS0ZSb1ZzRGtvUFRWVUV1N0hidEtaNEwyS2VKTVJqdFY4Y0IxNVEtSURNYm4tMzY0Ujl2ZTExQ3doS0JXTGtHaVJMX2M0NjJHaENvd0pxRXRiZE9tTG4xbVdOdkdlX2dWb0ROcw?oc=5",
+        "published": "Thu, 30 Jul 2026 07:37:22 GMT",
+        "matched_on": "red sea",
         "method": "keyword rules"
       },
       {
@@ -154,18 +146,17 @@
         "method": "keyword rules"
       },
       {
-        "risk_factor": "Turkey minimum wage increase",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "PP",
           "PA6",
-          "Steel"
+          "PP"
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
-        "published": "Wed, 24 Dec 2025 08:00:00 GMT",
-        "matched_on": "minimum wage",
+        "headline": "Maersk to send first cargo through Suez Canal since start of Iran war - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLTRILWJ0b3RZYktNS0pncExOSzRrSzhacWlBYVh0c1N2Y1lUVHdSUVdoeXYxd3huX0c4LUoxS21YZExqbUVZSFloNTQtdGlVdFZ4UkhuaFVaN3JlXzdhaWFOM2VkVFJNMUtyVWJOREVnQkFuTnc0aWVVWWs2MTdOdWpzajY?oc=5",
+        "published": "Mon, 06 Jul 2026 07:00:00 GMT",
+        "matched_on": "suez",
         "method": "keyword rules"
       }
     ]
