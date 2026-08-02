@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:52:13+00:00",
+  "generated_at": "2026-08-02T10:53:15+00:00",
   "classification_method": "keyword rules",
   "sources": {
     "exchange_rate": {
@@ -8,9 +8,9 @@
       "pair": "USD/TRY",
       "rate": 47.4305,
       "rate_date": "2026-07-31",
-      "reference_rate": 46.692,
-      "reference_date": "2026-07-02",
-      "change_pct": 1.58,
+      "reference_rate": 46.7178,
+      "reference_date": "2026-07-03",
+      "change_pct": 1.53,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -49,52 +49,10 @@
       ],
       "value": null,
       "severity": "medium",
-      "headline": "Freight Rates Rally on Early Peak Season Demand - czapp.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHlpQzhoSkJ1MGxHeGdLUGY1VmdLTVZTQmFFVmhzNDk3TXk1V3B1YWhzRElWUUZPaXMyOTlNVXQ5SDNEX3hhN0dQeE1CRjZBTHMtOFpwdmVDaE5qakI3cVRWUUtjSWY0bGVkSzk2UzNTRVd6MXpJYXZnTXJZQzNkUURTU1d6b2lUSk9SV251SDY?oc=5",
-      "published": "Wed, 15 Jul 2026 07:45:52 GMT",
-      "matched_on": "freight rate",
-      "method": "keyword rules"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Red Sea transit fee proposal could add fresh costs for shipping - logisticsmiddleeast.com",
+      "headline": "Red Sea transit fee proposal could add fresh costs for shipping - Logistics Middle East",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWZmcm9ZNl92ZUlHSUE5TWtnTjE4Mnp6T2dXbDEtcldDWHVaWWdFSnBEUzRFeG5qX2ZDN2ticE9PdjBwS0ZSb1ZzRGtvUFRWVUV1N0hidEtaNEwyS2VKTVJqdFY4Y0IxNVEtSURNYm4tMzY0Ujl2ZTExQ3doS0JXTGtHaVJMX2M0NjJHaENvd0pxRXRiZE9tTG4xbVdOdkdlX2dWb0ROcw?oc=5",
       "published": "Thu, 30 Jul 2026 07:37:22 GMT",
       "matched_on": "red sea",
-      "method": "keyword rules"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Red Sea container traffic falls to seven-month low as shipping disruptions deepen - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR2JrXzBBN2RsZnFnVVc3d25QTG5iZ0JxSzZJemhGb1RQX1V2RmJCQl9UTkJmc2VaQkd0QVZOZHJJbVRHa0lMajh5MDM2RUZSUXVnYjNhT0h2RVQtdHFZeGxpcF9fb2VFaUlLM3NrbHZ0azl2THJlMW56U0hXZmZHb3VNWW8xQWJzczdxU28yOEhLS3V3dnpidVNSVlBvNmp2SWFkNGJGWUo4VmprcUpEcUplX21iNnRnTW9VLWk3aFVxNUpfcEdtZFR3R2dHOV9lNTJ1NHhLTnA3WG1TclRZ0gHkAUFVX3lxTFBHZ0FrLUJFNEp6MXVKSjFOb3dDUXRaVVktZGpmVGNXVVJSanlvaFlvVEJ5ejdSVkxxTGVYcnVNcGhmekFmSWpxeUtSclZqTE1zUjlFQXR5dVkwcEZpcUktUE84cW0taTlyN1JIT25STkd6S01oTWVwVWFYSnVuN1d0dUktVE1UYW5YQTlwem1oV04tUFEwSkxDbFdKX190M3liSVVfOU9wY012VzRWcDhxcWZQVWlxbVNBTXNzNXdOVVd4RFNrOVd3b2dfMlpzU0ZqRkk0TU1KbzNZYTBSaHp0dlp3MA?oc=5",
-      "published": "Wed, 29 Jul 2026 11:10:25 GMT",
-      "matched_on": "red sea",
-      "method": "keyword rules"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
-      "published": "Fri, 24 Jul 2026 20:49:10 GMT",
-      "matched_on": "freight rate",
       "method": "keyword rules"
     },
     {
@@ -109,6 +67,20 @@
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLTRILWJ0b3RZYktNS0pncExOSzRrSzhacWlBYVh0c1N2Y1lUVHdSUVdoeXYxd3huX0c4LUoxS21YZExqbUVZSFloNTQtdGlVdFZ4UkhuaFVaN3JlXzdhaWFOM2VkVFJNMUtyVWJOREVnQkFuTnc0aWVVWWs2MTdOdWpzajY?oc=5",
       "published": "Mon, 06 Jul 2026 07:00:00 GMT",
       "matched_on": "suez",
+      "method": "keyword rules"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Red Sea container traffic falls to seven-month low as shipping disruptions deepen - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR2JrXzBBN2RsZnFnVVc3d25QTG5iZ0JxSzZJemhGb1RQX1V2RmJCQl9UTkJmc2VaQkd0QVZOZHJJbVRHa0lMajh5MDM2RUZSUXVnYjNhT0h2RVQtdHFZeGxpcF9fb2VFaUlLM3NrbHZ0azl2THJlMW56U0hXZmZHb3VNWW8xQWJzczdxU28yOEhLS3V3dnpidVNSVlBvNmp2SWFkNGJGWUo4VmprcUpEcUplX21iNnRnTW9VLWk3aFVxNUpfcEdtZFR3R2dHOV9lNTJ1NHhLTnA3WG1TclRZ0gHkAUFVX3lxTFBHZ0FrLUJFNEp6MXVKSjFOb3dDUXRaVVktZGpmVGNXVVJSanlvaFlvVEJ5ejdSVkxxTGVYcnVNcGhmekFmSWpxeUtSclZqTE1zUjlFQXR5dVkwcEZpcUktUE84cW0taTlyN1JIT25STkd6S01oTWVwVWFYSnVuN1d0dUktVE1UYW5YQTlwem1oV04tUFEwSkxDbFdKX190M3liSVVfOU9wY012VzRWcDhxcWZQVWlxbVNBTXNzNXdOVVd4RFNrOVd3b2dfMlpzU0ZqRkk0TU1KbzNZYTBSaHp0dlp3MA?oc=5",
+      "published": "Wed, 29 Jul 2026 11:10:25 GMT",
+      "matched_on": "red sea",
       "method": "keyword rules"
     },
     {
