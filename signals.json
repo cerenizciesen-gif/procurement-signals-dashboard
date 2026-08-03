@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T22:17:29+00:00",
+  "generated_at": "2026-08-03T22:22:27+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,7 +67,7 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-03T22:17:16+00:00",
+    "generated_at": "2026-08-03T22:22:21+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
@@ -84,7 +84,22 @@
     "headlines_screened": 24,
     "findings": [
       {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "Steel",
+          "PP",
+          "PA6"
+        ],
+        "value": null,
+        "severity": "medium",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+        "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
           "Steel",
           "PP",
@@ -92,7 +107,7 @@
         ],
         "value": null,
         "severity": "high",
-        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - globaltrademag.com",
+        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk5KeXB3cVpuMWN4Tm95MjZsTE4zTWxUVUJ6eFFoVV9QdmJHT0lRVkxud1U5d3FPMThVTi1ON1FYSVdwQjNad2x4VW5BSXRnRFRER1VRcjQ0NEdNaV9Wc2ZRZ0taTXpzRVhpSWwwako2cGkyam4xbGVpbEgtR3RpVS1iaGY2RzV1Szl4OUhlUDg2d1FCdWRSalFlczJNdXRPaHNvbA?oc=5",
         "published": "Sat, 18 Jul 2026 07:00:00 GMT",
         "matched_on": null,
@@ -138,7 +153,7 @@
         "value": "27 percent",
         "severity": "medium",
         "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
         "published": "Wed, 24 Dec 2025 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
@@ -154,21 +169,6 @@
         "severity": "medium",
         "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - Daily Sabah",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB0gGTAUFVX3lxTFAzclBHS29xMG8zalJEQ1p3dlVCVHpSSEkwV0tKMmpPdy0zak1YSmt4QUd3UUFROGNJc0dTbGVCZUNvX0ZTaTdQOHZQNjdVTnZJS3FzRUdPTXpTMzFFZ2Qzcm1nV3Zhb0tQNmwwLUVDeVlpQkw2VjBvRVNmSUt1ejlBeFdCbGs1TXlVb2ExMmRiQXpnQQ?oc=5",
-        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Turkey minimum wage increase",
-        "materials": [
-          "Steel",
-          "PP",
-          "PA6"
-        ],
-        "value": "27%",
-        "severity": "medium",
-        "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
         "published": "Tue, 23 Dec 2025 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
@@ -189,10 +189,10 @@
       "driver_value": "+15%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "value": null,
         "severity": "high",
-        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - globaltrademag.com",
+        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -236,7 +236,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkey minimum wage increase of 15 percent will raise local conversion costs, so current PP price levels will not hold. With the monthly price trend already up, delaying the decision by six months would add about EUR 49,600 to the annual volume cost. You should secure the material now, before the wage-driven cost increase takes effect.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15% will directly raise local conversion costs, so the current price level of EUR 1.17 per kg will not hold. With the monthly price trend already up by 1.18% on average, delaying the purchase by six months would add roughly EUR 49,600 to the annual volume cost. Secure the annual volume of 600 tons now, before the wage-driven cost increase is reflected in supplier quotes.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -252,10 +252,10 @@
       "driver_value": "Freight costs +20%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "value": null,
         "severity": "high",
-        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - globaltrademag.com",
+        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -299,7 +299,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Although the recent trend has been a 0.86 percent average monthly decline, the Red Sea shipping disruption is pushing freight costs up by twenty percent, and that increase will feed into local list prices with a delay. Waiting six months could save about EUR 178,061 on the EUR 3,432,000 annual volume, but the macro risk makes that saving uncertain. Commit to buying now, before the freight surge is reflected in PA6 prices.",
+      "negotiation_argument": "The PA6 price trend has fallen by 0.86 percent monthly on average, which would normally justify waiting, but the Red Sea shipping disruption is driving freight costs up by 20 percent, and this will feed into local list prices with a delay. Buying now locks in the current EUR 2.64 per kg, avoiding the risk that surging freight costs erase the savings from the downtrend; delaying six months would only save about EUR 178,061 on the annual volume, a gain that the freight increase could quickly offset. Secure the annual volume of 1,300 tons at the current price immediately, before the freight cost impact reaches the market.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -315,10 +315,10 @@
       "driver_value": "High severity",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "value": null,
         "severity": "high",
-        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - globaltrademag.com",
+        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -362,7 +362,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is the macro risk, and it is driving extreme market volatility that can push costs sharply higher. While the rising",
+      "negotiation_argument": "The rising price trend suggests urgency, but the high severity of geopolitical supply disruption makes current market volatility extreme, so committing now risks buying at a peak. Delaying the decision by six months would cost about EUR 246,230 extra on the annual volume, yet this is preferable to locking in a price that could fall sharply once the disruption resolves. The buyer should therefore hold off on any commitment and revisit the market within six months.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
