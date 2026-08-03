@@ -250,27 +250,35 @@ def classify_by_keywords(headlines: list[dict[str, str]]) -> list[dict[str, obje
     return findings
 
 
-def classify_by_model(headlines: list[dict[str, str]], api_key: str) -> list[dict[str, object]] | None:
-    numbered = "\n".join(f"{i}. {h['title']}" for i, h in enumerate(headlines))
+def classify_by_model(
+    headlines: list[dict[str, str]],
+    api_key: str,
+) -> list[dict[str, object]] | None:
+    numbered = "\n".join(
+        f"{i}. {headline['title']}"
+        for i, headline in enumerate(headlines)
+    )
+
     payload = json.dumps(
-    {
-        "model": ANTHROPIC_MODEL,
-        "max_tokens": MAX_TOKENS,
-        "thinking": {"type": "disabled"},
-        "temperature": 0.0,
-        "system": CLASSIFIER_SYSTEM_PROMPT,
-        "messages": [
-            {
-                "role": "user",
-                "content": (
-                    f"Headlines:\n{numbered}\n\n"
-                    "Return one valid JSON array only. "
-                    "The first character must be [ and the final character must be ]."
-                ),
-            }
-        ],
-    }
-).encode("utf-8")
+        {
+            "model": ANTHROPIC_MODEL,
+            "max_tokens": 3500,
+            "thinking": {"type": "disabled"},
+            "system": CLASSIFIER_SYSTEM_PROMPT,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": (
+                        f"Headlines:\n{numbered}\n\n"
+                        "Return exactly one valid JSON array. "
+                        "Do not use Markdown or code fences. "
+                        "The first character must be [ and the last character must be ]."
+                    ),
+                }
+            ],
+        }
+    ).encode("utf-8")
+
     request = urllib.request.Request(
         ANTHROPIC_URL,
         data=payload,
@@ -285,59 +293,84 @@ def classify_by_model(headlines: list[dict[str, str]], api_key: str) -> list[dic
     try:
         with urllib.request.urlopen(request, timeout=90) as response:
             body = json.loads(response.read().decode("utf-8"))
+
         text = "".join(
-    block.get("text", "")
-    for block in body.get("content", [])
-    if block.get("type") == "text"
-).strip()
+            block.get("text", "")
+            for block in body.get("content", [])
+            if block.get("type") == "text"
+        ).strip()
 
-if not text:
-    raise ValueError(
-        f"model returned empty text; "
-        f"stop_reason={body.get('stop_reason')}, "
-        f"usage={body.get('usage')}"
-    )
+        if not text:
+            raise ValueError(
+                "Model returned empty text. "
+                f"stop_reason={body.get('stop_reason')}, "
+                f"usage={body.get('usage')}"
+            )
 
-# Markdown code fence varsa temizle.
-text = re.sub(
-    r"^\s*```(?:json)?\s*|\s*```\s*$",
-    "",
-    text,
-    flags=re.IGNORECASE | re.DOTALL,
-).strip()
+        # Remove Markdown fences if the model added them.
+        text = re.sub(
+            r"^\s*```(?:json)?\s*|\s*```\s*$",
+            "",
+            text,
+            flags=re.IGNORECASE | re.DOTALL,
+        ).strip()
 
-# Model JSON'un önüne veya arkasına açıklama eklediyse sadece array'i al.
-array_start = text.find("[")
-array_end = text.rfind("]")
+        # Extract only the JSON array if explanatory text was added.
+        array_start = text.find("[")
+        array_end = text.rfind("]")
 
-if array_start == -1 or array_end == -1 or array_end < array_start:
-    raise ValueError(f"no JSON array found in model response: {text[:200]!r}")
+        if array_start == -1 or array_end == -1 or array_end < array_start:
+            raise ValueError(
+                f"No JSON array found in model response: {text[:200]!r}"
+            )
 
-parsed = json.loads(text[array_start : array_end + 1])
+        parsed = json.loads(text[array_start : array_end + 1])
 
-if not isinstance(parsed, list):
-    raise ValueError("model response is valid JSON but is not an array")
-    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError, ValueError, KeyError) as error:
-        print(f"  classification failed ({error}), falling back to keyword rules")
+        if not isinstance(parsed, list):
+            raise ValueError("Model response is valid JSON but is not an array.")
+
+    except (
+        urllib.error.URLError,
+        urllib.error.HTTPError,
+        json.JSONDecodeError,
+        ValueError,
+        KeyError,
+    ) as error:
+        print(
+            f"  classification failed ({error}), "
+            "falling back to keyword rules"
+        )
         return None
 
-    findings = []
+    findings: list[dict[str, object]] = []
+
     for entry in parsed:
         if not isinstance(entry, dict) or not entry.get("relevant"):
             continue
+
         risk_factor = entry.get("risk_factor")
-        # The model is constrained to the taxonomy; anything outside it is dropped rather
-        # than accepted, so an invented category cannot reach the dashboard.
+
+        # Discard categories outside the predefined taxonomy.
         if risk_factor not in RISK_TAXONOMY:
             continue
+
         index = entry.get("index")
         if not isinstance(index, int) or not 0 <= index < len(headlines):
             continue
-        materials = [m for m in entry.get("materials", []) if m in MATERIALS]
+
+        materials = [
+            material
+            for material in entry.get("materials", [])
+            if material in MATERIALS
+        ]
+
         findings.append(
             {
                 "risk_factor": risk_factor,
-                "materials": materials or RISK_TAXONOMY[risk_factor]["materials"],
+                "materials": (
+                    materials
+                    or RISK_TAXONOMY[risk_factor]["materials"]
+                ),
                 "value": entry.get("value"),
                 "severity": entry.get("severity") or "medium",
                 "headline": headlines[index]["title"],
@@ -347,7 +380,12 @@ if not isinstance(parsed, list):
                 "method": ANTHROPIC_MODEL,
             }
         )
-    print(f"  classification: {len(findings)} relevant of {len(headlines)} headlines, by {ANTHROPIC_MODEL}")
+
+    print(
+        f"  classification: {len(findings)} relevant "
+        f"of {len(headlines)} headlines, by {ANTHROPIC_MODEL}"
+    )
+
     return findings
 
 
