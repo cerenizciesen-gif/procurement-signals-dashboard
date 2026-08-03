@@ -84,8 +84,8 @@ RISK_TAXONOMY = {
 
 # --- Generative classification -------------------------------------------------------
 
-ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = "claude-sonnet-4-5-20250929"
+ANTHROPIC_URL = "https://api.deepseek.com/anthropic/v1/messages"
+ANTHROPIC_MODEL = "deepseek-v4-flash"
 ANTHROPIC_VERSION = "2023-06-01"
 MAX_TOKENS = 2000
 
