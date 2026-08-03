@@ -87,7 +87,7 @@ RISK_TAXONOMY = {
 ANTHROPIC_URL = "https://api.deepseek.com/anthropic/v1/messages"
 ANTHROPIC_MODEL = "deepseek-v4-flash"
 ANTHROPIC_VERSION = "2023-06-01"
-MAX_TOKENS = 2000
+MAX_TOKENS = 3500
 
 CLASSIFIER_SYSTEM_PROMPT = (
     "You screen news headlines for a procurement team that buys Steel, PA6 and PP for "
@@ -256,11 +256,21 @@ def classify_by_model(headlines: list[dict[str, str]], api_key: str) -> list[dic
     {
         "model": ANTHROPIC_MODEL,
         "max_tokens": MAX_TOKENS,
+        "thinking": {"type": "disabled"},
+        "temperature": 0.0,
         "system": CLASSIFIER_SYSTEM_PROMPT,
-        "messages": [{"role": "user", "content": f"Headlines:\n{numbered}"}],
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    f"Headlines:\n{numbered}\n\n"
+                    "Return one valid JSON array only. "
+                    "The first character must be [ and the final character must be ]."
+                ),
+            }
+        ],
     }
 ).encode("utf-8")
-
     request = urllib.request.Request(
         ANTHROPIC_URL,
         data=payload,
@@ -276,10 +286,37 @@ def classify_by_model(headlines: list[dict[str, str]], api_key: str) -> list[dic
         with urllib.request.urlopen(request, timeout=90) as response:
             body = json.loads(response.read().decode("utf-8"))
         text = "".join(
-            block.get("text", "") for block in body.get("content", []) if block.get("type") == "text"
-        ).strip()
-        text = re.sub(r"^```(?:json)?|```$", "", text, flags=re.MULTILINE).strip()
-        parsed = json.loads(text)
+    block.get("text", "")
+    for block in body.get("content", [])
+    if block.get("type") == "text"
+).strip()
+
+if not text:
+    raise ValueError(
+        f"model returned empty text; "
+        f"stop_reason={body.get('stop_reason')}, "
+        f"usage={body.get('usage')}"
+    )
+
+# Markdown code fence varsa temizle.
+text = re.sub(
+    r"^\s*```(?:json)?\s*|\s*```\s*$",
+    "",
+    text,
+    flags=re.IGNORECASE | re.DOTALL,
+).strip()
+
+# Model JSON'un önüne veya arkasına açıklama eklediyse sadece array'i al.
+array_start = text.find("[")
+array_end = text.rfind("]")
+
+if array_start == -1 or array_end == -1 or array_end < array_start:
+    raise ValueError(f"no JSON array found in model response: {text[:200]!r}")
+
+parsed = json.loads(text[array_start : array_end + 1])
+
+if not isinstance(parsed, list):
+    raise ValueError("model response is valid JSON but is not an array")
     except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError, ValueError, KeyError) as error:
         print(f"  classification failed ({error}), falling back to keyword rules")
         return None
