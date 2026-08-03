@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T10:53:15+00:00",
+  "generated_at": "2026-08-03T14:01:38+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,17 +67,17 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-02T10:53:15+00:00",
+    "generated_at": "2026-08-03T14:01:38+00:00",
     "classification_method": "keyword rules",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 47.4305,
-      "rate_date": "2026-07-31",
+      "rate": 47.5352,
+      "rate_date": "2026-08-03",
       "reference_rate": 46.7178,
       "reference_date": "2026-07-03",
-      "change_pct": 1.53,
+      "change_pct": 1.75,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -95,6 +95,20 @@
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
         "published": "Wed, 08 Jul 2026 07:00:00 GMT",
         "matched_on": "freight rate",
+        "method": "keyword rules"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "medium",
+        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - globaltrademag.com",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk5KeXB3cVpuMWN4Tm95MjZsTE4zTWxUVUJ6eFFoVV9QdmJHT0lRVkxud1U5d3FPMThVTi1ON1FYSVdwQjNad2x4VW5BSXRnRFRER1VRcjQ0NEdNaV9Wc2ZRZ0taTXpzRVhpSWwwako2cGkyam4xbGVpbEgtR3RpVS1iaGY2RzV1Szl4OUhlUDg2d1FCdWRSalFlczJNdXRPaHNvbA?oc=5",
+        "published": "Sat, 18 Jul 2026 07:00:00 GMT",
+        "matched_on": "red sea",
         "method": "keyword rules"
       },
       {
@@ -123,20 +137,6 @@
         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLTRILWJ0b3RZYktNS0pncExOSzRrSzhacWlBYVh0c1N2Y1lUVHdSUVdoeXYxd3huX0c4LUoxS21YZExqbUVZSFloNTQtdGlVdFZ4UkhuaFVaN3JlXzdhaWFOM2VkVFJNMUtyVWJOREVnQkFuTnc0aWVVWWs2MTdOdWpzajY?oc=5",
         "published": "Mon, 06 Jul 2026 07:00:00 GMT",
         "matched_on": "suez",
-        "method": "keyword rules"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "medium",
-        "headline": "Red Sea container traffic falls to seven-month low as shipping disruptions deepen - Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR2JrXzBBN2RsZnFnVVc3d25QTG5iZ0JxSzZJemhGb1RQX1V2RmJCQl9UTkJmc2VaQkd0QVZOZHJJbVRHa0lMajh5MDM2RUZSUXVnYjNhT0h2RVQtdHFZeGxpcF9fb2VFaUlLM3NrbHZ0azl2THJlMW56U0hXZmZHb3VNWW8xQWJzczdxU28yOEhLS3V3dnpidVNSVlBvNmp2SWFkNGJGWUo4VmprcUpEcUplX21iNnRnTW9VLWk3aFVxNUpfcEdtZFR3R2dHOV9lNTJ1NHhLTnA3WG1TclRZ0gHkAUFVX3lxTFBHZ0FrLUJFNEp6MXVKSjFOb3dDUXRaVVktZGpmVGNXVVJSanlvaFlvVEJ5ejdSVkxxTGVYcnVNcGhmekFmSWpxeUtSclZqTE1zUjlFQXR5dVkwcEZpcUktUE84cW0taTlyN1JIT25STkd6S01oTWVwVWFYSnVuN1d0dUktVE1UYW5YQTlwem1oV04tUFEwSkxDbFdKX190M3liSVVfOU9wY012VzRWcDhxcWZQVWlxbVNBTXNzNXdOVVd4RFNrOVd3b2dfMlpzU0ZqRkk0TU1KbzNZYTBSaHp0dlp3MA?oc=5",
-        "published": "Wed, 29 Jul 2026 11:10:25 GMT",
-        "matched_on": "red sea",
         "method": "keyword rules"
       },
       {
