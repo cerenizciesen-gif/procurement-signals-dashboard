@@ -47,7 +47,7 @@ jobs:
           USE_LIVE_MACRO: "0"
         run: python analyze_data.py
 
-           - name: Commit and push updated signals
+      - name: Commit and push updated signals
         run: |
           git config user.name "procurement-bot"
           git config user.email "procurement-bot@users.noreply.github.com"
@@ -58,10 +58,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Update procurement signals"
-
-            # Workflow çalışırken repository değişmişse
-            # yeni commitleri al ve bot commitini onların üzerine taşı.
             git pull --rebase origin main
-
             git push origin HEAD:main
           fi
