@@ -22,16 +22,16 @@ jobs:
           python-version: "3.11"
 
       - name: Scan external sources
-        continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python monitor_sources.py
+  continue-on-error: true
+  env:
+    ANTHROPIC_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+  run: python monitor_sources.py
 
-      - name: Generate signals
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          USE_LIVE_MACRO: "0"
-        run: python analyze_data.py
+- name: Generate signals
+  env:
+    ANTHROPIC_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+    USE_LIVE_MACRO: "0"
+  run: python analyze_data.py
 
       - name: Commit and push updated signals
         run: |
