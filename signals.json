@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T21:30:26+00:00",
+  "generated_at": "2026-08-03T21:59:33+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,7 +67,7 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-03T21:30:24+00:00",
+    "generated_at": "2026-08-03T21:59:20+00:00",
     "classification_method": "keyword rules",
     "exchange_rate": {
       "available": true,
@@ -164,7 +164,7 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg",
+        "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
         "published": "Tue, 23 Dec 2025 08:00:00 GMT",
         "matched_on": "minimum wage",
@@ -233,8 +233,8 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Local conversion costs rise with the wage increase, so current price levels will not hold.",
-      "argument_source": "rule-based fallback"
+      "negotiation_argument": "The Turkish minimum wage increase raises local conversion costs, and with prices already averaging plus 1.18 percent per month over the last three months, current levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume. Buy now to secure the current price before this cost increase is reflected.",
+      "argument_source": "deepseek-v4-flash"
     },
     {
       "material": "PA6",
@@ -296,8 +296,8 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Freight costs are surging and will feed into local list prices with a delay.",
-      "argument_source": "rule-based fallback"
+      "negotiation_argument": "The Red Sea shipping disruption is pushing freight costs up by 20 percent, and this will feed into local PA6 list prices with a delay, raising our total annual spend above the EUR 3,432,000 base. Although the recent price trend is down, the macro risk makes waiting too risky, so we should buy now rather than chase the EUR 178,061 six-month delay saving. Secure the volume immediately before the freight increase is reflected in supplier prices.",
+      "argument_source": "deepseek-v4-flash"
     },
     {
       "material": "Steel",
@@ -359,8 +359,8 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Market volatility is extreme, so committing now risks buying at a peak.",
-      "argument_source": "rule-based fallback"
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs far beyond the current trend, so committing now risks locking in a peak price. Even though the three-month average change is plus 1.05 percent, extreme volatility justifies waiting rather than reacting to a temporary upward move. The buyer should delay the purchasing decision for six months, accepting the estimated EUR 246,230 extra on the annual volume as the cost of avoiding a larger loss.",
+      "argument_source": "deepseek-v4-flash"
     }
   ]
 }
