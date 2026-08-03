@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T21:59:33+00:00",
+  "generated_at": "2026-08-03T22:09:05+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,7 +67,7 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-03T21:59:20+00:00",
+    "generated_at": "2026-08-03T22:08:54+00:00",
     "classification_method": "keyword rules",
     "exchange_rate": {
       "available": true,
@@ -105,7 +105,7 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
+        "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - globaltrademag.com",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk5KeXB3cVpuMWN4Tm95MjZsTE4zTWxUVUJ6eFFoVV9QdmJHT0lRVkxud1U5d3FPMThVTi1ON1FYSVdwQjNad2x4VW5BSXRnRFRER1VRcjQ0NEdNaV9Wc2ZRZ0taTXpzRVhpSWwwako2cGkyam4xbGVpbEgtR3RpVS1iaGY2RzV1Szl4OUhlUDg2d1FCdWRSalFlczJNdXRPaHNvbA?oc=5",
         "published": "Sat, 18 Jul 2026 07:00:00 GMT",
         "matched_on": "red sea",
@@ -233,7 +233,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase raises local conversion costs, and with prices already averaging plus 1.18 percent per month over the last three months, current levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume. Buy now to secure the current price before this cost increase is reflected.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15% will raise local conversion costs, so the current PP price of EUR 1.17 per kg will not hold. With prices already trending up, delaying the decision by six months would add about EUR 49,600 on the annual volume. Secure the annual volume now to lock in the current price level.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -296,7 +296,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Red Sea shipping disruption is pushing freight costs up by 20 percent, and this will feed into local PA6 list prices with a delay, raising our total annual spend above the EUR 3,432,000 base. Although the recent price trend is down, the macro risk makes waiting too risky, so we should buy now rather than chase the EUR 178,061 six-month delay saving. Secure the volume immediately before the freight increase is reflected in supplier prices.",
+      "negotiation_argument": "The Red Sea shipping disruption is driving freight costs up by 20 percent, and this will feed into local PA6 list prices with a delay, reversing the recent downward trend. Waiting six months could save about EUR 178,061 on the annual volume, but that saving is at risk of being wiped out by the surging freight-driven price increases. Secure the annual volume now, before the delayed cost pass-through appears in the next list prices.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -359,7 +359,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs far beyond the current trend, so committing now risks locking in a peak price. Even though the three-month average change is plus 1.05 percent, extreme volatility justifies waiting rather than reacting to a temporary upward move. The buyer should delay the purchasing decision for six months, accepting the estimated EUR 246,230 extra on the annual volume as the cost of avoiding a larger loss.",
+      "negotiation_argument": "The geopolitical supply disruption risk is severe, and it creates extreme market volatility that can push prices artificially high, so committing now means buying at a potential peak. Although the monthly price trend is upward and delaying could cost about EUR 246,230 on the annual volume, that cost is the justified price of avoiding a worse spike from the macro risk. The buyer should delay the decision for six months, as the volatility makes waiting the safer position.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
