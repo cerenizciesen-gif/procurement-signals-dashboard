@@ -253,13 +253,13 @@ def classify_by_keywords(headlines: list[dict[str, str]]) -> list[dict[str, obje
 def classify_by_model(headlines: list[dict[str, str]], api_key: str) -> list[dict[str, object]] | None:
     numbered = "\n".join(f"{i}. {h['title']}" for i, h in enumerate(headlines))
     payload = json.dumps(
-        {
-            "model": ANTHROPIC_MODEL,
-            "max_tokens": MAX_TOKENS,
-            "system": CLASSIFIER_SYSTEM_PROMPT,
-            "messages": [{"role": "user", "content": f"Headlines:\n{numbered}"}],
-        }
-    ).encode("utf-8")
+    {
+        "model": ANTHROPIC_MODEL,
+        "max_tokens": MAX_TOKENS,
+        "system": CLASSIFIER_SYSTEM_PROMPT,
+        "messages": [{"role": "user", "content": f"Headlines:\n{numbered}"}],
+    }
+).encode("utf-8")
 
     request = urllib.request.Request(
         ANTHROPIC_URL,
