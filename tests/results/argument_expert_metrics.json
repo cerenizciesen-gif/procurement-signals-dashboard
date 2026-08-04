@@ -1,0 +1,18 @@
+{
+  "test_name": "AI negotiation argument expert evaluation",
+  "materials_evaluated": 3,
+  "average_expert_score_0_5": 5.0,
+  "pass_rate": 1.0,
+  "numeric_accuracy_rate": 1.0,
+  "decision_alignment_rate": 1.0,
+  "acceptance_criteria": {
+    "average_score_min": 4.0,
+    "numeric_accuracy_required": 1.0,
+    "decision_alignment_required": 1.0
+  },
+  "overall_pass": true,
+  "reviewers": [
+    "ceren",
+    "umutcan"
+  ]
+}
