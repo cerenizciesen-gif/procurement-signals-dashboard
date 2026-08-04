@@ -1,0 +1,21 @@
+ID,Headline,Expected_Relevant,Expected_Risk,Expected_Materials,Predicted_Relevant,Predicted_Risk,Predicted_Materials,Risk_Correct,Materials_Correct,Exact_Correct
+H01,Turkey announces a new statutory minimum wage increase for the coming year,True,Turkey minimum wage increase,PA6;PP;Steel,True,Turkey minimum wage increase,PA6;PP;Steel,1,1,1
+H02,Minimum wage negotiations in Turkey conclude with a double-digit increase,True,Turkey minimum wage increase,PA6;PP;Steel,True,Turkey minimum wage increase,PA6;PP;Steel,1,1,1
+H03,Turkish manufacturers prepare for higher labour costs after minimum wage decision,True,Turkey minimum wage increase,PA6;PP;Steel,True,Turkey minimum wage increase,PA6;PP;Steel,1,1,1
+H04,New minimum wage level raises production cost concerns across Turkish industry,True,Turkey minimum wage increase,PA6;PP;Steel,True,Turkey minimum wage increase,PA6;PP;Steel,1,1,1
+H05,Turkey confirms revised minimum wage effective from January,True,Turkey minimum wage increase,PA6;PP;Steel,True,Turkey minimum wage increase,PA6;PP;Steel,1,1,1
+H06,Container carriers reroute vessels away from the Red Sea after security incidents,True,Red Sea shipping disruption,PA6;PP,True,Red Sea shipping disruption,PA6;PP;Steel,1,0,1
+H07,Red Sea tensions cause longer transit times and higher freight rates,True,Red Sea shipping disruption,PA6;PP,True,Red Sea shipping disruption,PA6;PP;Steel,1,0,1
+H08,Shipping companies suspend selected Red Sea routes amid renewed attacks,True,Red Sea shipping disruption,PA6;PP,True,Red Sea shipping disruption,PA6;PP;Steel,1,0,1
+H09,Freight costs rise as vessels avoid the Suez Canal and Red Sea corridor,True,Red Sea shipping disruption,PA6;PP,True,Red Sea shipping disruption,PA6;PP;Steel,1,0,1
+H10,Supply chains face delays following disruption to Red Sea container traffic,True,Red Sea shipping disruption,PA6;PP,True,Red Sea shipping disruption,PA6;PP;Steel,1,0,1
+H11,Regional conflict threatens industrial raw material supply routes,True,Geopolitical supply disruption,PA6;PP;Steel,True,Geopolitical supply disruption,PA6;PP;Steel,1,1,1
+H12,Trade restrictions increase uncertainty for global steel and polymer supplies,True,Geopolitical supply disruption,PA6;PP;Steel,True,Geopolitical supply disruption,PA6;PP;Steel,1,1,1
+H13,Border closures disrupt deliveries of key manufacturing inputs,True,Geopolitical supply disruption,PA6;PP;Steel,True,Geopolitical supply disruption,PA6;PP;Steel,1,1,1
+H14,Sanctions and export controls tighten availability of industrial materials,True,Geopolitical supply disruption,PA6;PP;Steel,True,Geopolitical supply disruption,PA6;PP;Steel,1,1,1
+H15,Political tensions raise the risk of interruptions in commodity supply chains,True,Geopolitical supply disruption,PA6;PP;Steel,True,Geopolitical supply disruption,PA6;PP;Steel,1,1,1
+H16,European smartphone sales increase during the holiday season,False,,,False,,,1,1,1
+H17,Local football club announces a new head coach,False,,,False,,,1,1,1
+H18,Technology company releases a new photo editing application,False,,,False,,,1,1,1
+H19,Tourism bookings rise ahead of the summer vacation period,False,,,False,,,1,1,1
+H20,City opens a new public library and cultural centre,False,,,False,,,1,1,1

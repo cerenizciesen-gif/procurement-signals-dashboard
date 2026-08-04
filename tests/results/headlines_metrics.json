@@ -1,0 +1,23 @@
+{
+  "model": "deepseek-v4-flash",
+  "dataset": "tests/data/headlines_gold.csv",
+  "total_headlines": 20,
+  "true_positive": 15,
+  "false_positive": 0,
+  "false_negative": 0,
+  "true_negative": 5,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "exact_classification_accuracy": 1.0,
+  "risk_accuracy_relevant_cases": 1.0,
+  "material_mapping_accuracy_relevant_cases": 0.6667,
+  "json_parse_success": true,
+  "acceptance_targets": {
+    "precision_min": 0.8,
+    "recall_min": 0.8,
+    "f1_min": 0.8,
+    "exact_classification_accuracy_min": 0.8
+  },
+  "overall_pass": true
+}
