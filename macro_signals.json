@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T22:22:21+00:00",
+  "generated_at": "2026-08-04T12:25:28+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
@@ -50,7 +50,7 @@
         "PA6"
       ],
       "value": null,
-      "severity": "high",
+      "severity": "medium",
       "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk5KeXB3cVpuMWN4Tm95MjZsTE4zTWxUVUJ6eFFoVV9QdmJHT0lRVkxud1U5d3FPMThVTi1ON1FYSVdwQjNad2x4VW5BSXRnRFRER1VRcjQ0NEdNaV9Wc2ZRZ0taTXpzRVhpSWwwako2cGkyam4xbGVpbEgtR3RpVS1iaGY2RzV1Szl4OUhlUDg2d1FCdWRSalFlczJNdXRPaHNvbA?oc=5",
       "published": "Sat, 18 Jul 2026 07:00:00 GMT",
@@ -65,10 +65,10 @@
         "PA6"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "Red Sea transit fee proposal could add fresh costs for shipping - Logistics Middle East",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWZmcm9ZNl92ZUlHSUE5TWtnTjE4Mnp6T2dXbDEtcldDWHVaWWdFSnBEUzRFeG5qX2ZDN2ticE9PdjBwS0ZSb1ZzRGtvUFRWVUV1N0hidEtaNEwyS2VKTVJqdFY4Y0IxNVEtSURNYm4tMzY0Ujl2ZTExQ3doS0JXTGtHaVJMX2M0NjJHaENvd0pxRXRiZE9tTG4xbVdOdkdlX2dWb0ROcw?oc=5",
-      "published": "Thu, 30 Jul 2026 07:37:22 GMT",
+      "severity": "high",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
+      "published": "Fri, 24 Jul 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -84,6 +84,21 @@
       "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
       "published": "Fri, 29 May 2026 20:16:08 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "Steel",
+        "PP",
+        "PA6"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Red Sea transit fee proposal could add fresh costs for shipping - Logistics Middle East",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWZmcm9ZNl92ZUlHSUE5TWtnTjE4Mnp6T2dXbDEtcldDWHVaWWdFSnBEUzRFeG5qX2ZDN2ticE9PdjBwS0ZSb1ZzRGtvUFRWVUV1N0hidEtaNEwyS2VKTVJqdFY4Y0IxNVEtSURNYm4tMzY0Ujl2ZTExQ3doS0JXTGtHaVJMX2M0NjJHaENvd0pxRXRiZE9tTG4xbVdOdkdlX2dWb0ROcw?oc=5",
+      "published": "Thu, 30 Jul 2026 07:37:22 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -129,21 +144,6 @@
       "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "Steel",
-        "PP",
-        "PA6"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "'Condemned to hunger': Turkey's below-inflation minimum wage rise sparks anger - Middle East Eye",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVByNEFlR05IWWhaODBpOVpJMFhCRkpwaXVfWTNpcUs1VDMtczJpY1FDdDZhaGtNZUhCUVJxdzhYanpZbmthWGNfQjNoZWNmZk5PejZRbFNHUURMMVFRSEtXV2JnQnFFMW00cUdoOTFHVGJPdE5UUXo3RTVaaVFXV1ZOVjd6Ukg4ZUZzd0lQRVo?oc=5",
-      "published": "Fri, 27 Dec 2024 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -208,21 +208,21 @@
       "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
       "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
       "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "Red Sea Emerges as Shipping\u2019s Next Flashpoint as Hormuz Crisis Persists - Global Trade Magazine",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
       "method": "deepseek-v4-flash"
     }
   }
