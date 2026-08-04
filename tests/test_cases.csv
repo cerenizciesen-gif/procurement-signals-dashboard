@@ -1,0 +1,11 @@
+﻿Test_ID,Test_Area,Input,Expected_Result,Metric,Actual_Result,Pass_Fail,Notes
+T01,Calculation,PP baseline,"Delay cost ≈ EUR 49,600",Calculation accuracy,,,
+T02,Calculation,PA6 baseline,"Delay cost ≈ EUR -178,061",Calculation accuracy,,,
+T03,Calculation,Steel baseline,"Delay cost ≈ EUR 246,230",Calculation accuracy,,,
+T04,Decision,PP baseline,Buy now,Decision accuracy,,,
+T05,Decision,PA6 baseline,Buy now,Decision accuracy,,,
+T06,Decision,Steel baseline,Delay,Decision accuracy,,,
+T07,AI argument,PP generated argument,"Correct material, risk, decision and amount; actionable text",Fachliche Korrektheit (0–5),,,
+T08,AI argument,PA6 generated argument,"Correct material, risk, decision and amount; actionable text",Fachliche Korrektheit (0–5),,,
+T09,AI argument,Steel generated argument,"Correct material, risk, decision and amount; actionable text",Fachliche Korrektheit (0–5),,,
+T10,Dashboard,Baseline dataset,Dashboard values match procurement_baseline.csv and signals.json,Data consistency,,,
