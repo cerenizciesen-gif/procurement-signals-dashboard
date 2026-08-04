@@ -1,0 +1,4 @@
+Material,Actual_Annual_Spend_EUR,Expected_Annual_Spend_EUR,Annual_Spend_Correct,Actual_Monthly_Trend_Pct,Expected_Monthly_Trend_Pct,Monthly_Trend_Correct,Actual_Delay_Cost_EUR,Expected_Delay_Cost_EUR,Delay_Cost_Correct,Actual_Signal,Expected_Signal,Signal_Correct,Actual_Driver,Expected_Driver,Driver_Correct,Driver_Origin,Overall_Pass
+PP,702000.0,702000.0,1,1.18,1.18,1,49599.76,49599.76,1,Buy now,Buy now,1,Turkey minimum wage increase,Turkey minimum wage increase,1,dataset,1
+PA6,3432000.0,3432000.0,1,-0.86,-0.86,1,-178060.52,-178060.52,1,Buy now,Buy now,1,Red Sea shipping disruption,Red Sea shipping disruption,1,dataset,1
+Steel,3925000.0,3925000.0,1,1.05,1.05,1,246229.8,246229.8,1,Delay,Delay,1,Geopolitical supply disruption,Geopolitical supply disruption,1,dataset,1
