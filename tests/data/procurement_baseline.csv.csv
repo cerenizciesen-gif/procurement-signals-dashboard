@@ -1,0 +1,37 @@
+Date,Material,Volume_Tons_Year,Current_Price_EUR,Price_Trend,Macro_Risk_Factor,Macro_Risk_Value
+2025-08-01,PP,600,1.020,Stable,None,None
+2025-09-01,PP,600,1.040,Up,None,None
+2025-10-01,PP,600,1.030,Down,None,None
+2025-11-01,PP,600,1.060,Up,None,None
+2025-12-01,PP,600,1.070,Up,None,None
+2026-01-01,PP,600,1.090,Up,None,None
+2026-02-01,PP,600,1.080,Down,None,None
+2026-03-01,PP,600,1.110,Up,None,None
+2026-04-01,PP,600,1.130,Up,None,None
+2026-05-01,PP,600,1.120,Down,None,None
+2026-06-01,PP,600,1.150,Up,None,None
+2026-07-01,PP,600,1.170,Up,Turkey minimum wage increase,+15%
+2025-08-01,PA6,1300,2.880,Stable,None,None
+2025-09-01,PA6,1300,2.860,Down,None,None
+2025-10-01,PA6,1300,2.870,Stable,None,None
+2025-11-01,PA6,1300,2.830,Down,None,None
+2025-12-01,PA6,1300,2.800,Down,None,None
+2026-01-01,PA6,1300,2.780,Down,None,None
+2026-02-01,PA6,1300,2.790,Stable,None,None
+2026-03-01,PA6,1300,2.740,Down,None,None
+2026-04-01,PA6,1300,2.710,Down,None,None
+2026-05-01,PA6,1300,2.720,Stable,None,None
+2026-06-01,PA6,1300,2.680,Down,None,None
+2026-07-01,PA6,1300,2.640,Down,Red Sea shipping disruption,Freight costs +20%
+2025-08-01,Steel,5000,724.00,Stable,None,None
+2025-09-01,Steel,5000,729.00,Up,None,None
+2025-10-01,Steel,5000,726.00,Down,None,None
+2025-11-01,Steel,5000,735.00,Up,None,None
+2025-12-01,Steel,5000,741.00,Up,None,None
+2026-01-01,Steel,5000,738.00,Down,None,None
+2026-02-01,Steel,5000,748.00,Up,None,None
+2026-03-01,Steel,5000,757.00,Up,None,None
+2026-04-01,Steel,5000,761.00,Up,None,None
+2026-05-01,Steel,5000,758.00,Stable,None,None
+2026-06-01,Steel,5000,772.00,Up,None,None
+2026-07-01,Steel,5000,785.00,Up,Geopolitical supply disruption,High severity
