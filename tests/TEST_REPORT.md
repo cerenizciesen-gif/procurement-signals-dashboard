@@ -308,6 +308,12 @@ Nachweis:
 | T12 | Prozesswirkung | Nur beispielhaft demonstriert |
 | T13 | UX und Usability | Nur beispielhaft demonstriert |
 
+### 10.1 Dashboard-Konsistenzprüfung
+
+Die im Dashboard dargestellten Entscheidungen, Verzögerungskosten,
+Makrorisiken und KI-generierten Verhandlungsargumente wurden mit der
+aktuellen Datei `signals.json` verglichen. Für PP, PA6 und Steel wurden
+keine Abweichungen festgestellt. Der Testfall T10 wurde bestanden.
 ## 11. Durchgeführte Iterationsschritte
 
 Während der technischen Umsetzung und Testvorbereitung wurden folgende
