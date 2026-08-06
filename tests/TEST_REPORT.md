@@ -303,7 +303,7 @@ Nachweis:
 | T07 | KI-Argument PP | Pass |
 | T08 | KI-Argument PA6 | Pass |
 | T09 | KI-Argument Steel | Pass |
-| T10 | Dashboard-Konsistenz | Manuell zu prüfen |
+| T10 | Dashboard-Konsistenz | Pass |
 | T11 | Nachrichtenklassifikation | Pass |
 | T12 | Prozesswirkung | Nur beispielhaft demonstriert |
 | T13 | UX und Usability | Nur beispielhaft demonstriert |
