@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T12:26:14+00:00",
+  "generated_at": "2026-08-07T08:37:04+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,22 +67,113 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-06T12:26:07+00:00",
-    "classification_method": "keyword rules",
+    "generated_at": "2026-08-07T08:36:58+00:00",
+    "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 47.5736,
-      "rate_date": "2026-08-05",
-      "reference_rate": 46.8367,
-      "reference_date": "2026-07-07",
+      "rate": 47.5911,
+      "rate_date": "2026-08-06",
+      "reference_rate": 46.8536,
+      "reference_date": "2026-07-08",
       "change_pct": 1.57,
       "lookback_days": 30,
       "is_risk": false
     },
-    "headlines_screened": 0,
-    "findings": []
+    "headlines_screened": 24,
+    "findings": [
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "Steel",
+          "PP",
+          "PA6"
+        ],
+        "value": null,
+        "severity": "high",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+        "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "Steel",
+          "PP",
+          "PA6"
+        ],
+        "value": null,
+        "severity": "medium",
+        "headline": "News Carriers roll out hefty surcharges as demand rises in 'hot' Indian markets - The Loadstar",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMUV5ZG8zMmNRa1F3YmdhZmRkQTJ5UjkxeVR6VUZ2dFU4d0hDd25VbXdmWVA0ajhabTczbVhudFB2eFZOUUFEQnhBRlVscE1uRHhqT3RNUVhKeldoR3oxTWRldnU3OHRSYndzM2JoeGJtR0k1T080aGhoNHlhNlB4MDhqUl80czYtaFE0NThQS1c2VFFWOW1XZ3U1U1kzdw?oc=5",
+        "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Geopolitical supply disruption",
+        "materials": [
+          "Steel",
+          "PP",
+          "PA6"
+        ],
+        "value": null,
+        "severity": "high",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
+        "published": "Fri, 24 Jul 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Geopolitical supply disruption",
+        "materials": [
+          "Steel",
+          "PP",
+          "PA6"
+        ],
+        "value": null,
+        "severity": "high",
+        "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
+        "published": "Fri, 29 May 2026 20:16:08 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "Steel",
+          "PP",
+          "PA6"
+        ],
+        "value": null,
+        "severity": "medium",
+        "headline": "The Operations Leader's guide to navigating Red Sea disruption - Xeneta",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZHItZzFDNldOWXdXOXpUVVNaQmRORTZRZVFPNjN4WklKMVNWTFozUmFHQnpCcXVOekwwaGFfVk9UbUtsQWZpRUc3ZHZwb3o0eHlxSkI3dTBOa0w1YnNSV2JIU09oR1A0cnVYRXNyM0YxcVVjTV9DOEp0dTJ5cFpZZTBUbXJOZlF3LXE3WDFNeGhEdTA?oc=5",
+        "published": "Fri, 10 Apr 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Turkey minimum wage increase",
+        "materials": [
+          "Steel",
+          "PP",
+          "PA6"
+        ],
+        "value": "27 percent",
+        "severity": "medium",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
+        "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      }
+    ]
   },
   "signals": [
     {
@@ -97,7 +188,13 @@
       "driver": "Turkey minimum wage increase",
       "driver_value": "+15%",
       "driver_origin": "dataset",
-      "detected_risk": null,
+      "detected_risk": {
+        "risk_factor": "Red Sea shipping disruption",
+        "value": null,
+        "severity": "high",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+        "method": "deepseek-v4-flash"
+      },
       "signal": "Buy now",
       "reasoning": "Local conversion costs rise with the wage increase, so current price levels will not hold.",
       "sentiment": "positive",
@@ -154,7 +251,13 @@
       "driver": "Red Sea shipping disruption",
       "driver_value": "Freight costs +20%",
       "driver_origin": "dataset",
-      "detected_risk": null,
+      "detected_risk": {
+        "risk_factor": "Red Sea shipping disruption",
+        "value": null,
+        "severity": "high",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+        "method": "deepseek-v4-flash"
+      },
       "signal": "Buy now",
       "reasoning": "Freight costs are surging and will feed into local list prices with a delay.",
       "sentiment": "positive",
@@ -196,7 +299,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The PA6 price trend has been falling by 0.86 percent monthly, which would normally justify waiting, but the Red Sea shipping disruption is pushing freight costs up by 20 percent, and this will feed into local list prices with a delay. Buying now locks in the current EUR 2.64 per kg and avoids the risk of absorbing higher costs on the annual volume of EUR 3,432,000. Secure the order immediately, before the freight surcharge is reflected in supplier quotes.",
+      "negotiation_argument": "The falling price trend of -0.86 percent per month suggests waiting could yield savings, but the Red Sea shipping disruption is driving freight costs up by 20 percent, which will push local list prices higher after a delay. Buying now at EUR 2.64 per kg locks in the current rate and avoids the risk of paying more later, even though delaying six months would save about EUR 178,061 on the annual volume. Secure the annual volume of 1,300 tons immediately to mitigate the freight-driven cost increase before it hits the market.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -211,7 +314,13 @@
       "driver": "Geopolitical supply disruption",
       "driver_value": "High severity",
       "driver_origin": "dataset",
-      "detected_risk": null,
+      "detected_risk": {
+        "risk_factor": "Red Sea shipping disruption",
+        "value": null,
+        "severity": "high",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+        "method": "deepseek-v4-flash"
+      },
       "signal": "Delay",
       "reasoning": "Market volatility is extreme, so committing now risks buying at a peak.",
       "sentiment": "negative",
@@ -253,7 +362,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The geopolitical supply disruption risk is severe and could drive costs far beyond the current upward trend, so committing now risks buying at a peak. Although the price has risen by 1.05 percent monthly on average, the extreme volatility means waiting is the safer course. We should therefore delay the purchase decision by six months, as acting now would expose us to an extra cost of about EUR 246,230 on the annual volume if prices spike.",
+      "negotiation_argument": "The geopolitical supply disruption risk is severe and could drive costs far beyond the current upward trend, so committing now risks locking in a peak price. Although the monthly price rise of 1.05 percent suggests urgency, the extreme volatility makes waiting the safer option. Delay the purchase decision for six months, as acting now could expose us to an extra EUR 246,230 on the annual volume if the market corrects.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
