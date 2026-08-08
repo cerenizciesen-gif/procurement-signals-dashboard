@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:47:12+00:00",
+  "generated_at": "2026-08-08T07:37:04+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
@@ -8,9 +8,9 @@
       "pair": "USD/TRY",
       "rate": 47.6085,
       "rate_date": "2026-08-07",
-      "reference_rate": 46.8536,
-      "reference_date": "2026-07-08",
-      "change_pct": 1.61,
+      "reference_rate": 46.8697,
+      "reference_date": "2026-07-09",
+      "change_pct": 1.58,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -28,45 +28,15 @@
   },
   "findings": [
     {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
-      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "News Carriers roll out hefty surcharges as demand rises in 'hot' Indian markets - The Loadstar",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMUV5ZG8zMmNRa1F3YmdhZmRkQTJ5UjkxeVR6VUZ2dFU4d0hDd25VbXdmWVA0ajhabTczbVhudFB2eFZOUUFEQnhBRlVscE1uRHhqT3RNUVhKeldoR3oxTWRldnU3OHRSYndzM2JoeGJtR0k1T080aGhoNHlhNlB4MDhqUl80czYtaFE0NThQS1c2VFFWOW1XZ3U1U1kzdw?oc=5",
-      "published": "Wed, 22 Jul 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
-        "PP",
+        "Steel",
         "PA6",
-        "Steel"
+        "PP"
       ],
       "value": null,
       "severity": "high",
-      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
       "published": "Fri, 24 Jul 2026 07:00:00 GMT",
       "matched_on": null,
@@ -75,30 +45,15 @@
     {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
-        "PP",
+        "Steel",
         "PA6",
-        "Steel"
+        "PP"
       ],
       "value": null,
       "severity": "high",
       "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
       "published": "Fri, 29 May 2026 20:16:08 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "The Operations Leader's guide to navigating Red Sea disruption - Xeneta",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZHItZzFDNldOWXdXOXpUVVNaQmRORTZRZVFPNjN4WklKMVNWTFozUmFHQnpCcXVOekwwaGFfVk9UbUtsQWZpRUc3ZHZwb3o0eHlxSkI3dTBOa0w1YnNSV2JIU09oR1A0cnVYRXNyM0YxcVVjTV9DOEp0dTJ5cFpZZTBUbXJOZlF3LXE3WDFNeGhEdTA?oc=5",
-      "published": "Fri, 10 Apr 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -111,7 +66,7 @@
       ],
       "value": "27 percent",
       "severity": "medium",
-      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
+      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - turkishminute.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
       "published": "Wed, 24 Dec 2025 08:00:00 GMT",
       "matched_on": null,
@@ -126,7 +81,7 @@
       ],
       "value": "27%",
       "severity": "medium",
-      "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - dailysabah.com",
+      "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - Daily Sabah",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB0gGTAUFVX3lxTFAzclBHS29xMG8zalJEQ1p3dlVCVHpSSEkwV0tKMmpPdy0zak1YSmt4QUd3UUFROGNJc0dTbGVCZUNvX0ZTaTdQOHZQNjdVTnZJS3FzRUdPTXpTMzFFZ2Qzcm1nV3Zhb0tQNmwwLUVDeVlpQkw2VjBvRVNmSUt1ejlBeFdCbGs1TXlVb2ExMmRiQXpnQQ?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "matched_on": null,
@@ -154,47 +109,32 @@
         "PA6",
         "Steel"
       ],
-      "value": "27%",
+      "value": null,
       "severity": "medium",
-      "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 to \u20ba28,075 - T\u00fcrkiye Today",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjlFaC1NMTFEd1piX1dJN1NoZGpfRm9FZ0NUMk1EX0NiWWlBUkRxMnpRLWY1akFzVFBsRVBLVDJLZXFDalpQMW56Z3R4N1VyVnNRbnhhOEZ4d2VXWjBReXhPS2NCaFh1X29WcWV4a2F3RDBHcHJlWkV2c25GSVlCWTdhSmlUTENwTzh2alRpSGp0SUlfZzJ2ZjRwZWM?oc=5",
-      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+      "headline": "'Condemned to hunger': Turkey's below-inflation minimum wage rise sparks anger - Middle East Eye",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVByNEFlR05IWWhaODBpOVpJMFhCRkpwaXVfWTNpcUs1VDMtczJpY1FDdDZhaGtNZUhCUVJxdzhYanpZbmthWGNfQjNoZWNmZk5PejZRbFNHUURMMVFRSEtXV2JnQnFFMW00cUdoOTFHVGJPdE5UUXo3RTVaaVFXV1ZOVjd6Ukg4ZUZzd0lQRVo?oc=5",
+      "published": "Fri, 27 Dec 2024 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Turkey minimum wage increase",
+      "risk_factor": "Geopolitical supply disruption",
       "materials": [
-        "PP",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "BIR: Turkey\u2019s scrap imports and pricing continue to shape global ferrous trade - SteelOrbis",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUkd6QVRlMVRfejk0ZmViUTl5bXpqVjk4clRDekdJb3pTOFhDU0NRZTlUZlI1QnlNV1RRbkJaX2MzWjlsLXNZUHRjRDZISU1YcDc1RF9XbU93NWtONUNPeXE4eXhTcWRrSVp5cFRiNmR5MlR3WlYwSlEzaUY0Q09oOC1fdm1qSnkwdTB3OG5pMEoxTUJNd2U1MkZUMHFwR3ZlRzN2aEZCczBXUUd2XzNWUFRTTFhCV0xaQ0hWb01EdFJ0d0ttX1FwbFFxalk3NnluY0NJdQ?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Geopolitical supply disruption",
+      "materials": [
         "PA6",
-        "Steel"
-      ],
-      "value": "27%",
-      "severity": "medium",
-      "headline": "Turkey\u2019s Minimum Wage Surges 27 Percent - WWD",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPczUzcTFaT1FJMHpfZkJ4ZXVTMGRHckJfcGxTT05WMmJUMUwwZFp5Y0ZucEk2b2tXZ0U5MWp3N3V3Ui1aNlppTXhob1F2ZnhyRVZ4by1UZHZUMUxpMWJxUFBlZ2txbktUckV3a2xNNmFvRTJPZ3FFaDl6VkFsSDY4S1p4VGpITTlnUGZpWDBZSExING5rc1Y4Z21PTzY?oc=5",
-      "published": "Wed, 31 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel"
-      ],
-      "value": "10%",
-      "severity": "medium",
-      "headline": "Global scrap prices rose by up to 10% in April - GMK Center",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXNTlGdXNfc0lGbWhPZ19HS1lSOUg4YS1BTDJHdjN2TlpOVVNrWF9QdUlrN3VHendqYmQtZnNTQW9HcXdWRmdUbDh0VnZqQmNvanBJVFZvRmlZQmQ0bktNTFY3NVk3V3FLdkV4LW9sTUowSUVJeF9TNHQ2LWVHd9IBgwFBVV95cUxOWjVsTXpmN1Q5MDAwQ2ROSEtnVzZKMWR1bWZ2dzFDSFpTR0NoMy1pamFMYWZUaC1ySEc4UXhpTGF4Yk5CTVpfV2ZScC1pTWxCLWlLU0gzV2x3UjU3ZXMxc1R0bWxoaGh2MlBtVWtnVWxLOUZTX0VWTzFnQy00T05IbG9ZVQ?oc=5",
-      "published": "Tue, 05 May 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "PP",
-        "PA6"
+        "PP"
       ],
       "value": null,
       "severity": "high",
@@ -207,36 +147,8 @@
     {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
-        "PP",
-        "PA6"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjd1VGU5S0hXR2ROajk4d3ExWDFWY2N5eXBXS2xQSWw4Qm5FTDNLTTNySThud0NGb1hPVHdmX1Z0Rk9leDlRVTRXN0RCUExzYWNNemtRSU5keV9jTDNBTWs3XzFuOE1MTWhSYkRGUFNEQUtDZC1PWDUtaFVpRjR3amhnRnp2UVZoWXJJa19Ha0ZvdlhR?oc=5",
-      "published": "Thu, 07 May 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "PP",
-        "PA6"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "May 2026: Price Trajectory for All Resins Shifts Sharply Upward - Plastics Technology",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbWNMWEMzVDRyZ1BTQTNhOTlkTWd4cHFnQWpDOS1ZRmxxYjBFRlVqZmNzaC1PY3pqTHg1MzZhakRuZnVvX0xwclZYa1JFUGZncUNIT2ZTbGVDWVMycWtRX0hKNmpYd1JaX29sb0wzaV9lTklDX3BzQ0VzdHVSMlJpb243UFQ0eVN3MWs0VGFjT3E2QThoNzFiTWNlVEw?oc=5",
-      "published": "Wed, 06 May 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "PP",
-        "PA6"
+        "PA6",
+        "PP"
       ],
       "value": null,
       "severity": "high",
@@ -249,24 +161,24 @@
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
       "method": "deepseek-v4-flash"
     }
   }
