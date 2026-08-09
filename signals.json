@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T07:37:09+00:00",
+  "generated_at": "2026-08-09T07:58:23+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,7 +67,7 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-08T07:37:04+00:00",
+    "generated_at": "2026-08-09T07:58:17+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
@@ -75,14 +75,29 @@
       "pair": "USD/TRY",
       "rate": 47.6085,
       "rate_date": "2026-08-07",
-      "reference_rate": 46.8697,
-      "reference_date": "2026-07-09",
-      "change_pct": 1.58,
+      "reference_rate": 46.8927,
+      "reference_date": "2026-07-10",
+      "change_pct": 1.53,
       "lookback_days": 30,
       "is_risk": false
     },
     "headlines_screened": 24,
     "findings": [
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "Steel",
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "medium",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+        "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
       {
         "risk_factor": "Geopolitical supply disruption",
         "materials": [
@@ -92,7 +107,7 @@
         ],
         "value": null,
         "severity": "high",
-        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
         "published": "Fri, 24 Jul 2026 07:00:00 GMT",
         "matched_on": null,
@@ -116,9 +131,9 @@
       {
         "risk_factor": "Turkey minimum wage increase",
         "materials": [
-          "PP",
+          "Steel",
           "PA6",
-          "Steel"
+          "PP"
         ],
         "value": "27 percent",
         "severity": "medium",
@@ -131,9 +146,9 @@
       {
         "risk_factor": "Turkey minimum wage increase",
         "materials": [
-          "PP",
+          "Steel",
           "PA6",
-          "Steel"
+          "PP"
         ],
         "value": "27%",
         "severity": "medium",
@@ -146,30 +161,15 @@
       {
         "risk_factor": "Turkey minimum wage increase",
         "materials": [
-          "PP",
+          "Steel",
           "PA6",
-          "Steel"
+          "PP"
         ],
         "value": "27%",
         "severity": "medium",
         "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
         "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Turkey minimum wage increase",
-        "materials": [
-          "PP",
-          "PA6",
-          "Steel"
-        ],
-        "value": null,
-        "severity": "medium",
-        "headline": "'Condemned to hunger': Turkey's below-inflation minimum wage rise sparks anger - Middle East Eye",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVByNEFlR05IWWhaODBpOVpJMFhCRkpwaXVfWTNpcUs1VDMtczJpY1FDdDZhaGtNZUhCUVJxdzhYanpZbmthWGNfQjNoZWNmZk5PejZRbFNHUURMMVFRSEtXV2JnQnFFMW00cUdoOTFHVGJPdE5UUXo3RTVaaVFXV1ZOVjd6Ukg4ZUZzd0lQRVo?oc=5",
-        "published": "Fri, 27 Dec 2024 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -192,7 +192,7 @@
         "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -236,7 +236,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15% will directly raise local conversion costs, so current price levels will not hold. With the monthly price trend already up by 1.18% on average, delaying the purchase by six months would add roughly EUR 49,600 to the annual volume. Secure the buy now to lock in the current EUR 1.17 per kg before these cost pressures push prices higher.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15 percent will raise local conversion costs, so the current price level will not hold. With the price trend already up by 1.18 percent monthly, delaying the decision by six months would add about EUR 49,600 to the annual volume. Buy now to secure the current EUR 1.17 per kg before these cost pressures push prices higher.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -255,7 +255,7 @@
         "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -299,7 +299,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The PA6 price trend has fallen by an average of 0.86 percent per month, which would normally justify waiting, but the Red Sea shipping disruption is raising freight costs by 20 percent and will push local list prices up with a delay. Buying now locks in the current EUR 2.64 per kg rate and avoids the risk of paying more later, even though delaying six months could save about EUR 178,061 on the annual volume. Secure the annual volume of 1,300 tons at the current price before the freight cost increase is reflected in supplier quotes.",
+      "negotiation_argument": "The falling price trend of -0.86 percent per month suggests waiting could yield savings, but the Red Sea shipping disruption is driving freight costs up by 20 percent, which will soon push local list prices higher despite the current downward movement. Delaying the decision by six months would save about EUR 178,061 on the annual volume, yet this saving is at risk of being erased once the freight cost surge feeds through to the market. Secure the current price of EUR 2.64 per kg now, before the delayed impact of the macro risk materializes, and confirm the purchase commitment this month.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -318,7 +318,7 @@
         "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -362,7 +362,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The geopolitical supply disruption risk is severe and could sharply increase costs, so committing now risks buying at a peak given the extreme market volatility. Although the price trend has risen by 1.05 percent monthly, waiting is the safer course because a disruption would outweigh any near-term gain. Delay the purchase decision for six months, as acting now could cost an extra EUR 246,230 on the annual volume if the market corrects.",
+      "negotiation_argument": "The rising price trend suggests urgency, but the high severity of geopolitical supply disruption makes committing now a risk of buying at a peak. Delaying the decision by six months would add about EUR 246,230 to the annual volume, yet this cost is preferable to locking in at an unsustainable high under extreme volatility. Hold off on any commitment until the market stabilizes, and reassess within the next month.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
