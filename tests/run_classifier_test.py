@@ -98,9 +98,10 @@ def main() -> None:
             or (predicted_relevant and predicted_materials == expected_materials)
         )
         exact_match = (
-            expected_relevant == predicted_relevant
-            and risk_match
-        )
+    expected_relevant == predicted_relevant
+    and risk_match
+    and material_match
+)
 
         if expected_relevant:
             relevant_count += 1
