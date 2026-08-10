@@ -241,9 +241,11 @@
             <polyline points="{{ detailChart.histPts }}" fill="none" stroke="var(--color-text)" stroke-width="2"></polyline>
             <polyline points="{{ detailChart.fcPts }}" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="5,4"></polyline>
           </svg>
-          <div style="display:flex;justify-content:space-between;font-size:11px" class="text-muted">
-            <span>{{ detailMaterial.startLabel }}</span><span>Today</span><span>{{ detailMaterial.endLabel }}</span>
-          </div>
+          <div style="position:relative;height:16px;font-size:11px" class="text-muted">
+  <span style="position:absolute;left:0">{{ chartMaterial.startLabel }}</span>
+  <span style="position:absolute;left:{{ chart.todayPct }}%;transform:translateX(-50%)">Today</span>
+  <span style="position:absolute;right:0">{{ chartMaterial.endLabel }}</span>
+</div>
         </div>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start">
@@ -512,11 +514,17 @@ function buildChart(m, w, h){
     lowVals, fcXs, w, h, min, max, padX, padY, maxX
   ).split(' ').reverse().join(' ');
 
+  const todayPct = (
+  ((m.history.length - 1) /
+  (m.history.length + m.forecast.length - 1)) * 100
+).toFixed(1);
+  
   return {
-    histPts,
-    fcPts,
-    bandPts: topStr + ' ' + botStr
-  };
+  histPts,
+  fcPts,
+  bandPts: topStr + ' ' + botStr,
+  todayPct
+};
 }
 
 function fmtPrice(valEur, unit, currency){
