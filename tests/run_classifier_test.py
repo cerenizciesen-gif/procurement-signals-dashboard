@@ -153,20 +153,22 @@ def main() -> None:
         ),
         "json_parse_success": True,
         "acceptance_targets": {
-            "precision_min": 0.80,
-            "recall_min": 0.80,
-            "f1_min": 0.80,
-            "exact_classification_accuracy_min": 0.80,
-        },
+            "precision_min": 0.90,
+            "recall_min": 0.90,
+            "f1_min": 0.90,
+            "exact_classification_accuracy_min": 0.90,
+            "material_mapping_accuracy_min": 0.90,
+},
     }
     metrics["overall_pass"] = all(
-        [
-            precision >= 0.80,
-            recall >= 0.80,
-            f1 >= 0.80,
-            metrics["exact_classification_accuracy"] >= 0.80,
-        ]
-    )
+    [
+        precision >= 0.90,
+        recall >= 0.90,
+        f1 >= 0.90,
+        metrics["exact_classification_accuracy"] >= 0.90,
+        metrics["material_mapping_accuracy_relevant_cases"] >= 0.90,
+    ]
+)
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -188,6 +190,10 @@ def main() -> None:
         "  Exact classification accuracy: "
         f"{metrics['exact_classification_accuracy']:.2%}"
     )
+    print(
+    "  Material mapping accuracy: "
+    f"{metrics['material_mapping_accuracy_relevant_cases']:.2%}"
+)
     print(f"  Overall pass: {metrics['overall_pass']}")
     print(f"  Results written to {RESULTS_FILE.relative_to(ROOT)}")
     print(f"  Metrics written to {METRICS_FILE.relative_to(ROOT)}")
