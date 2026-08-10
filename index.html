@@ -453,30 +453,68 @@ const MATERIALS_SEED = [
     negotiation:'PP conversion costs are rising with the latest minimum wage increase; lock in the 600 T/year volume commitment this week before suppliers reprice.' }
 ];
 
-function scalePoints(vals, xs, w, h, min, max, padX, padY){
+function scalePoints(vals, xs, w, h, min, max, padX, padY, maxX){
   const range = (max - min) || 1;
-  const xStep = (w - 2*padX) / (Math.max(...xs));
-  return vals.map((v,i)=>{
-    const x = padX + xs[i]*xStep;
-    const y = h - padY - ((v-min)/range)*(h-2*padY);
+  const xRange = maxX || Math.max(...xs) || 1;
+  const xStep = (w - 2 * padX) / xRange;
+
+  return vals.map((v, i) => {
+    const x = padX + xs[i] * xStep;
+    const y = h - padY - ((v - min) / range) * (h - 2 * padY);
     return x.toFixed(1) + ',' + y.toFixed(1);
   }).join(' ');
 }
 
 function buildChart(m, w, h){
-  const padX=6, padY=10;
+  const padX = 6, padY = 10;
   const all = m.history.concat(m.forecastHigh, m.forecastLow);
-  const min = Math.min(...all), max = Math.max(...all);
-  const histXs = m.history.map((_,i)=>i);
-  const histPts = scalePoints(m.history, histXs, w, h, min, max, padX, padY);
-  const fcXs = [m.history.length-1, ...m.forecast.map((_,i)=>m.history.length+i)];
-  const fcVals = [m.history[m.history.length-1], ...m.forecast];
-  const fcPts = scalePoints(fcVals, fcXs, w, h, min, max, padX, padY);
-  const highVals = [m.history[m.history.length-1], ...m.forecastHigh];
-  const lowVals = [m.history[m.history.length-1], ...m.forecastLow];
-  const topStr = scalePoints(highVals, fcXs, w, h, min, max, padX, padY);
-  const botStr = scalePoints(lowVals, fcXs, w, h, min, max, padX, padY).split(' ').reverse().join(' ');
-  return { histPts, fcPts, bandPts: topStr + ' ' + botStr };
+  const min = Math.min(...all);
+  const max = Math.max(...all);
+
+  const maxX = m.history.length + m.forecast.length - 1;
+
+  const histXs = m.history.map((_, i) => i);
+  const histPts = scalePoints(
+    m.history, histXs, w, h, min, max, padX, padY, maxX
+  );
+
+  const fcXs = [
+    m.history.length - 1,
+    ...m.forecast.map((_, i) => m.history.length + i)
+  ];
+
+  const fcVals = [
+    m.history[m.history.length - 1],
+    ...m.forecast
+  ];
+
+  const fcPts = scalePoints(
+    fcVals, fcXs, w, h, min, max, padX, padY, maxX
+  );
+
+  const highVals = [
+    m.history[m.history.length - 1],
+    ...m.forecastHigh
+  ];
+
+  const lowVals = [
+    m.history[m.history.length - 1],
+    ...m.forecastLow
+  ];
+
+  const topStr = scalePoints(
+    highVals, fcXs, w, h, min, max, padX, padY, maxX
+  );
+
+  const botStr = scalePoints(
+    lowVals, fcXs, w, h, min, max, padX, padY, maxX
+  ).split(' ').reverse().join(' ');
+
+  return {
+    histPts,
+    fcPts,
+    bandPts: topStr + ' ' + botStr
+  };
 }
 
 function fmtPrice(valEur, unit, currency){
