@@ -358,19 +358,13 @@ def classify_by_model(
         if not isinstance(index, int) or not 0 <= index < len(headlines):
             continue
 
-        materials = [
-            material
-            for material in entry.get("materials", [])
-            if material in MATERIALS
-        ]
+        materials = list(RISK_TAXONOMY[risk_factor]["materials"])
+      
 
         findings.append(
             {
                 "risk_factor": risk_factor,
-                "materials": (
-                    materials
-                    or RISK_TAXONOMY[risk_factor]["materials"]
-                ),
+                "materials": materials,
                 "value": entry.get("value"),
                 "severity": entry.get("severity") or "medium",
                 "headline": headlines[index]["title"],
