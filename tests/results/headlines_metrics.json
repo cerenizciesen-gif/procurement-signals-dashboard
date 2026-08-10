@@ -9,9 +9,9 @@
   "precision": 1.0,
   "recall": 1.0,
   "f1": 1.0,
-  "exact_classification_accuracy": 0.75,
+  "exact_classification_accuracy": 1.0,
   "risk_accuracy_relevant_cases": 1.0,
-  "material_mapping_accuracy_relevant_cases": 0.6667,
+  "material_mapping_accuracy_relevant_cases": 1.0,
   "json_parse_success": true,
   "acceptance_targets": {
     "precision_min": 0.9,
@@ -20,5 +20,5 @@
     "exact_classification_accuracy_min": 0.9,
     "material_mapping_accuracy_min": 0.9
   },
-  "overall_pass": false
+  "overall_pass": true
 }
