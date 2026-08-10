@@ -89,7 +89,7 @@ Two design decisions are worth defending:
    expected values remain valid. Live inputs and test fixtures are kept apart deliberately.
 2. **The taxonomy is closed.** The classifier may only return one of three known risk factors.
    Anything else is discarded in code. A monitor that could invent categories would produce
-   findings the decision logic cannot act on.The material assignment is also derived from this taxonomy rather than accepted directly
+   findings the decision logic cannot act on. The material assignment is also derived from this taxonomy rather than accepted directly
 from the model output.
    
 
