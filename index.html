@@ -131,9 +131,17 @@
               <polyline points="{{ chart.fcPts }}" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="5,4"></polyline>
             </svg>
             <div style="position:relative;height:16px;font-size:11px" class="text-muted">
-  <span style="position:absolute;left:0">{{ chartMaterial.startLabel }}</span>
-  <span style="position:absolute;left:{{ chart.todayPct }}%;transform:translateX(-50%)">Today</span>
-  <span style="position:absolute;right:0">{{ chartMaterial.endLabel }}</span>
+  <span style="position:absolute;left:0">
+    {{ chartMaterial.startLabel }}
+  </span>
+
+  <span style="position:absolute;left:{{ chart.todayLeft }};transform:translateX(-50%)">
+    Today
+  </span>
+
+  <span style="position:absolute;right:0">
+    {{ chartMaterial.endLabel }}
+  </span>
 </div>
             <div style="display:flex;gap:16px;font-size:11px;margin-top:4px" class="text-muted">
               <span style="color:var(--color-text)">— History</span>
@@ -242,9 +250,17 @@
             <polyline points="{{ detailChart.fcPts }}" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="5,4"></polyline>
           </svg>
           <div style="position:relative;height:16px;font-size:11px" class="text-muted">
-  <span style="position:absolute;left:0">{{ chartMaterial.startLabel }}</span>
-  <span style="position:absolute;left:{{ chart.todayPct }}%;transform:translateX(-50%)">Today</span>
-  <span style="position:absolute;right:0">{{ chartMaterial.endLabel }}</span>
+  <span style="position:absolute;left:0">
+    {{ detailMaterial.startLabel }}
+  </span>
+
+  <span style="position:absolute;left:{{ detailChart.todayLeft }};transform:translateX(-50%)">
+    Today
+  </span>
+
+  <span style="position:absolute;right:0">
+    {{ detailMaterial.endLabel }}
+  </span>
 </div>
         </div>
 
@@ -465,25 +481,54 @@ function scalePoints(vals, xs, w, h, min, max, padX, padY, maxX){
   return vals.map((v, i) => {
     const x = padX + xs[i] * xStep;
     const y = h - padY - ((v - min) / range) * (h - 2 * padY);
+
     return x.toFixed(1) + ',' + y.toFixed(1);
   }).join(' ');
 }
 
 function buildChart(m, w, h){
-  const padX = 6, padY = 10;
-  const all = m.history.concat(m.forecastHigh, m.forecastLow);
+  const padX = 6;
+  const padY = 10;
+
+  const all = m.history.concat(
+    m.forecastHigh,
+    m.forecastLow
+  );
+
   const min = Math.min(...all);
   const max = Math.max(...all);
 
+  /*
+   * One shared horizontal timeline:
+   *
+   * history:
+   * 0 ... history.length - 1
+   *
+   * forecast:
+   * history.length - 1 ... maxX
+   *
+   * The last history point and first forecast point
+   * therefore occupy exactly the same x position.
+   */
+  const todayX = m.history.length - 1;
   const maxX = m.history.length + m.forecast.length - 1;
 
   const histXs = m.history.map((_, i) => i);
+
   const histPts = scalePoints(
-    m.history, histXs, w, h, min, max, padX, padY, maxX
+    m.history,
+    histXs,
+    w,
+    h,
+    min,
+    max,
+    padX,
+    padY,
+    maxX
   );
 
   const fcXs = [
-    m.history.length - 1,
+    todayX,
     ...m.forecast.map((_, i) => m.history.length + i)
   ];
 
@@ -493,7 +538,15 @@ function buildChart(m, w, h){
   ];
 
   const fcPts = scalePoints(
-    fcVals, fcXs, w, h, min, max, padX, padY, maxX
+    fcVals,
+    fcXs,
+    w,
+    h,
+    min,
+    max,
+    padX,
+    padY,
+    maxX
   );
 
   const highVals = [
@@ -507,26 +560,49 @@ function buildChart(m, w, h){
   ];
 
   const topStr = scalePoints(
-    highVals, fcXs, w, h, min, max, padX, padY, maxX
+    highVals,
+    fcXs,
+    w,
+    h,
+    min,
+    max,
+    padX,
+    padY,
+    maxX
   );
 
   const botStr = scalePoints(
-    lowVals, fcXs, w, h, min, max, padX, padY, maxX
-  ).split(' ').reverse().join(' ');
+    lowVals,
+    fcXs,
+    w,
+    h,
+    min,
+    max,
+    padX,
+    padY,
+    maxX
+  )
+    .split(' ')
+    .reverse()
+    .join(' ');
 
-  const todayPct = (
-  ((m.history.length - 1) /
-  (m.history.length + m.forecast.length - 1)) * 100
-).toFixed(1);
-  
+  /*
+   * Use the exact same x-coordinate as the chart.
+   * Include the % sign here so the template receives
+   * one complete CSS value such as "64.43%".
+   */
+  const xStep = (w - 2 * padX) / maxX;
+  const todayPixel = padX + todayX * xStep;
+  const todayLeft = ((todayPixel / w) * 100).toFixed(2) + '%';
+
   return {
-  histPts,
-  fcPts,
-  bandPts: topStr + ' ' + botStr,
-  todayPct
-};
+    histPts,
+    fcPts,
+    bandPts: topStr + ' ' + botStr,
+    todayLeft
+  };
 }
-
+  
 function fmtPrice(valEur, unit, currency){
   const v = valEur * (RATES[currency] || 1);
   const decimals = unit === 'kg' ? 2 : 0;
