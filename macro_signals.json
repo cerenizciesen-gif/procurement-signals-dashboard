@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-10T10:01:00+00:00",
+  "generated_at": "2026-08-10T19:11:41+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 47.6085,
-      "rate_date": "2026-08-07",
+      "rate": 47.7118,
+      "rate_date": "2026-08-10",
       "reference_rate": 46.8927,
       "reference_date": "2026-07-10",
-      "change_pct": 1.53,
+      "change_pct": 1.75,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -30,12 +30,12 @@
     {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
+        "Steel",
         "PP",
-        "PA6",
-        "Steel"
+        "PA6"
       ],
       "value": null,
-      "severity": "high",
+      "severity": "medium",
       "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
       "published": "Fri, 24 Jul 2026 07:00:00 GMT",
@@ -45,9 +45,9 @@
     {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
+        "Steel",
         "PP",
-        "PA6",
-        "Steel"
+        "PA6"
       ],
       "value": null,
       "severity": "high",
@@ -60,9 +60,9 @@
     {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
+        "Steel",
         "PP",
-        "PA6",
-        "Steel"
+        "PA6"
       ],
       "value": null,
       "severity": "high",
@@ -75,13 +75,13 @@
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
+        "Steel",
         "PP",
-        "PA6",
-        "Steel"
+        "PA6"
       ],
       "value": "27 percent",
-      "severity": "high",
-      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - turkishminute.com",
+      "severity": "medium",
+      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
       "published": "Wed, 24 Dec 2025 08:00:00 GMT",
       "matched_on": null,
@@ -90,12 +90,12 @@
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
+        "Steel",
         "PP",
-        "PA6",
-        "Steel"
+        "PA6"
       ],
       "value": "27%",
-      "severity": "high",
+      "severity": "medium",
       "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - Daily Sabah",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB0gGTAUFVX3lxTFAzclBHS29xMG8zalJEQ1p3dlVCVHpSSEkwV0tKMmpPdy0zak1YSmt4QUd3UUFROGNJc0dTbGVCZUNvX0ZTaTdQOHZQNjdVTnZJS3FzRUdPTXpTMzFFZ2Qzcm1nV3Zhb0tQNmwwLUVDeVlpQkw2VjBvRVNmSUt1ejlBeFdCbGs1TXlVb2ExMmRiQXpnQQ?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
@@ -105,12 +105,12 @@
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
+        "Steel",
         "PP",
-        "PA6",
-        "Steel"
+        "PA6"
       ],
       "value": "27%",
-      "severity": "high",
+      "severity": "medium",
       "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
@@ -120,9 +120,9 @@
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
+        "Steel",
         "PP",
-        "PA6",
-        "Steel"
+        "PA6"
       ],
       "value": null,
       "severity": "medium",
@@ -154,7 +154,7 @@
       ],
       "value": null,
       "severity": "high",
-      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - plasticsnews.com",
+      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjd1VGU5S0hXR2ROajk4d3ExWDFWY2N5eXBXS2xQSWw4Qm5FTDNLTTNySThud0NGb1hPVHdmX1Z0Rk9leDlRVTRXN0RCUExzYWNNemtRSU5keV9jTDNBTWs3XzFuOE1MTWhSYkRGUFNEQUtDZC1PWDUtaFVpRjR3amhnRnp2UVZoWXJJa19Ha0ZvdlhR?oc=5",
       "published": "Thu, 07 May 2026 07:00:00 GMT",
       "matched_on": null,
@@ -179,21 +179,21 @@
       "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - lloydslist.com",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
       "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - lloydslist.com",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
       "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - lloydslist.com",
       "method": "deepseek-v4-flash"
     }
   }
