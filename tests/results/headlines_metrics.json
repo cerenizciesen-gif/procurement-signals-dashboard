@@ -9,15 +9,16 @@
   "precision": 1.0,
   "recall": 1.0,
   "f1": 1.0,
-  "exact_classification_accuracy": 1.0,
+  "exact_classification_accuracy": 0.75,
   "risk_accuracy_relevant_cases": 1.0,
   "material_mapping_accuracy_relevant_cases": 0.6667,
   "json_parse_success": true,
   "acceptance_targets": {
-    "precision_min": 0.8,
-    "recall_min": 0.8,
-    "f1_min": 0.8,
-    "exact_classification_accuracy_min": 0.8
+    "precision_min": 0.9,
+    "recall_min": 0.9,
+    "f1_min": 0.9,
+    "exact_classification_accuracy_min": 0.9,
+    "material_mapping_accuracy_min": 0.9
   },
-  "overall_pass": true
+  "overall_pass": false
 }
