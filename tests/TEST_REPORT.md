@@ -31,6 +31,7 @@ Die Testfälle wurden aus Benchmark Strang 1 und Strang 2 abgeleitet.
 | Nachrichtenklassifikation – Recall | 100 % | Pass |
 | Nachrichtenklassifikation – F1-Score | 100 % | Pass |
 | Exact Classification Accuracy | 100 % | Pass |
+| Material Mapping Accuracy | mindestens 90 % | 100 % | Pass |
 | Fachliche Bewertung der KI-Argumente | 5,0 von 5 | Pass |
 | Numerische Genauigkeit der KI-Argumente | 100 % | Pass |
 | Entscheidungsübereinstimmung der KI-Argumente | 100 % | Pass |
@@ -128,9 +129,16 @@ Die relevanten Nachrichten deckten folgende Risikobereiche ab:
 | Recall | mindestens 90 % | 100 % | Pass |
 | F1-Score | mindestens 90 % | 100 % | Pass |
 | Exact Classification Accuracy | mindestens 90 % | 100 % | Pass |
+| Material Mapping Accuracy | mindestens 90 % | 100 % | Pass |
 
+Nach der Iteration der Materialzuordnung werden die betroffenen Materialien
+deterministisch aus der definierten Risikotaxonomie abgeleitet. Dadurch wurde
+die Material Mapping Accuracy im erneuten Benchmark von 66,67 % auf 100 %
+verbessert.
 Das Modell klassifizierte 15 von 20 Meldungen als relevant.
-Dies entsprach exakt dem Goldstandard.
+Die Relevanzklassifikation entsprach damit exakt dem Goldstandard.
+Nach der Iteration wurde auch die Materialzuordnung vollständig korrekt
+durchgeführt.
 
 ### 6.3 Bewertung
 
