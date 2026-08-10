@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T19:11:41+00:00",
+  "generated_at": "2026-08-10T20:04:36+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
@@ -28,15 +28,28 @@
   },
   "findings": [
     {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "materials": [
-        "Steel",
-        "PP",
-        "PA6"
+        "PA6",
+        "PP"
       ],
       "value": null,
       "severity": "medium",
-      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
+      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "high",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
       "published": "Fri, 24 Jul 2026 07:00:00 GMT",
       "matched_on": null,
@@ -46,12 +59,12 @@
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
         "Steel",
-        "PP",
-        "PA6"
+        "PA6",
+        "PP"
       ],
       "value": null,
       "severity": "high",
-      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - lloydslist.com",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
       "published": "Fri, 29 May 2026 20:16:08 GMT",
       "matched_on": null,
@@ -61,8 +74,8 @@
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
         "Steel",
-        "PP",
-        "PA6"
+        "PA6",
+        "PP"
       ],
       "value": null,
       "severity": "high",
@@ -75,9 +88,9 @@
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
-        "Steel",
         "PP",
-        "PA6"
+        "PA6",
+        "Steel"
       ],
       "value": "27 percent",
       "severity": "medium",
@@ -90,9 +103,9 @@
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
-        "Steel",
         "PP",
-        "PA6"
+        "PA6",
+        "Steel"
       ],
       "value": "27%",
       "severity": "medium",
@@ -105,9 +118,9 @@
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
-        "Steel",
         "PP",
-        "PA6"
+        "PA6",
+        "Steel"
       ],
       "value": "27%",
       "severity": "medium",
@@ -120,9 +133,9 @@
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
-        "Steel",
         "PP",
-        "PA6"
+        "PA6",
+        "Steel"
       ],
       "value": null,
       "severity": "medium",
@@ -135,8 +148,9 @@
     {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
-        "PP",
-        "PA6"
+        "Steel",
+        "PA6",
+        "PP"
       ],
       "value": null,
       "severity": "high",
@@ -149,8 +163,9 @@
     {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
-        "PP",
-        "PA6"
+        "Steel",
+        "PA6",
+        "PP"
       ],
       "value": null,
       "severity": "high",
@@ -163,6 +178,23 @@
     {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
+        "Steel",
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "high",
+      "headline": "May 2026: Price Trajectory for All Resins Shifts Sharply Upward - Plastics Technology",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbWNMWEMzVDRyZ1BTQTNhOTlkTWd4cHFnQWpDOS1ZRmxxYjBFRlVqZmNzaC1PY3pqTHg1MzZhakRuZnVvX0xwclZYa1JFUGZncUNIT2ZTbGVDWVMycWtRX0hKNmpYd1JaX29sb0wzaV9lTklDX3BzQ0VzdHVSMlJpb243UFQ0eVN3MWs0VGFjT3E2QThoNzFiTWNlVEw?oc=5",
+      "published": "Wed, 06 May 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Geopolitical supply disruption",
+      "materials": [
+        "Steel",
+        "PA6",
         "PP"
       ],
       "value": null,
@@ -176,24 +208,24 @@
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - lloydslist.com",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - lloydslist.com",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
       "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - lloydslist.com",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
       "method": "deepseek-v4-flash"
     }
   }
