@@ -31,7 +31,7 @@ Die Testfälle wurden aus Benchmark Strang 1 und Strang 2 abgeleitet.
 | Nachrichtenklassifikation – Recall | 100 % | Pass |
 | Nachrichtenklassifikation – F1-Score | 100 % | Pass |
 | Exact Classification Accuracy | 100 % | Pass |
-| Material Mapping Accuracy | mindestens 90 % | 100 % | Pass |
+| Material Mapping Accuracy | 100 % | Pass |
 | Fachliche Bewertung der KI-Argumente | 5,0 von 5 | Pass |
 | Numerische Genauigkeit der KI-Argumente | 100 % | Pass |
 | Entscheidungsübereinstimmung der KI-Argumente | 100 % | Pass |
