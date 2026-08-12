@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-11T08:32:21+00:00",
+  "generated_at": "2026-08-12T08:54:36+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 47.7118,
-      "rate_date": "2026-08-10",
-      "reference_rate": 46.8927,
-      "reference_date": "2026-07-10",
-      "change_pct": 1.75,
+      "rate": 47.7364,
+      "rate_date": "2026-08-11",
+      "reference_rate": 46.9966,
+      "reference_date": "2026-07-13",
+      "change_pct": 1.57,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -34,44 +34,17 @@
         "PP"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock | War, disruption and rerouting fail to derail container demand - Lloyd's List",
+      "severity": "low",
+      "headline": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock | War, disruption and rerouting fail to derail container demand - lloydslist.com",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSzA3ckd1aW92cjRBSkxFcUVZaEVINy1ENFk4QWtGTkxNV0RYdXdDN016d05CSkNWZVFmYmZSZTVuTXd5b0tlQjBZSWJLZUhXT0dkWjFKSldGSG9WcFF5ay1rSGFFWkxsQ2JlaEZsUmdmYWktY3VuWmFBUHE5cjZnblBfWFFMUTE1bERDNXZFNkdvUGVTUHo1ZnA1YjY3SlFrSkdpWVRxbmxWdHByczZnNnhUMUl1dGw5elZOUnZiSkViQmZpeURMWUhqQ2FPZEhkMDRaUkJRRE1yek1EeEU3TlhWSHZWQlRZY3lpTXU5cVlLclA0SGI2cnpDUVVVaEhHaHhoLUZnTmZRN2s?oc=5",
       "published": "Mon, 10 Aug 2026 09:54:15 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "low",
-      "headline": "Taiwan's Big Three Container Lines Post Over 30% July Revenue Surge as Port Congestion, Ship Shortages Support Freight Rates - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43akM2WjNyMEFxRzJwckxFajNEMUxKR2NtLXBFamlfV0I4alIyTlNHNUtueVFUWWxXOVBQTWVNay0yNnlLRHVmcFF0SF9FYzR0ZkJYcS0wXzdYdE9TLVhQRlllWGlxN1drR2tMc05YVTdaMlNsWXc?oc=5",
-      "published": "Mon, 10 Aug 2026 11:55:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - scangl.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
-      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
+        "Steel",
         "PA6",
         "PP"
       ],
@@ -84,16 +57,17 @@
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "materials": [
+        "Steel",
         "PA6",
         "PP"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "Why the Shipping Container Industry Is Booming Worldwide - IMARC Group",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNTJnSlViQnc3ZXlYbXRDeVZSTWxiWGVsVjJHOVotZ2xxYVRHNUFpcDUtcFdWODVWalFxWEg3b3lLVFRmMVdYYThKLW92VENNU240enpOSGNZcmdMYzY2TmRwTm9FU1pEeTBvcVdvMVBpOTJCZ1VxbTRZLU9YMkg5ZGtGQQ?oc=5",
-      "published": "Thu, 23 Jul 2026 06:54:33 GMT",
+      "severity": "high",
+      "headline": "Middle East Escalation Disrupts Global Ocean and Air Freight Networks - flexport.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcG1WTXpHcWJlOVFxeUZDa2Y5aVJ5b3VLM3NUVzZZM0ZaQ05FYkRoNHVHT0VYMG5BTldZYS1faERGNHNWRE5QU25kdDJnQ0k1N3hwWElYcGNBMUs1cWQxUTh1NlFFN0ZuTXZ3OFNFVkVvaGxQcWV3S203cDVnbHA4M1FZaFdrSXItTU1JeG5aMjNzZlNyVmliSThyQ0RIS0xLR1E?oc=5",
+      "published": "Mon, 15 Jun 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -104,8 +78,8 @@
         "PA6",
         "Steel"
       ],
-      "value": "27%",
-      "severity": "high",
+      "value": "27 percent",
+      "severity": "medium",
       "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
       "published": "Wed, 24 Dec 2025 08:00:00 GMT",
@@ -120,7 +94,7 @@
         "Steel"
       ],
       "value": "27%",
-      "severity": "high",
+      "severity": "medium",
       "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - Daily Sabah",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB0gGTAUFVX3lxTFAzclBHS29xMG8zalJEQ1p3dlVCVHpSSEkwV0tKMmpPdy0zak1YSmt4QUd3UUFROGNJc0dTbGVCZUNvX0ZTaTdQOHZQNjdVTnZJS3FzRUdPTXpTMzFFZ2Qzcm1nV3Zhb0tQNmwwLUVDeVlpQkw2VjBvRVNmSUt1ejlBeFdCbGs1TXlVb2ExMmRiQXpnQQ?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
@@ -135,8 +109,8 @@
         "Steel"
       ],
       "value": "27%",
-      "severity": "high",
-      "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
+      "severity": "medium",
+      "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "matched_on": null,
@@ -205,24 +179,24 @@
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - scangl.com",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - scangl.com",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
-      "risk_factor": "Turkey minimum wage increase",
-      "value": "27%",
+      "risk_factor": "Geopolitical supply disruption",
+      "value": null,
       "severity": "high",
-      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
+      "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
       "method": "deepseek-v4-flash"
     }
   }
