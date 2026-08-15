@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:48:32+00:00",
+  "generated_at": "2026-08-15T05:55:55+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,22 +67,37 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-14T08:48:27+00:00",
+    "generated_at": "2026-08-15T05:55:50+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 47.7717,
-      "rate_date": "2026-08-13",
-      "reference_rate": 47.0098,
-      "reference_date": "2026-07-14",
-      "change_pct": 1.62,
+      "rate": 47.8066,
+      "rate_date": "2026-08-14",
+      "reference_rate": 47.0517,
+      "reference_date": "2026-07-16",
+      "change_pct": 1.6,
       "lookback_days": 30,
       "is_risk": false
     },
     "headlines_screened": 24,
     "findings": [
+      {
+        "risk_factor": "Geopolitical supply disruption",
+        "materials": [
+          "Steel",
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "medium",
+        "headline": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock | War, disruption and rerouting fail to derail container demand - Lloyd's List",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSzA3ckd1aW92cjRBSkxFcUVZaEVINy1ENFk4QWtGTkxNV0RYdXdDN016d05CSkNWZVFmYmZSZTVuTXd5b0tlQjBZSWJLZUhXT0dkWjFKSldGSG9WcFF5ay1rSGFFWkxsQ2JlaEZsUmdmYWktY3VuWmFBUHE5cjZnblBfWFFMUTE1bERDNXZFNkdvUGVTUHo1ZnA1YjY3SlFrSkdpWVRxbmxWdHByczZnNnhUMUl1dGw5elZOUnZiSkViQmZpeURMWUhqQ2FPZEhkMDRaUkJRRE1yek1EeEU3TlhWSHZWQlRZY3lpTXU5cVlLclA0SGI2cnpDUVVVaEhHaHhoLUZnTmZRN2s?oc=5",
+        "published": "Mon, 10 Aug 2026 09:54:15 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
       {
         "risk_factor": "Red Sea shipping disruption",
         "materials": [
@@ -90,10 +105,10 @@
           "PP"
         ],
         "value": null,
-        "severity": "medium",
-        "headline": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock | War, disruption and rerouting fail to derail container demand - lloydslist.com",
-        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSzA3ckd1aW92cjRBSkxFcUVZaEVINy1ENFk4QWtGTkxNV0RYdXdDN016d05CSkNWZVFmYmZSZTVuTXd5b0tlQjBZSWJLZUhXT0dkWjFKSldGSG9WcFF5ay1rSGFFWkxsQ2JlaEZsUmdmYWktY3VuWmFBUHE5cjZnblBfWFFMUTE1bERDNXZFNkdvUGVTUHo1ZnA1YjY3SlFrSkdpWVRxbmxWdHByczZnNnhUMUl1dGw5elZOUnZiSkViQmZpeURMWUhqQ2FPZEhkMDRaUkJRRE1yek1EeEU3TlhWSHZWQlRZY3lpTXU5cVlLclA0SGI2cnpDUVVVaEhHaHhoLUZnTmZRN2s?oc=5",
-        "published": "Mon, 10 Aug 2026 09:54:15 GMT",
+        "severity": "low",
+        "headline": "Asian port congestion forcing container lines back to the Red Sea - Seatrade Maritime News",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNnlqWnRQQllKSzFzaEUwcGRDU2I5VC1SWEFDLUZkVmh6X1NnZ3hpMmIxb1F6SGMyT2QweC1DaHNTaHl1ajZSYmw3MUNNeC1rQWdSTnNuRFJTYUd5dW9vcktSWTFGXzhkWkJiSEF6YTBZT1lxbkNxY184aWRoYTFNRGUzRTRDOHpVb1Y3RDNXc0swVE5sbDhwVVNYbUR2UmFYVEswNEtwMzlUdWdPLTFz?oc=5",
+        "published": "Tue, 11 Aug 2026 12:57:26 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -118,30 +133,17 @@
           "PP"
         ],
         "value": null,
-        "severity": "high",
-        "headline": "Asian port congestion forcing container lines back to the Red Sea - Seatrade Maritime News",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNnlqWnRQQllKSzFzaEUwcGRDU2I5VC1SWEFDLUZkVmh6X1NnZ3hpMmIxb1F6SGMyT2QweC1DaHNTaHl1ajZSYmw3MUNNeC1rQWdSTnNuRFJTYUd5dW9vcktSWTFGXzhkWkJiSEF6YTBZT1lxbkNxY184aWRoYTFNRGUzRTRDOHpVb1Y3RDNXc0swVE5sbDhwVVNYbUR2UmFYVEswNEtwMzlUdWdPLTFz?oc=5",
-        "published": "Tue, 11 Aug 2026 12:57:26 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "high",
-        "headline": "Ocean freight market turns red hot, prompting freight rate rally - scangl.com",
+        "severity": "medium",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
         "published": "Wed, 08 Jul 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "materials": [
+          "Steel",
           "PA6",
           "PP"
         ],
@@ -154,17 +156,16 @@
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "Steel",
           "PA6",
           "PP"
         ],
         "value": null,
-        "severity": "medium",
-        "headline": "Middle East conflict is reshaping global shipping once again - Metro Global",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUlFkbHFWWFZiWHhsWUJ3SDR3SjFFWS1iaTl4ZDRnYnREb2Q4T1AwRDFhYnMxbzNPWVd2dlhGcmN0UlFBenozTGNpaXlSOHRPQnZVY1lRTDc2bWxFVWdrYllSN29BTG9oeVQxeVhBRkVPcUdxdElrcERCSGNpanJfOWVDNkdwSkkzUldwUXladkZPdDlkR0FJWg?oc=5",
-        "published": "Wed, 22 Jul 2026 07:00:00 GMT",
+        "severity": "low",
+        "headline": "Ocean rates weaker after tariff-driven peak season - FreightWaves",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLTBvMnczSGZodE1GcW4wenNNandadThOWmxhclVYQ0p6bXhUcm5CSTFiMGhuOWNlbkF1SEZLNUlSY2ZUVzNuTnJkNFdraGN6OUhNSDFCXzdJWFZKVU5hWVpNVnBxTmJlWGk5ZTZHcXJHQ21lVXFSSWtZWjAtV04zUzk5c3NMeS1tOWFmNw?oc=5",
+        "published": "Tue, 21 Jul 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -184,10 +185,10 @@
       "driver_value": "+15%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Asian port congestion forcing container lines back to the Red Sea - Seatrade Maritime News",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -231,7 +232,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15% will directly raise local conversion costs, so current price levels will not hold. With the monthly price trend already up by 1.18% on average, delaying the decision by six months would add about EUR 49,600 to the annual volume cost. Secure the purchase now to lock in the current EUR 1.17 per kg price before these cost pressures materialize.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15% will directly raise local conversion costs, so current price levels will not hold. With the monthly price trend already up by 1.18% on average over the last three months, delaying the decision by six months would add about EUR 49,600 to the annual volume. Buy now to secure the current EUR 1.17 per kg price before these cost pressures push it higher.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -247,10 +248,10 @@
       "driver_value": "Freight costs +20%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Asian port congestion forcing container lines back to the Red Sea - Seatrade Maritime News",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -294,7 +295,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The PA6 price trend has fallen by an average of 0.86 percent per month over the last three months, which would normally justify delaying the purchase. However, the Red Sea shipping disruption is raising freight costs by 20 percent, and this increase will feed into local list prices with a delay, offsetting any short-term savings. Buy now to secure the current EUR 2.64 per kg price, as waiting six months would risk absorbing higher costs despite the theoretical EUR 178,061 saving on the annual volume.",
+      "negotiation_argument": "The recent price trend is down, with an average monthly decline of 0.86 percent, which would normally argue for waiting. However, the Red Sea shipping disruption is driving freight costs up by 20 percent, and this increase will feed into local list prices with a delay, offsetting any short-term savings. Given that delaying the decision by six months would save about EUR 178,061 on the annual volume, but the macro risk will erode that benefit, you should buy now to lock in the current EUR 2.64 per kg price before the freight surcharge is passed through.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -313,7 +314,7 @@
         "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -357,7 +358,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The rising price trend suggests urgency, but the high severity of geopolitical supply disruption makes current market levels unreliable and prone to a sharp correction. Committing now risks locking in a peak price, whereas delaying by six months would cost about EUR 246,230 extra on the annual volume, a figure that is acceptable against the potential downside of a disruption-driven spike. The buyer should therefore hold off on any commitment and revisit the decision in six months, when the volatility has had time to settle.",
+      "negotiation_argument": "The rising price trend of 1.05 percent monthly suggests urgency, but the high severity of geopolitical supply disruption makes committing now a risk of buying at a peak. Delaying the decision by six months would cost about EUR 246,230 extra on the annual volume, yet this is preferable to locking in at an unsustainable high under extreme volatility. Hold off on any commitment until the market stabilizes, and reassess within the next month.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
