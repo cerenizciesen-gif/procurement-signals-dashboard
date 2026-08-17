@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:58:58+00:00",
+  "generated_at": "2026-08-17T06:08:19+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,19 +67,11 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-16T05:58:53+00:00",
+    "generated_at": "2026-08-17T06:08:14+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
-      "available": true,
-      "source": "Turkish central bank daily reference rate",
-      "pair": "USD/TRY",
-      "rate": 47.8066,
-      "rate_date": "2026-08-14",
-      "reference_rate": 47.0705,
-      "reference_date": "2026-07-17",
-      "change_pct": 1.56,
-      "lookback_days": 30,
-      "is_risk": false
+      "available": false,
+      "source": "Turkish central bank daily reference rate"
     },
     "headlines_screened": 24,
     "findings": [
@@ -118,20 +110,6 @@
           "PP"
         ],
         "value": null,
-        "severity": "low",
-        "headline": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock | War, disruption and rerouting fail to derail container demand - Lloyd's List",
-        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSzA3ckd1aW92cjRBSkxFcUVZaEVINy1ENFk4QWtGTkxNV0RYdXdDN016d05CSkNWZVFmYmZSZTVuTXd5b0tlQjBZSWJLZUhXT0dkWjFKSldGSG9WcFF5ay1rSGFFWkxsQ2JlaEZsUmdmYWktY3VuWmFBUHE5cjZnblBfWFFMUTE1bERDNXZFNkdvUGVTUHo1ZnA1YjY3SlFrSkdpWVRxbmxWdHByczZnNnhUMUl1dGw5elZOUnZiSkViQmZpeURMWUhqQ2FPZEhkMDRaUkJRRE1yek1EeEU3TlhWSHZWQlRZY3lpTXU5cVlLclA0SGI2cnpDUVVVaEhHaHhoLUZnTmZRN2s?oc=5",
-        "published": "Mon, 10 Aug 2026 09:54:15 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
         "severity": "medium",
         "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
@@ -146,25 +124,39 @@
           "PP"
         ],
         "value": null,
+        "severity": "low",
+        "headline": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock | War, disruption and rerouting fail to derail container demand - Lloyd's List",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSzA3ckd1aW92cjRBSkxFcUVZaEVINy1ENFk4QWtGTkxNV0RYdXdDN016d05CSkNWZVFmYmZSZTVuTXd5b0tlQjBZSWJLZUhXT0dkWjFKSldGSG9WcFF5ay1rSGFFWkxsQ2JlaEZsUmdmYWktY3VuWmFBUHE5cjZnblBfWFFMUTE1bERDNXZFNkdvUGVTUHo1ZnA1YjY3SlFrSkdpWVRxbmxWdHByczZnNnhUMUl1dGw5elZOUnZiSkViQmZpeURMWUhqQ2FPZEhkMDRaUkJRRE1yek1EeEU3TlhWSHZWQlRZY3lpTXU5cVlLclA0SGI2cnpDUVVVaEhHaHhoLUZnTmZRN2s?oc=5",
+        "published": "Mon, 10 Aug 2026 09:54:15 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "PA6",
+          "PP"
+        ],
+        "value": null,
         "severity": "high",
-        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZTV2S042MElVS3Nla3BRekh3TER5b0dKTWZqb2xXWEp2U2FnNnlRQURlbG5JOEY1R2Uwc1JmUnFZV1lwbnN6bkI0WWxEMG4zcGFSRUZicUdEYk1PVThQVGRybFVTR09tVkFlZDZGTWx0NF85Z3JQUGQ2Uk1Ib0w2dG9SNEwxWVA5LVpBS2syemhHeGhSRVNpQ04xb3BwVGthZXBr?oc=5",
         "published": "Fri, 24 Jul 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Turkey minimum wage increase",
+        "risk_factor": "Geopolitical supply disruption",
         "materials": [
-          "PP",
+          "Steel",
           "PA6",
-          "Steel"
+          "PP"
         ],
-        "value": "27 percent",
-        "severity": "medium",
-        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
-        "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+        "value": null,
+        "severity": "high",
+        "headline": "Houthi Attack Threatens Asia-Red Sea Cargo Flows as Oil Tops $100 - WWD",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3pNX2xWbUY2NmFMTmxXMy1ycW96YzRmOTVhQkFRYkEwQzdxU1RFVHR3Ymo3cVhhRHRTVWpZN1o2cndSeVkwMElkdkYteGlCX2hqcl83RkNDa0dsbDgwVy1haUJjaERuRDliOThacnBMQWZ5RV9ZN0RaMWp3MXA2bDdCRGx2U1d5RW10bWVqTGRqNDU4UGlmU2ViWWpZWmp5NzR6UXVGNGJ4THRGNWV5Zm1DOWlFYWhqUmZJVW5ZMHVqT1E2T3JvY0hEVEI?oc=5",
+        "published": "Thu, 23 Jul 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -187,7 +179,7 @@
         "risk_factor": "Red Sea shipping disruption",
         "value": null,
         "severity": "high",
-        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -231,7 +223,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The local minimum wage increase of 15% will directly raise conversion costs, so current price levels will not hold and the upward price trend will accelerate. Delaying the purchase decision by six months would add about EUR 49,600 to the annual volume cost. Secure the annual volume of 600 tons at the current EUR 1.17 per kg now, before the wage-driven cost increase is reflected in new quotes.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15% will directly raise local conversion costs, so current price levels will not hold. With the price trend already up by an average of 1.18% per month, delaying the decision by six months would add about EUR 49,600 to the annual volume. Buy now to secure the current EUR 1.17 per kg price before these cost pressures push it higher.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -250,7 +242,7 @@
         "risk_factor": "Red Sea shipping disruption",
         "value": null,
         "severity": "high",
-        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - datamarnews.com",
+        "headline": "Shipping lines suspend Middle East bookings and raise freight rates - DatamarNews",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -294,7 +286,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The PA6 price trend has fallen by an average of 0.86 percent per month, which would normally support waiting, but the Red Sea shipping disruption is raising freight costs by 20 percent and this will push local list prices up with a delay. Buying now locks in the current EUR 2.64 per kg rate and avoids the risk of paying more on the annual volume of EUR 3,432,000, even though delaying six months could save about EUR 178,061. Secure the annual volume at the current price before the freight cost increase is reflected in supplier quotes.",
+      "negotiation_argument": "The PA6 price trend has fallen by 0.86 percent monthly on average, which would normally justify waiting, but the Red Sea shipping disruption is pushing freight costs up by 20 percent, and this will feed into local list prices with a delay. Buying now locks in the current EUR 2.64 per kg and avoids the risk of paying more later, even though delaying six months could save about EUR 178,061 on the annual volume. Secure the annual volume of 1,300 tons at the current price before the freight cost increase is reflected in supplier quotes.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -313,7 +305,7 @@
         "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - plasticstoday.com",
+        "headline": "Houthi Attack Threatens Asia-Red Sea Cargo Flows as Oil Tops $100 - WWD",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -357,7 +349,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The rising price trend suggests urgency, but the high severity of geopolitical supply disruption makes committing now a risk of buying at a peak. Delaying the decision by six months would add about EUR 246,230 to the annual volume, yet this cost is preferable to locking in at an unsustainable high under extreme volatility. Hold off on any commitment until the market stabilizes, and reassess within the next month.",
+      "negotiation_argument": "The rising price trend suggests urgency, but the high severity of geopolitical supply disruption means committing now risks locking in costs at a peak. Delaying the decision by six months would add about EUR 246,230 on the annual volume, yet this is preferable to overpaying if the market corrects. Hold off on any commitment until the volatility subsides, and reassess by the end of this quarter.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
