@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T05:59:11+00:00",
+  "generated_at": "2026-08-19T06:01:18+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,25 +67,26 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-08-18T05:59:06+00:00",
+    "generated_at": "2026-08-19T06:01:11+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 47.897,
-      "rate_date": "2026-08-17",
-      "reference_rate": 47.0705,
-      "reference_date": "2026-07-17",
-      "change_pct": 1.76,
+      "rate": 47.9155,
+      "rate_date": "2026-08-18",
+      "reference_rate": 47.1787,
+      "reference_date": "2026-07-20",
+      "change_pct": 1.56,
       "lookback_days": 30,
       "is_risk": false
     },
     "headlines_screened": 24,
     "findings": [
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "materials": [
+          "Steel",
           "PA6",
           "PP"
         ],
@@ -98,8 +99,9 @@
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "materials": [
+          "Steel",
           "PA6",
           "PP"
         ],
@@ -112,8 +114,9 @@
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "materials": [
+          "Steel",
           "PA6",
           "PP"
         ],
@@ -126,8 +129,24 @@
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "materials": [
+          "Steel",
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "low",
+        "headline": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock | War, disruption and rerouting fail to derail container demand - Lloyd's List",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSzA3ckd1aW92cjRBSkxFcUVZaEVINy1ENFk4QWtGTkxNV0RYdXdDN016d05CSkNWZVFmYmZSZTVuTXd5b0tlQjBZSWJLZUhXT0dkWjFKSldGSG9WcFF5ay1rSGFFWkxsQ2JlaEZsUmdmYWktY3VuWmFBUHE5cjZnblBfWFFMUTE1bERDNXZFNkdvUGVTUHo1ZnA1YjY3SlFrSkdpWVRxbmxWdHByczZnNnhUMUl1dGw5elZOUnZiSkViQmZpeURMWUhqQ2FPZEhkMDRaUkJRRE1yek1EeEU3TlhWSHZWQlRZY3lpTXU5cVlLclA0SGI2cnpDUVVVaEhHaHhoLUZnTmZRN2s?oc=5",
+        "published": "Mon, 10 Aug 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Geopolitical supply disruption",
+        "materials": [
+          "Steel",
           "PA6",
           "PP"
         ],
@@ -140,8 +159,9 @@
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "materials": [
+          "Steel",
           "PA6",
           "PP"
         ],
@@ -150,20 +170,6 @@
         "headline": "Gemini Expands Red Sea Comeback: More Maersk-Hapag Lloyd Services Return to Suez - Xinde Maritime News",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE82Xy1rUWtaTDNpaUE1SG1yZFZkXzJ6Yy1FWF8zeE1xTkVaWWl5dkZlVFMtMVExNWJMUjAxLWFDUXcxMWtMZGw5ZTFUeHJ2VU5rT3VFcWFRRUVUQms0S1hMRFhlTW04Um8?oc=5",
         "published": "Wed, 12 Aug 2026 00:44:43 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "low",
-        "headline": "The Week in Charts: Red Sea shipping stabilises after July\u2019s Houthi blockade shock | War, disruption and rerouting fail to derail container demand - Lloyd's List",
-        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSzA3ckd1aW92cjRBSkxFcUVZaEVINy1ENFk4QWtGTkxNV0RYdXdDN016d05CSkNWZVFmYmZSZTVuTXd5b0tlQjBZSWJLZUhXT0dkWjFKSldGSG9WcFF5ay1rSGFFWkxsQ2JlaEZsUmdmYWktY3VuWmFBUHE5cjZnblBfWFFMUTE1bERDNXZFNkdvUGVTUHo1ZnA1YjY3SlFrSkdpWVRxbmxWdHByczZnNnhUMUl1dGw5elZOUnZiSkViQmZpeURMWUhqQ2FPZEhkMDRaUkJRRE1yek1EeEU3TlhWSHZWQlRZY3lpTXU5cVlLclA0SGI2cnpDUVVVaEhHaHhoLUZnTmZRN2s?oc=5",
-        "published": "Mon, 10 Aug 2026 09:54:15 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -183,7 +189,7 @@
       "driver_value": "+15%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
         "headline": "Hormuz Attacks Persist as Red Sea Surcharges Become Structural - ChemAnalyst",
@@ -230,7 +236,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15 percent will directly raise local conversion costs, so the current price level of EUR 1.17 per kg will not hold. With the price trend already up by 1.18 percent monthly, delaying the decision by six months would add roughly EUR 49,600 to the annual volume of 600 tons. Secure the annual volume now to lock in the existing rate before the wage-driven cost increase is passed through.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15% will directly raise local conversion costs, which means current price levels for PP will not hold. With the price trend already up by 1.18% monthly on average, delaying the purchase by six months would add about EUR 49,600 to the annual volume cost. Secure the material now to lock in the current EUR 1.17 per kg before these cost pressures push prices higher.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -246,7 +252,7 @@
       "driver_value": "Freight costs +20%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
         "headline": "Hormuz Attacks Persist as Red Sea Surcharges Become Structural - ChemAnalyst",
@@ -293,7 +299,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The PA6 price trend has fallen by 0.86 percent monthly, which would normally justify waiting, but the Red Sea shipping disruption is raising freight costs by 20 percent, and this will push local list prices up with a delay. Buying now locks in the current EUR 2.64 per kg and avoids the risk of paying more on the EUR 3,432,000 annual volume, even though delaying six months could save about EUR 178,061. Secure the material immediately to hedge against the freight-driven cost increase before it hits the market.",
+      "negotiation_argument": "The PA6 price trend has been falling by 0.86 percent monthly, which would normally justify waiting, but the Red Sea shipping disruption is driving freight costs up by 20 percent, and this will push local list prices higher after a delay. Buying now locks in the current EUR 2.64 per kg rate and avoids the risk of paying more on the annual EUR 3,432,000 volume, even though delaying six months could save about EUR 178,061. Secure the material at today\u2019s terms before the freight cost increase is reflected in supplier pricing.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -312,7 +318,7 @@
         "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - plasticstoday.com",
+        "headline": "Hormuz Attacks Persist as Red Sea Surcharges Become Structural - ChemAnalyst",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -356,7 +362,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The rising price trend suggests urgency, but the high severity of geopolitical supply disruption makes the market extremely volatile, and committing now risks buying at a peak. Delaying the decision by six months would cost about EUR 246,230 extra on the annual volume, yet this is a calculated trade-off against the far greater financial exposure from a disruption. Therefore, hold off on any commitment until the geopolitical situation stabilises, and reassess the price within the next month.",
+      "negotiation_argument": "The rising price trend suggests urgency, but the high severity of geopolitical supply disruption makes committing now a risk of buying at a peak. Delaying the decision by six months would add about EUR 246,230 to the annual volume, yet this cost is outweighed by the need to avoid locking in at an unsustainable high under extreme volatility. The buyer should therefore hold off on any commitment and revisit the market in six months, when the disruption risk is clearer.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
