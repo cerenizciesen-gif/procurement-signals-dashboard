@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-25T06:03:10+00:00",
+  "generated_at": "2026-08-26T06:05:21+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 48.0788,
-      "rate_date": "2026-08-24",
-      "reference_rate": 47.2497,
-      "reference_date": "2026-07-24",
-      "change_pct": 1.75,
+      "rate": 48.0982,
+      "rate_date": "2026-08-25",
+      "reference_rate": 47.3533,
+      "reference_date": "2026-07-27",
+      "change_pct": 1.57,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -34,10 +34,25 @@
         "PP"
       ],
       "value": null,
-      "severity": "medium",
+      "severity": "high",
       "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
       "published": "Fri, 21 Aug 2026 10:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Geopolitical supply disruption",
+      "materials": [
+        "Steel",
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "high",
+      "headline": "War, drought, 120% rate hikes: inside the global shipping crisis - The Times",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORFZDOGlKNVhTYW9kWVdrckVxN0ZiY3hHOVFrNWJSVTVvZE1vcWV3eTZUOGRnQWFGTFY4YVl6bTE3a0haZmF2QnRUMlYzRS0wTTJ4YlJrcm1YM04wMDc0WVI5TTRTdU9tV0dqbU5oVUZoZG1DaWZOMFBMRUd0WHBBRUdJdlpveGl0T3RvSm50VFFsUlpqVFgyVGFhUkpSTGVYaTBNMzViQQ?oc=5",
+      "published": "Sat, 22 Aug 2026 17:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -56,22 +71,9 @@
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kQjB4ckFaQjdsQnZ2bERRbGZZeFJQTHl4YlpKQVpabWJFSWxVUUlRakVlZGl5QnpJME1yd2lqdEdTaDgtYkRYRzFXSGZIU0g3UENwS1RTbmtZNm41TEtsNldiSWdRbzJFT1JlSzctWjF3Sks5aFE?oc=5",
-      "published": "Wed, 19 Aug 2026 21:55:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
+        "Steel",
         "PA6",
         "PP"
       ],
@@ -90,24 +92,40 @@
         "PP"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "Maersk raises outlook again as strong demand, freight rates lift profit - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQW5qM2VYQ3RlX1Q5SWhodmtJeXJpTkI3YzNiMFBQc3l5VUlQOTctcGctMHIxaU1hdE03MmdodV9ub1V1YjQzSGlLcTN2MzEyY2dxSnlDSTc1U0JiY1BIcDNZNjk1MmFVVzFIRURheEVUVEwzeDR4S2trQ1B0eUJmWF9mb1F6cl9Kc3V3OWpOMWY4enZMbGd3ZFNjdUpYZHc0aXY0dXRuZkU0a3JHOHVsY3JVdmJGdXNL?oc=5",
-      "published": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kQjB4ckFaQjdsQnZ2bERRbGZZeFJQTHl4YlpKQVpabWJFSWxVUUlRakVlZGl5QnpJME1yd2lqdEdTaDgtYkRYRzFXSGZIU0g3UENwS1RTbmtZNm41TEtsNldiSWdRbzJFT1JlSzctWjF3Sks5aFE?oc=5",
+      "published": "Wed, 19 Aug 2026 21:55:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Turkey minimum wage increase",
       "materials": [
+        "PP",
         "PA6",
-        "PP"
+        "Steel"
+      ],
+      "value": "27 percent",
+      "severity": "medium",
+      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
+      "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
       ],
       "value": null,
-      "severity": "high",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
-      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "headline": "T\u00fcrkiye\u2019s minimum wage debate heats up under inflation\u2019s shadow amid living cost strain - T\u00fcrkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclpoeXhyR0psXzNVSGtLVS1fOXlzakMtUl9KajRmeGd5Q3VUWUlNLWdINGk1YUlybGU4anp2U2hlcmlDVFl1aEJrdk5VMkwxeU9UeURjY1p5T2xCM0xaVklDSWlNSmlzWWtnMmhtYzIzbHR1OVVZdko4OERBUDBmTnQzSDNYSHZSNzN0UTdYVVZxVUdoSnFBcmJNMGlfX1RzSkRoZ243TU5panMtVFd3UDdMS2V0MXV4RmRhX1pKUnBuWFZpQzExb2xkcw?oc=5",
+      "published": "Tue, 09 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -120,9 +138,9 @@
       ],
       "value": "27%",
       "severity": "medium",
-      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
-      "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+      "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
+      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -148,11 +166,41 @@
         "PA6",
         "Steel"
       ],
-      "value": "27%",
+      "value": "27 percent",
       "severity": "medium",
-      "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
-      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+      "headline": "Turkey\u2019s Minimum Wage Surges 27 Percent - WWD",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPczUzcTFaT1FJMHpfZkJ4ZXVTMGRHckJfcGxTT05WMmJUMUwwZFp5Y0ZucEk2b2tXZ0U5MWp3N3V3Ui1aNlppTXhob1F2ZnhyRVZ4by1UZHZUMUxpMWJxUFBlZ2txbktUckV3a2xNNmFvRTJPZ3FFaDl6VkFsSDY4S1p4VGpITTlnUGZpWDBZSExING5rc1Y4Z21PTzY?oc=5",
+      "published": "Wed, 31 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Turkey\u2019s unions press for substantial raise ahead of 2026 minimum wage talks amid soaring cost of living - Turkish Minute",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTlhTZ1gzZHRVNHNqLVdsZHh2ZVBtQUlfX2gwbmtfUndJN0RPSFNsMDhfbzkyUEtHbkhaTV9rYTFpTXZmWF9RSEhmZzRmaVNsekE3ekV6VkZ5OEZPT1RWcEJ4NFdyZ29WUGxzZmhScDRpYVFMNHdTTW4yQkRZZVRzdFRCZU8xczk4YmU1c2pndy1mRE5DNk9MSThLdHRRVTZTRzdiSHJwZnRkZE03ZVVZY3ptamxReXdWUGd3M09vQU1BZm8tLXFfYlM5c1ByR0FoX1ZBeXpuMlowQkpRaXfSAeMBQVVfeXFMUEdBSV94cjBEWHZHZlNXNTNkSzVTODA3Z0t6NmZJNDZzbFB5ejEzR1FDZ2pFeDQ1LThjZEdsVl9EV29uREJubDk0ZkdsZVlvd05RVzdZZzVNMVZ1T1NLRzdfaFRsdmpFSE5VT2stanZ5M3llS1htclpyck4tYm1nOGVpVlJwR1ZDcHFIRGprUHE0bTcwU0h2dWxmNGJ3YUhHZFV3ZExSSVBDU1d1T0Q1by1aNk5qQno5a0d2U2VKOUpsX2pwSkprWFFXRnNaZDNrc1hpcUphcXY2azVfVndFSlhFSEE?oc=5",
+      "published": "Wed, 03 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Geopolitical supply disruption",
+      "materials": [
+        "Steel",
+        "PA6",
+        "PP"
+      ],
+      "value": "585 USD/to",
+      "severity": "low",
+      "headline": "[Turkey] Turkish domestic rebar prices continued to rise to 585 USD/to - Shanghai Metals Market",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORGRQUlp4UExjUUlYMzRzQlh3c1htNzg4Z2ZaY3BfQ0xvemM2R1dPdkhJZWdvWjJ1UkdZTGM4X3hnZEc4VmR5bDU5QTdIdEM5ejNwZ1BqRFAxaDByREcxZ2VibkcySVlhVVV6cW1QYWRJQ3c4VG5fMUh3VUtHNWp2M292NnM3a1lFOFpNMFNGLWtQSXNRMktPMzhBUzlsUGxXeVFNYkhkWTNiZDBRZ0JyQ0Vla0lpSUc1Y3JvYlZETWJzcjFRSVBmTXoyRi1KQ3dvc2lnYlh3?oc=5",
+      "published": "Thu, 20 Aug 2026 09:54:58 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -205,23 +253,23 @@
   "by_material": {
     "PP": {
       "risk_factor": "Red Sea shipping disruption",
-      "value": "+400%",
+      "value": null,
       "severity": "high",
-      "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
+      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
       "risk_factor": "Red Sea shipping disruption",
-      "value": "+400%",
+      "value": null,
       "severity": "high",
-      "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
+      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
       "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+      "headline": "War, drought, 120% rate hikes: inside the global shipping crisis - The Times",
       "method": "deepseek-v4-flash"
     }
   }
