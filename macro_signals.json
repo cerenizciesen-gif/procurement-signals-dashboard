@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T05:04:46+00:00",
+  "generated_at": "2026-08-30T05:04:48+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
@@ -8,9 +8,9 @@
       "pair": "USD/TRY",
       "rate": 48.1598,
       "rate_date": "2026-08-28",
-      "reference_rate": 47.4126,
-      "reference_date": "2026-07-30",
-      "change_pct": 1.58,
+      "reference_rate": 47.4305,
+      "reference_date": "2026-07-31",
+      "change_pct": 1.54,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -34,7 +34,7 @@
         "PP"
       ],
       "value": null,
-      "severity": "medium",
+      "severity": "high",
       "headline": "Chinese Container Liners Head for Profit Jump as Rates Surge - gCaptain",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRVVYYTNNUDFEUjBQU2NyQVFPa2x2Y0JHOUFoYXBRQXBDN001VTZHRFVtZzJVWlNLOVVrb2NKLWRGRzBKN28taEgyN3BMYnBRdU41Yk5TYnBwTE4zekhJeUhkQXlNMHFZVjlVSlJpYl9fd3V6Mm1PcVROVE44NUxRSTBuaGcxOHlKUmc?oc=5",
       "published": "Thu, 27 Aug 2026 07:46:33 GMT",
@@ -61,11 +61,11 @@
         "PA6",
         "PP"
       ],
-      "value": null,
+      "value": "+400%",
       "severity": "high",
-      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
-      "published": "Fri, 21 Aug 2026 10:00:00 GMT",
+      "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa3BPV1gzQm1LUm9mU0o4d1lkTHZJNFFHRjhtc1Z0dlRXcjRBYW5zZnotYXBsT1hlUmJvMGtLZW1OYWlYajI0c3MzRFZ2UDNtZDNuZUpXVXU5elo1anNqVGExSE9rTHg3UDYxN3djOGlJQmVrOVNLbUtMZFZJdjdEdm5qVWtRMzdZVkVCOUlDT21kc0Fn?oc=5",
+      "published": "Tue, 18 Aug 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -75,26 +75,11 @@
         "PA6",
         "PP"
       ],
-      "value": "400%",
-      "severity": "high",
-      "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa3BPV1gzQm1LUm9mU0o4d1lkTHZJNFFHRjhtc1Z0dlRXcjRBYW5zZnotYXBsT1hlUmJvMGtLZW1OYWlYajI0c3MzRFZ2UDNtZDNuZUpXVXU5elo1anNqVGExSE9rTHg3UDYxN3djOGlJQmVrOVNLbUtMZFZJdjdEdm5qVWtRMzdZVkVCOUlDT21kc0Fn?oc=5",
-      "published": "Tue, 18 Aug 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
       "value": null,
-      "severity": "medium",
-      "headline": "War and climate change drive surge in global shipping costs - Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
-      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
+      "published": "Fri, 21 Aug 2026 10:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -114,6 +99,21 @@
       "method": "deepseek-v4-flash"
     },
     {
+      "risk_factor": "Geopolitical supply disruption",
+      "materials": [
+        "Steel",
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "War and climate change drive surge in global shipping costs - Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
+      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
         "PP",
@@ -125,6 +125,21 @@
       "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
       "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "T\u00fcrkiye\u2019s minimum wage debate heats up under inflation\u2019s shadow amid living cost strain - T\u00fcrkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclpoeXhyR0psXzNVSGtLVS1fOXlzakMtUl9KajRmeGd5Q3VUWUlNLWdINGk1YUlybGU4anp2U2hlcmlDVFl1aEJrdk5VMkwxeU9UeURjY1p5T2xCM0xaVklDSWlNSmlzWWtnMmhtYzIzbHR1OVVZdko4OERBUDBmTnQzSDNYSHZSNzN0UTdYVVZxVUdoSnFBcmJNMGlfX1RzSkRoZ243TU5panMtVFd3UDdMS2V0MXV4RmRhX1pKUnBuWFZpQzExb2xkcw?oc=5",
+      "published": "Tue, 09 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -165,8 +180,23 @@
         "PA6",
         "Steel"
       ],
+      "value": "30,000 lira",
+      "severity": "medium",
+      "headline": "Turkey\u2019s hunger line nears 30,000 lira for family of 4 as minimum wage talks begin - Stockholm Center for Freedom",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeFFXd3k4TTZzbzdBUXJ4TkJiQXR2dVpDYkNJQnl2SFdrdENveEUzdGtPZVNxQlk3Qnhzc2w0QjZDOHV3bXA1VThSYmRlWTRzTXlPQmdZWHllSXJJT3ZKRjdfVkl5UVhJNndSMXdXOUR4UFdlRFFaMEVqcjZrZDJMQThvR3JPcnR4dGhFOURjUjZYbWxhTm9VYl9ndGU2bVphN1dUN1RCSkg?oc=5",
+      "published": "Mon, 15 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
       "value": null,
-      "severity": "low",
+      "severity": "medium",
       "headline": "'Condemned to hunger': Turkey's below-inflation minimum wage rise sparks anger - Middle East Eye",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVByNEFlR05IWWhaODBpOVpJMFhCRkpwaXVfWTNpcUs1VDMtczJpY1FDdDZhaGtNZUhCUVJxdzhYanpZbmthWGNfQjNoZWNmZk5PejZRbFNHUURMMVFRSEtXV2JnQnFFMW00cUdoOTFHVGJPdE5UUXo3RTVaaVFXV1ZOVjd6Ukg4ZUZzd0lQRVo?oc=5",
       "published": "Fri, 27 Dec 2024 08:00:00 GMT",
@@ -181,7 +211,7 @@
         "PP"
       ],
       "value": null,
-      "severity": "low",
+      "severity": "medium",
       "headline": "TRADE REVIEW: Turkish deepsea import scrap likely to face additional downside pressure in Q3 - S&P Global",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOekZtZmJ3Vkg0ZmlWb0ppdjNlQ1haQkdxaFZOMkV4dzBWN2ZMaFVRX2tYWktrekVURmY4X0VMdzhlZWdmS2tESEJYbUx3eHVpX0h4M2dXempnR29vcXdGZk9oYTdxQ0xoZVlkQmlsd2p3enc3LVEzYkVGZTBUc3Y1cGJkanJBMlgxWjE3RVZCQnZ0d3hNNlkxZmNDV05feDM1MjRpY2Qxd0pSQngwXzFyNmhwRzMtNVl5OTlGNzNZeE1vbHdVdHIyVUxidW5NejZMNVplbTBYdEx1V3BzSU1XYk1PaDd4amtsLTBzOGZmM1VneDRFNnRUbUdB?oc=5",
       "published": "Fri, 17 Jul 2026 07:00:00 GMT",
@@ -195,26 +225,11 @@
         "PA6",
         "PP"
       ],
-      "value": "585",
-      "severity": "low",
-      "headline": "[Turkey] Turkish domestic rebar prices continued to rise to 585 USD/to - Shanghai Metals Market",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORGRQUlp4UExjUUlYMzRzQlh3c1htNzg4Z2ZaY3BfQ0xvemM2R1dPdkhJZWdvWjJ1UkdZTGM4X3hnZEc4VmR5bDU5QTdIdEM5ejNwZ1BqRFAxaDByREcxZ2VibkcySVlhVVV6cW1QYWRJQ3c4VG5fMUh3VUtHNWp2M292NnM3a1lFOFpNMFNGLWtQSXNRMktPMzhBUzlsUGxXeVFNYkhkWTNiZDBRZ0JyQ0Vla0lpSUc1Y3JvYlZETWJzcjFRSVBmTXoyRi1KQ3dvc2lnYlh3?oc=5",
-      "published": "Thu, 20 Aug 2026 09:54:58 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
       "value": "10%",
       "severity": "medium",
-      "headline": "Global scrap prices rose by up to 10% in April - GMK Center",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXNTlGdXNfc0lGbWhPZ19HS1lSOUg4YS1BTDJHdjN2TlpOVVNrWF9QdUlrN3VHendqYmQtZnNTQW9HcXdWRmdUbDh0VnZqQmNvanBJVFZvRmlZQmQ0bktNTFY3NVk3V3FLdkV4LW9sTUowSUVJeF9TNHQ2LWVHd9IBgwFBVV95cUxOWjVsTXpmN1Q5MDAwQ2ROSEtnVzZKMWR1bWZ2dzFDSFpTR0NoMy1pamFMYWZUaC1ySEc4UXhpTGF4Yk5CTVpfV2ZScC1pTWxCLWlLU0gzV2x3UjU3ZXMxc1R0bWxoaGh2MlBtVWtnVWxLOUZTX0VWTzFnQy00T05IbG9ZVQ?oc=5",
-      "published": "Tue, 05 May 2026 07:00:00 GMT",
+      "headline": "Scrap Metal Prices March 2026: Turkey & US Lead Gains, EU Stabilizes - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcTJmc2pYUzByYVFYaHVPeGZOMjBxOVhqdm1lY1h3WTZMNWtONzNsYWZndzcwUFZIWV8tQjJRbzNLcWJFc2ZtbGlUN3p0S3Yycl9WczN3N2NKMksyd05WNVc3WlBQYTJMMlZyQS12YXlwYlRvdmYwSXB2Y3RIb21GYVFIUnlxQ1BYQmt2VGI1dEFMem1fT3k1VWNuYWxQY0xmRm1SbVh2WU1iYzFPX1I1amxCcTVHQQ?oc=5",
+      "published": "Thu, 26 Mar 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -256,25 +271,10 @@
         "PP"
       ],
       "value": null,
-      "severity": "high",
+      "severity": "medium",
       "headline": "May 2026: Price Trajectory for All Resins Shifts Sharply Upward - Plastics Technology",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbWNMWEMzVDRyZ1BTQTNhOTlkTWd4cHFnQWpDOS1ZRmxxYjBFRlVqZmNzaC1PY3pqTHg1MzZhakRuZnVvX0xwclZYa1JFUGZncUNIT2ZTbGVDWVMycWtRX0hKNmpYd1JaX29sb0wzaV9lTklDX3BzQ0VzdHVSMlJpb243UFQ0eVN3MWs0VGFjT3E2QThoNzFiTWNlVEw?oc=5",
       "published": "Wed, 06 May 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "INSIGHT: US chemical price hikes ramp up on Middle East crisis, stock prices surge - ICIS",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNHdKZks1OTdXZFpZbmNGUFY3Umd1anhEbXlPaEFIRVBBbURmSTVmQjM5cnRWRzdOR1BaQS1vdzRfanJUWERRZ3FoR0FZZW92YW5BdnlrRm8xZDFNT0kyZ3BHeEZlLVk5a3RYODM2QnRPM0dHMkRfWU1WRGpTSDZTUlhoUVAyQ3dRM2VHdXRGbUNVekQ0enFJWWR3QWtfLUFwb2dzd0dGTndqMGtCeFFGQXAxRXg2aE1mdG9waExlWmE1dmFRbmNIYjYyWmxsR190Zm9mTm1iSWk4cHYtdVE?oc=5",
-      "published": "Fri, 13 Mar 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     }
@@ -284,14 +284,14 @@
       "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
+      "headline": "Chinese Container Liners Head for Profit Jump as Rates Surge - gCaptain",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
       "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
+      "headline": "Chinese Container Liners Head for Profit Jump as Rates Surge - gCaptain",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
