@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:20:21+00:00",
+  "generated_at": "2026-09-09T09:22:42+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,17 +67,17 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-09-08T09:20:15+00:00",
+    "generated_at": "2026-09-09T09:22:37+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 48.4336,
-      "rate_date": "2026-09-07",
-      "reference_rate": 47.6085,
-      "reference_date": "2026-08-07",
-      "change_pct": 1.73,
+      "rate": 48.4598,
+      "rate_date": "2026-09-08",
+      "reference_rate": 47.7118,
+      "reference_date": "2026-08-10",
+      "change_pct": 1.57,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -90,10 +90,24 @@
           "PP"
         ],
         "value": null,
-        "severity": "medium",
+        "severity": "high",
         "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
         "published": "Fri, 21 Aug 2026 10:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "high",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+        "published": "Wed, 08 Jul 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -108,6 +122,20 @@
         "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa3BPV1gzQm1LUm9mU0o4d1lkTHZJNFFHRjhtc1Z0dlRXcjRBYW5zZnotYXBsT1hlUmJvMGtLZW1OYWlYajI0c3MzRFZ2UDNtZDNuZUpXVXU5elo1anNqVGExSE9rTHg3UDYxN3djOGlJQmVrOVNLbUtMZFZJdjdEdm5qVWtRMzdZVkVCOUlDT21kc0Fn?oc=5",
         "published": "Tue, 18 Aug 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "high",
+        "headline": "Chinese Container Liners Head for Profit Jump as Rates Surge - gCaptain",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRVVYYTNNUDFEUjBQU2NyQVFPa2x2Y0JHOUFoYXBRQXBDN001VTZHRFVtZzJVWlNLOVVrb2NKLWRGRzBKN28taEgyN3BMYnBRdU41Yk5TYnBwTE4zekhJeUhkQXlNMHFZVjlVSlJpYl9fd3V6Mm1PcVROVE44NUxRSTBuaGcxOHlKUmc?oc=5",
+        "published": "Thu, 27 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -127,20 +155,6 @@
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "high",
-        "headline": "Chinese Container Liners Head for Profit Jump as Rates Surge - gCaptain",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRVVYYTNNUDFEUjBQU2NyQVFPa2x2Y0JHOUFoYXBRQXBDN001VTZHRFVtZzJVWlNLOVVrb2NKLWRGRzBKN28taEgyN3BMYnBRdU41Yk5TYnBwTE4zekhJeUhkQXlNMHFZVjlVSlJpYl9fd3V6Mm1PcVROVE44NUxRSTBuaGcxOHlKUmc?oc=5",
-        "published": "Thu, 27 Aug 2026 07:00:00 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
         "risk_factor": "Turkey minimum wage increase",
         "materials": [
           "PP",
@@ -149,24 +163,9 @@
         ],
         "value": "27 percent",
         "severity": "medium",
-        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - turkishminute.com",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
         "published": "Wed, 24 Dec 2025 08:00:00 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Turkey minimum wage increase",
-        "materials": [
-          "PP",
-          "PA6",
-          "Steel"
-        ],
-        "value": "27%",
-        "severity": "medium",
-        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - Daily Sabah",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB?oc=5",
-        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -187,9 +186,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Red Sea shipping disruption",
-        "value": "+400%",
+        "value": null,
         "severity": "high",
-        "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
+        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -233,7 +232,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15% will directly raise local conversion costs, which means the current price level of EUR 1.17 per kg will not hold. With the price already trending up by 1.18% monthly, delaying the purchase by six months would add roughly EUR 49,600 to the annual spend of EUR 702,000. Secure the volume now to lock in today\u2019s rate before the wage-driven cost increase is passed on.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15% will directly raise local conversion costs, so current price levels will not hold and the upward trend will accelerate. Delaying the decision by six months would add about EUR 49,600 to the annual volume, based on the current EUR 702,000 spend. You should secure the price now, before the wage effect is fully reflected in supplier quotes.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -250,9 +249,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Red Sea shipping disruption",
-        "value": "+400%",
+        "value": null,
         "severity": "high",
-        "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
+        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -296,7 +295,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The PA6 price trend has been falling by 0.86 percent monthly, which would normally justify waiting, but the Red Sea shipping disruption is pushing freight costs up by 20 percent, and this increase will soon be reflected in local list prices. Buying now locks in the current EUR 2.64 per kg rate and avoids the risk of paying more once the freight surcharge hits, even though delaying six months could save about EUR 178,061 on the annual volume. Secure the annual volume of 1,300 tons at the current price before the end of this month to mitigate the macro risk.",
+      "negotiation_argument": "The local price trend is down, which would normally justify waiting, but the Red Sea shipping disruption is raising freight costs by 20 percent and this will feed into supplier list prices with a delay. Buying now at EUR 2.64 per kg locks in the current annual spend of EUR 3,432,000, whereas delaying six months would only save about EUR 178,061 but exposes us to a freight-driven price increase that could erase that gain. Secure the volume now to avoid the cost impact.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -359,7 +358,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The geopolitical supply disruption risk is severe and could drive costs far beyond the current upward trend, so committing now risks locking in a peak price. Although the monthly price increase of 1.05 percent suggests urgency, waiting is the safer course because extreme volatility makes the near-term direction unreliable. Therefore, delay the purchase decision for now, and revisit it only after the macro risk stabilizes, as acting today would expose the annual volume to an estimated EUR 246,230 in extra cost if the situation worsens within six months.",
+      "negotiation_argument": "The rising price trend suggests urgency, but the high severity of geopolitical supply disruption makes current market volatility extreme, so committing now risks buying at a peak. Delaying the decision by six months would cost about EUR 246,230 extra on the annual volume, yet this is preferable to locking in at an unsustainable high. The buyer should therefore hold off on any commitment and revisit the market in six months, when the disruption risk is clearer.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
