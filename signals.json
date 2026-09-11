@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:22:19+00:00",
+  "generated_at": "2026-09-11T09:20:34+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,16 +67,16 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-09-10T09:22:14+00:00",
+    "generated_at": "2026-09-11T09:20:30+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 48.4777,
-      "rate_date": "2026-09-09",
-      "reference_rate": 47.7364,
-      "reference_date": "2026-08-11",
+      "rate": 48.4941,
+      "rate_date": "2026-09-10",
+      "reference_rate": 47.7537,
+      "reference_date": "2026-08-12",
       "change_pct": 1.55,
       "lookback_days": 30,
       "is_risk": false
@@ -105,25 +105,24 @@
           "PP"
         ],
         "value": null,
-        "severity": "high",
-        "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQmVwRXFGcmp1YTI1QmFOc1YyUk5KbXZCdFVBWnNEMWpZeXRuc3NDbEJBMlp0RWdIUjZUT3RQajJEamo0Zi1kcHh1eVhweWRBTjgyam5iclhRYkJpNTg2LWJXbV90WXZsdW9Vd1d3R2daRmdSMXNsWTZSUTFfUjBKeEhMU2U2WktERXZIcXpVTlEtNm9MVkZkTXNZQk5nSDVfYjBvWWEtZndLZkR0X181ZlZNa0V1ak1wZDA4ZWN5SFBPdnplR3FwWlF3eVc?oc=5",
-        "published": "Sat, 28 Feb 2026 17:31:12 GMT",
+        "severity": "medium",
+        "headline": "War and climate change drive surge in global shipping costs - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
+        "published": "Sun, 16 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "Steel",
           "PA6",
           "PP"
         ],
         "value": null,
-        "severity": "medium",
-        "headline": "War and climate change drive surge in global shipping costs - ft.com",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
-        "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+        "severity": "high",
+        "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kQjB4ckFaQjdsQnZ2bERRbGZZeFJQTHl4YlpKQVpabWJFSWxVUUlRakVlZGl5QnpJME1yd2lqdEdTaDgtYkRYRzFXSGZIU0g3UENwS1RTbmtZNm41TEtsNldiSWdRbzJFT1JlSzctWjF3Sks5aFE?oc=5",
+        "published": "Wed, 19 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -149,11 +148,11 @@
           "PA6",
           "Steel"
         ],
-        "value": "30%",
-        "severity": "medium",
-        "headline": "Turkey announces 30% increase in minimum wage, set to impact foreign skilled workers - Business News Nigeria",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcTRiZ1BnUmJYZHZKdWszNGYxelN5SFA5NC1OSFg4c05yeC00T3dMNzJHVzE4Nk9IZGZ2WWtWSlcxakhQbjNMcmV6MWMwbFVhMWNvaVZUbW50cjkzRHdkbXNlN05QSU5SREh6SEZUcWdIN0M3aDBiMU5BbHNyUWFuMTJsLWR5azJlYm9KT0tIVk81WFdqelFWV1ZtdzNMekEtMHhpVWxlUUluQVZhbklORFU2a1N3SHA3ZXF3bFFLeERUUVZrQnZv?oc=5",
-        "published": "Fri, 08 May 2026 23:52:32 GMT",
+        "value": null,
+        "severity": "low",
+        "headline": "T\u00fcrkiye\u2019s minimum wage debate heats up under inflation\u2019s shadow amid living cost strain - T\u00fcrkiye Today",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclpoeXhyR0psXzNVSGtLVS1fOXlzakMtUl9KajRmeGd5Q3VUWUlNLWdINGk1YUlybGU4anp2U2hlcmlDVFl1aEJrdk5VMkwxeU9UeURjY1p5T2xCM0xaVklDSWlNSmlzWWtnMmhtYzIzbHR1OVVZdko4OERBUDBmTnQzSDNYSHZSNzN0UTdYVVZxVUdoSnFBcmJNMGlfX1RzSkRoZ243TU5panMtVFd3UDdMS2V0MXV4RmRhX1pKUnBuWFZpQzExb2xkcw?oc=5",
+        "published": "Tue, 09 Dec 2025 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -166,7 +165,7 @@
         ],
         "value": "27%",
         "severity": "medium",
-        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - dailysabah.com",
+        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - Daily Sabah",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB?oc=5",
         "published": "Tue, 23 Dec 2025 08:00:00 GMT",
         "matched_on": null,
@@ -188,10 +187,10 @@
       "driver_value": "+15%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "value": null,
         "severity": "high",
-        "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+        "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -235,7 +234,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent per month on average over the last three months, the current price of EUR 1.17 per kg will not hold. On your annual volume of 600 tons, or EUR 702,000, waiting six months would add about EUR 49,600. You should therefore agree the purchase now, at the current price level.",
+      "negotiation_argument": "The minimum wage increase in Turkey of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent per month on average over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons at today's EUR 1.17 per kg without delay.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -251,10 +250,10 @@
       "driver_value": "Freight costs +20%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "value": null,
         "severity": "high",
-        "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+        "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -298,7 +297,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, which argues against relying on the recent downward trend of -0.86 percent per month. Although waiting six months could save about EUR 178,061 on the annual volume, that saving assumes the current trend holds and does not account for the freight-driven increase. The buyer should therefore secure the 1,300 tons per year at EUR 2.64 per kg now, before the freight effect reaches local list prices.",
+      "negotiation_argument": "The Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, which argues against relying on the recent downward trend of -0.86 percent per month. Although waiting six months could save about EUR 178,061 on the annual volume, that saving assumes the current trend continues and does not account for the freight-driven increase. The buyer should therefore secure the 1,300 tons per year at EUR 2.64 per kg now, before the freight cost effect appears in supplier prices.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -317,7 +316,7 @@
         "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+        "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -361,7 +360,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and the current upward trend of +1.05 percent per month argues against waiting. However, because market volatility is extreme, committing now risks buying at a peak, so the buyer should delay the decision despite the potential extra cost of about EUR 246,230 on the annual volume. The buyer should hold off for now and revisit the position once the volatility settles.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and the current upward trend of +1.05 percent per month argues against waiting, yet committing now risks buying at a peak while volatility remains extreme. Delaying the decision by six months would cost about EUR 246,230 extra on the annual volume, but the buyer should still hold off and revisit the commitment once the supply picture stabilises.",
       "argument_source": "deepseek-v4-flash"
     }
   ]

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-10T09:22:14+00:00",
+  "generated_at": "2026-09-11T09:20:30+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 48.4777,
-      "rate_date": "2026-09-09",
-      "reference_rate": 47.7364,
-      "reference_date": "2026-08-11",
+      "rate": 48.4941,
+      "rate_date": "2026-09-10",
+      "reference_rate": 47.7537,
+      "reference_date": "2026-08-12",
       "change_pct": 1.55,
       "lookback_days": 30,
       "is_risk": false
@@ -49,25 +49,24 @@
         "PP"
       ],
       "value": null,
-      "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQmVwRXFGcmp1YTI1QmFOc1YyUk5KbXZCdFVBWnNEMWpZeXRuc3NDbEJBMlp0RWdIUjZUT3RQajJEamo0Zi1kcHh1eVhweWRBTjgyam5iclhRYkJpNTg2LWJXbV90WXZsdW9Vd1d3R2daRmdSMXNsWTZSUTFfUjBKeEhMU2U2WktERXZIcXpVTlEtNm9MVkZkTXNZQk5nSDVfYjBvWWEtZndLZkR0X181ZlZNa0V1ak1wZDA4ZWN5SFBPdnplR3FwWlF3eVc?oc=5",
-      "published": "Sat, 28 Feb 2026 17:31:12 GMT",
+      "severity": "medium",
+      "headline": "War and climate change drive surge in global shipping costs - Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
+      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "materials": [
-        "Steel",
         "PA6",
         "PP"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "War and climate change drive surge in global shipping costs - ft.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
-      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kQjB4ckFaQjdsQnZ2bERRbGZZeFJQTHl4YlpKQVpabWJFSWxVUUlRakVlZGl5QnpJME1yd2lqdEdTaDgtYkRYRzFXSGZIU0g3UENwS1RTbmtZNm41TEtsNldiSWdRbzJFT1JlSzctWjF3Sks5aFE?oc=5",
+      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -93,11 +92,11 @@
         "PA6",
         "Steel"
       ],
-      "value": "30%",
-      "severity": "medium",
-      "headline": "Turkey announces 30% increase in minimum wage, set to impact foreign skilled workers - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcTRiZ1BnUmJYZHZKdWszNGYxelN5SFA5NC1OSFg4c05yeC00T3dMNzJHVzE4Nk9IZGZ2WWtWSlcxakhQbjNMcmV6MWMwbFVhMWNvaVZUbW50cjkzRHdkbXNlN05QSU5SREh6SEZUcWdIN0M3aDBiMU5BbHNyUWFuMTJsLWR5azJlYm9KT0tIVk81WFdqelFWV1ZtdzNMekEtMHhpVWxlUUluQVZhbklORFU2a1N3SHA3ZXF3bFFLeERUUVZrQnZv?oc=5",
-      "published": "Fri, 08 May 2026 23:52:32 GMT",
+      "value": null,
+      "severity": "low",
+      "headline": "T\u00fcrkiye\u2019s minimum wage debate heats up under inflation\u2019s shadow amid living cost strain - T\u00fcrkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclpoeXhyR0psXzNVSGtLVS1fOXlzakMtUl9KajRmeGd5Q3VUWUlNLWdINGk1YUlybGU4anp2U2hlcmlDVFl1aEJrdk5VMkwxeU9UeURjY1p5T2xCM0xaVklDSWlNSmlzWWtnMmhtYzIzbHR1OVVZdko4OERBUDBmTnQzSDNYSHZSNzN0UTdYVVZxVUdoSnFBcmJNMGlfX1RzSkRoZ243TU5panMtVFd3UDdMS2V0MXV4RmRhX1pKUnBuWFZpQzExb2xkcw?oc=5",
+      "published": "Tue, 09 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -110,7 +109,7 @@
       ],
       "value": "27%",
       "severity": "medium",
-      "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - dailysabah.com",
+      "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - Daily Sabah",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "matched_on": null,
@@ -139,10 +138,25 @@
         "Steel"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "'Condemned to hunger': Turkey's below-inflation minimum wage rise sparks anger - Middle East Eye",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVByNEFlR05IWWhaODBpOVpJMFhCRkpwaXVfWTNpcUs1VDMtczJpY1FDdDZhaGtNZUhCUVJxdzhYanpZbmthWGNfQjNoZWNmZk5PejZRbFNHUURMMVFRSEtXV2JnQnFFMW00cUdoOTFHVGJPdE5UUXo3RTVaaVFXV1ZOVjd6Ukg4ZUZzd0lQRVo?oc=5",
-      "published": "Fri, 27 Dec 2024 08:00:00 GMT",
+      "severity": "low",
+      "headline": "Turkey\u2019s unions press for substantial raise ahead of 2026 minimum wage talks amid soaring cost of living - Turkish Minute",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTlhTZ1gzZHRVNHNqLVdsZHh2ZVBtQUlfX2gwbmtfUndJN0RPSFNsMDhfbzkyUEtHbkhaTV9rYTFpTXZmWF9RSEhmZzRmaVNsekE3ekV6VkZ5OEZPT1RWcEJ4NFdyZ29WUGxzZmhScDRpYVFMNHdTTW4yQkRZZVRzdFRCZU8xczk4YmU1c2pndy1mRE5DNk9MSThLdHRRVTZTRzdiSHJwZnRkZE03ZVVZY3ptamxReXdWUGd3M09vQU1BZm8tLXFfYlM5c1ByR0FoX1ZBeXpuMlowQkpRaXfSAeMBQVVfeXFMUEdBSV94cjBEWHZHZlNXNTNkSzVTODA3Z0t6NmZJNDZzbFB5ejEzR1FDZ2pFeDQ1LThjZEdsVl9EV29uREJubDk0ZkdsZVlvd05RVzdZZzVNMVZ1T1NLRzdfaFRsdmpFSE5VT2stanZ5M3llS1htclpyck4tYm1nOGVpVlJwR1ZDcHFIRGprUHE0bTcwU0h2dWxmNGJ3YUhHZFV3ZExSSVBDU1d1T0Q1by1aNk5qQno5a0d2U2VKOUpsX2pwSkprWFFXRnNaZDNrc1hpcUphcXY2azVfVndFSlhFSEE?oc=5",
+      "published": "Wed, 03 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "low",
+      "headline": "Minimum Wage Debate for 2026: What Turkey\u2019s Government and Workers Are Saying - businessturkeytoday.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb3dGaFhfdTgweWhjVlllaVdSSFgycGplOUxRVVBJNGRKZ1NLWExsZjlXWnFVaThSSTRjSkFSeEo2dWtzYVJ4SmJfNVNxNHp4TkRTeHNPbW9TU0RkQ2ZNdlB3OXhUMEpVVlFKSEdjZmMtWGxKMGNieUhWZjk1U2Q0OUlQbUNzNXdzQW5aYm9qLW5WODJjZUFrUnNsWmh1ZHMwbmEwRXBEdk9iRndJSXROOGtB?oc=5",
+      "published": "Sat, 13 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -179,24 +193,24 @@
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
       "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
       "method": "deepseek-v4-flash"
     }
   }
