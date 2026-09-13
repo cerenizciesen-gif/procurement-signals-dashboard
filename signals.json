@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:59:52+00:00",
+  "generated_at": "2026-09-13T09:59:17+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,7 +67,7 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-09-12T08:59:47+00:00",
+    "generated_at": "2026-09-13T09:59:12+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
@@ -75,9 +75,9 @@
       "pair": "USD/TRY",
       "rate": 48.5178,
       "rate_date": "2026-09-11",
-      "reference_rate": 47.7717,
-      "reference_date": "2026-08-13",
-      "change_pct": 1.56,
+      "reference_rate": 47.8066,
+      "reference_date": "2026-08-14",
+      "change_pct": 1.49,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -104,21 +104,7 @@
           "PP"
         ],
         "value": null,
-        "severity": "medium",
-        "headline": "Why Container Freight Rates Have Not Fallen as Expected in H2 2026 - Xinde Maritime News",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvbG9ETnZVMk5XUzU2aHBDUExpSU5YTmdVV0tLNnR6c3ktR3J6TlNjeWhwSkNkYURSWjdIVUFtNEJ5cmE4anM5SE1lNmU5cHpPb3Z1UW1OOVhqa3c2ZXdpZVBLZkJoYkE?oc=5",
-        "published": "Tue, 08 Sep 2026 05:11:47 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "medium",
+        "severity": "high",
         "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
         "published": "Fri, 21 Aug 2026 10:00:00 GMT",
@@ -133,9 +119,9 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "War and climate change drive surge in global shipping costs - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
-        "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+        "headline": "Why Container Freight Rates Have Not Fallen as Expected in H2 2026 - Xinde Maritime News",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvbG9ETnZVMk5XUzU2aHBDUExpSU5YTmdVV0tLNnR6c3ktR3J6TlNjeWhwSkNkYURSWjdIVUFtNEJ5cmE4anM5SE1lNmU5cHpPb3Z1UW1OOVhqa3c2ZXdpZVBLZkJoYkE?oc=5",
+        "published": "Tue, 08 Sep 2026 05:11:47 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -146,10 +132,25 @@
           "PP"
         ],
         "value": null,
-        "severity": "medium",
+        "severity": "high",
         "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
         "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Geopolitical supply disruption",
+        "materials": [
+          "Steel",
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "high",
+        "headline": "War and climate change drive surge in global shipping costs - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
+        "published": "Sun, 16 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -184,9 +185,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Red Sea shipping disruption",
-        "value": "+400%",
+        "value": null,
         "severity": "high",
-        "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
+        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -230,7 +231,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15 percent is pushing up local conversion costs, and with PP prices already rising by an average of 1.18 percent per month, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons now at EUR 1.17 per kg.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15 percent is pushing local conversion costs up, and with PP prices already rising at an average of 1.18 percent per month, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons at today's EUR 1.17 per kg without further delay.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -247,9 +248,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Red Sea shipping disruption",
-        "value": "+400%",
+        "value": null,
         "severity": "high",
-        "headline": "Ocean Freight Rates Surge +400% \u2014 But Demand Isn\u2019t Driving It - FreightWaves",
+        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -293,7 +294,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, which outweighs the recent downward price trend of -0.86 percent per month. Although waiting six months could save about EUR 178,061 on the annual volume, the incoming freight-driven increase is the reason to buy now. The buyer should secure the 1,300 tons at EUR 2.64 per kg without delay.",
+      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, which outweighs the recent downward price trend of -0.86 percent per month. Although delaying the decision by six months would save about EUR 178,061 on the annual volume, that saving depends on prices continuing to fall and does not account for the freight-driven increase already in the pipeline. The buyer should therefore secure the 1,300 tons per year at EUR 2.64 per kg now, before the freight effect reaches local list prices.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -312,7 +313,7 @@
         "risk_factor": "Geopolitical supply disruption",
         "value": null,
         "severity": "high",
-        "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
+        "headline": "War and climate change drive surge in global shipping costs - Financial Times",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -356,7 +357,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is the macro risk here, and it is pushing steel prices up at an average of 1.05 percent per month, which means waiting six months would add about EUR 246,230 to the annual volume. Even so, with volatility this extreme, committing now risks buying at a peak, so the buyer should hold the decision and revisit it once the market settles.",
+      "negotiation_argument": "Geopolitical supply disruption is the macro risk here, and it is pushing steel costs upward, with prices already up over the last month and averaging a rise of 1.05 percent per month over the last three months. Although waiting six months would add roughly EUR 246,230 to the annual volume, the extreme market volatility means committing now risks buying at a peak, so the buyer should hold off and delay the decision by six months.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
