@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-16T09:39:23+00:00",
+  "generated_at": "2026-09-17T09:48:10+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 48.646,
-      "rate_date": "2026-09-15",
-      "reference_rate": 47.897,
-      "reference_date": "2026-08-17",
-      "change_pct": 1.56,
+      "rate": 48.6654,
+      "rate_date": "2026-09-16",
+      "reference_rate": 47.9155,
+      "reference_date": "2026-08-18",
+      "change_pct": 1.57,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -35,9 +35,23 @@
       ],
       "value": null,
       "severity": "medium",
-      "headline": "Spot rates hold steady as Hormuz flows improve, but Red Sea risks rise - homeaccentstoday.com",
+      "headline": "Spot rates hold steady as Hormuz flows improve, but Red Sea risks rise - Home Accents Today",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenlCR0tEOElGMUpXaHhyT1dZNS0ySml2Ql9EaEZHbHFfcGlFS2ktektZOXFPanJLcUpkbHlNbkljV0drNkpkM29EWG4tT0dselUtV3pzOWpYSGtfYjcwVU5wbW1mS2FEMFhkLVpYYkx5aU1VbVRoVGNtbnpzQkJWSVBNa0hqbzJzeDVtb3o1MlhmcFhQVUNDbXc3MGUtQlVPOGtDVjZqNGpwbDZLTVNacnhTS0F2aGc?oc=5",
       "published": "Fri, 11 Sep 2026 19:37:35 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "low",
+      "headline": "New return: Another container line is back in the Red Sea - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEdJSlZhSFg0VmV2cEJhcFNzZjhZdHZBeUFGbFZNY05KSmNESHNvSERtWTJWS2tzWkVvc2NockJOTjVEejRoclFIZ25vYzZDbjRRTUVpRm9RQzdOdklDdDVZN29tWEd6TnAyYUlneUQtT3ZudGFRZktMRVFVcVY5VDBiOWcyZ1d6dGpIZU9UVTZ3dUNt?oc=5",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -52,34 +66,6 @@
       "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
       "published": "Fri, 21 Aug 2026 10:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Why Container Freight Rates Have Not Fallen as Expected in H2 2026 - Xinde Maritime News",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvbG9ETnZVMk5XUzU2aHBDUExpSU5YTmdVV0tLNnR6c3ktR3J6TlNjeWhwSkNkYURSWjdIVUFtNEJ5cmE4anM5SE1lNmU5cHpPb3Z1UW1OOVhqa3c2ZXdpZVBLZkJoYkE?oc=5",
-      "published": "Tue, 08 Sep 2026 05:11:47 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Liners and Red Sea: Damn the Houthis, full speed ahead! - FreightWaves",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZklmVWlXWWdDNG9SV2c2WUlRZzEzcjYtSWcyeThQZzlWS3ZVeEJWckY5T1FIY3ZsSG9zUFYtaDNqemxUdkoyaXRqeWpJOTRybUN4Si1YOGh2ZTlqWWg0VnZFLTZLNC0wUTVmc3lSbmxUdnZTd3dQaXhpMGxoR3FiNFVlQlA0TjJjYmNrcTdWWQ?oc=5",
-      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -105,24 +91,9 @@
         "PA6",
         "Steel"
       ],
-      "value": "30%",
-      "severity": "medium",
-      "headline": "Turkey announces 30% increase in minimum wage, set to impact foreign skilled workers - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcTRiZ1BnUmJYZHZKdWszNGYxelN5SFA5NC1OSFg4c05yeC00T3dMNzJHVzE4Nk9IZGZ2WWtWSlcxakhQbjNMcmV6MWMwbFVhMWNvaVZUbW50cjkzRHdkbXNlN05QSU5SREh6SEZUcWdIN0M3aDBiMU5BbHNyUWFuMTJsLWR5azJlYm9KT0tIVk81WFdqelFWV1ZtdzNMekEtMHhpVWxlUUluQVZhbklORFU2a1N3SHA3ZXF3bFFLeERUUVZrQnZv?oc=5",
-      "published": "Fri, 08 May 2026 23:52:32 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
       "value": "27%",
       "severity": "medium",
-      "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
+      "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "matched_on": null,
@@ -135,11 +106,11 @@
         "PA6",
         "Steel"
       ],
-      "value": null,
-      "severity": "low",
-      "headline": "T\u00fcrkiye\u2019s minimum wage debate heats up under inflation\u2019s shadow amid living cost strain - T\u00fcrkiye Today",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOclpoeXhyR0psXzNVSGtLVS1fOXlzakMtUl9KajRmeGd5Q3VUWUlNLWdINGk1YUlybGU4anp2U2hlcmlDVFl1aEJrdk5VMkwxeU9UeURjY1p5T2xCM0xaVklDSWlNSmlzWWtnMmhtYzIzbHR1OVVZdko4OERBUDBmTnQzSDNYSHZSNzN0UTdYVVZxVUdoSnFBcmJNMGlfX1RzSkRoZ243TU5panMtVFd3UDdMS2V0MXV4RmRhX1pKUnBuWFZpQzExb2xkcw?oc=5",
-      "published": "Tue, 09 Dec 2025 08:00:00 GMT",
+      "value": "27%",
+      "severity": "medium",
+      "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 to \u20ba28,075 - T\u00fcrkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjlFaC1NMTFEd1piX1dJN1NoZGpfRm9FZ0NUMk1EX0NiWWlBUkRxMnpRLWY1akFzVFBsRVBLVDJLZXFDalpQMW56Z3R4N1VyVnNRbnhhOEZ4d2VXWjBReXhPS2NCaFh1X29WcWV4a2F3RDBHcHJlWkV2c25GSVlCWTdhSmlUTENwTzh2alRpSGp0SUlfZzJ2ZjRwZWM?oc=5",
+      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -155,6 +126,36 @@
       "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - Daily Sabah",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "low",
+      "headline": "Turkey\u2019s hunger line nears 30,000 lira for family of 4 as minimum wage talks begin - Stockholm Center for Freedom",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeFFXd3k4TTZzbzdBUXJ4TkJiQXR2dVpDYkNJQnl2SFdrdENveEUzdGtPZVNxQlk3Qnhzc2w0QjZDOHV3bXA1VThSYmRlWTRzTXlPQmdZWHllSXJJT3ZKRjdfVkl5UVhJNndSMXdXOUR4UFdlRFFaMEVqcjZrZDJMQThvR3JPcnR4dGhFOURjUjZYbWxhTm9VYl9ndGU2bVphN1dUN1RCSkg?oc=5",
+      "published": "Mon, 15 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": "27 Percent",
+      "severity": "medium",
+      "headline": "Turkey\u2019s Minimum Wage Surges 27 Percent - WWD",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPczUzcTFaT1FJMHpfZkJ4ZXVTMGRHckJfcGxTT05WMmJUMUwwZFp5Y0ZucEk2b2tXZ0U5MWp3N3V3Ui1aNlppTXhob1F2ZnhyRVZ4by1UZHZUMUxpMWJxUFBlZ2txbktUckV3a2xNNmFvRTJPZ3FFaDl6VkFsSDY4S1p4VGpITTlnUGZpWDBZSExING5rc1Y4Z21PTzY?oc=5",
+      "published": "Wed, 31 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
