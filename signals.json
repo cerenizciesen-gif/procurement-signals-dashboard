@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T09:09:48+00:00",
+  "generated_at": "2026-09-20T09:34:54+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,7 +67,7 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-09-19T09:09:43+00:00",
+    "generated_at": "2026-09-20T09:34:50+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
@@ -75,9 +75,9 @@
       "pair": "USD/TRY",
       "rate": 48.6992,
       "rate_date": "2026-09-18",
-      "reference_rate": 47.9504,
-      "reference_date": "2026-08-20",
-      "change_pct": 1.56,
+      "reference_rate": 47.9662,
+      "reference_date": "2026-08-21",
+      "change_pct": 1.53,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -91,7 +91,7 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Maersk stock surges on higher freight rates - Transport Topics",
+        "headline": "Maersk stock surges on higher freight rates - ttnews.com",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iUE15VHVydm9sODNGOEU0enI1LVRFSTAzZnZ1QVJBUXJpeVBnTmhCbFJXQjZIMGljNzJXTVg5S3JweFNnRnZuNzBCQ2RDbDFGVkVRN2todnNzMFhVTlVfUHc1MjN4anktVnc?oc=5",
         "published": "Tue, 15 Sep 2026 13:20:18 GMT",
         "matched_on": null,
@@ -132,10 +132,10 @@
           "PP"
         ],
         "value": null,
-        "severity": "medium",
-        "headline": "Chinese Container Liners Head for Profit Jump as Rates Surge - gCaptain",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRVVYYTNNUDFEUjBQU2NyQVFPa2x2Y0JHOUFoYXBRQXBDN001VTZHRFVtZzJVWlNLOVVrb2NKLWRGRzBKN28taEgyN3BMYnBRdU41Yk5TYnBwTE4zekhJeUhkQXlNMHFZVjlVSlJpYl9fd3V6Mm1PcVROVE44NUxRSTBuaGcxOHlKUmc?oc=5",
-        "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "severity": "low",
+        "headline": "New return: Another container line is back in the Red Sea - freightwaves.com",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEdJSlZhSFg0VmV2cEJhcFNzZjhZdHZBeUFGbFZNY05KSmNESHNvSERtWTJWS2tzWkVvc2NockJOTjVEejRoclFIZ25vYzZDbjRRTUVpRm9RQzdOdklDdDVZN29tWEd6TnAyYUlneUQtT3ZudGFRZktMRVFVcVY5VDBiOWcyZ1d6dGpIZU9UVTZ3dUNt?oc=5",
+        "published": "Tue, 25 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -147,23 +147,23 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
-        "published": "Fri, 21 Aug 2026 10:00:00 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "medium",
-        "headline": "Why Container Freight Rates Have Not Fallen as Expected in H2 2026 - Xinde Maritime News",
+        "headline": "Why Container Freight Rates Have Not Fallen as Expected in H2 2026 - xindemarinenews.com",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvbG9ETnZVMk5XUzU2aHBDUExpSU5YTmdVV0tLNnR6c3ktR3J6TlNjeWhwSkNkYURSWjdIVUFtNEJ5cmE4anM5SE1lNmU5cHpPb3Z1UW1OOVhqa3c2ZXdpZVBLZkJoYkE?oc=5",
         "published": "Tue, 08 Sep 2026 05:11:47 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "medium",
+        "headline": "The Chokepoint Premium: How the Strait of Hormuz and the Red Sea Are Raising the Cost of Global Trade - International Banker",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcDcxNEl6dnNmREtoR0k1bmlJTV8wRHkyeXZRYUp1cGZtRmRhWFRCN1VmdjBCbkUyRzJsV0VacGN0NDBsZUVNZ0RTS25qUE5HX0lMN3hxQ281VjN0dk5pZF8wNmFvd0hoUm9mVEpzd2R6SURhb2FNUzJSY0c2QnRrM3l1bzBmUW9xV3pwQlhHZG0zTVVHSlV0aENOTnVrNVZIeVRpNGs0VzBxbTI4SENLRkxzS3piODloOEtENEZoRk9UQlg2RHhrai1WVF95YXh6TWRVbQ?oc=5",
+        "published": "Wed, 12 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -230,7 +230,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The minimum wage increase in Turkey of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, the current price of EUR 1.17 per kg will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons per year at today's level and close the agreement now.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15 percent is pushing up local conversion costs, and with PP prices already rising by an average of 1.18 percent per month, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of 600 tons, so the buyer should secure the volume now at EUR 1.17 per kg.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -293,7 +293,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, which outweighs the recent softening trend of -0.86 percent per month. Although waiting six months could save about EUR 178,061 on the annual volume, that saving depends on prices continuing to fall while freight-driven cost pressure is already building. The buyer should therefore secure the 1,300 tons now at EUR 2.64 per kg rather than delay the decision.",
+      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, which outweighs the recent downward price trend of -0.86 percent per month. Although waiting six months could save about EUR 178,061 on the annual volume, that saving depends on prices continuing to fall and does not account for the freight-driven increase already in the pipeline. The buyer should therefore secure the 1,300 tons per year at EUR 2.64 per kg now, before the freight effect is reflected in supplier quotations.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -356,7 +356,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is the macro risk here, and it is pushing steel prices up at an average of 1.05 percent per month, which means committing now at EUR 785.0 per ton risks buying at a peak. Although waiting six months would cost about EUR 246,230 extra on the annual volume, the extreme volatility makes that a price worth accepting, so the buyer should hold off and revisit the decision once the market settles.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and with the price already up and averaging +1.05 percent per month over the last three months, committing now risks buying at a peak. Although waiting six months would cost about EUR 246,230 extra on the annual volume, the buyer should delay the decision and hold off on committing the 5,000 tons per year until the volatility settles.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
