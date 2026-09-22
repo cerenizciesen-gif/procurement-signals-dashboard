@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:23:03+00:00",
+  "generated_at": "2026-09-22T09:37:01+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,17 +67,17 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-09-21T10:22:58+00:00",
+    "generated_at": "2026-09-22T09:36:57+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 48.6992,
-      "rate_date": "2026-09-18",
+      "rate": 48.8009,
+      "rate_date": "2026-09-21",
       "reference_rate": 47.9662,
       "reference_date": "2026-08-21",
-      "change_pct": 1.53,
+      "change_pct": 1.74,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -91,9 +91,9 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Spot Rates Hold Steady as Hormuz Flows Improve, But Red Sea Risks Rise - Gifts & Decorative Accessories",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVpLUUMxTVU3end5N3RPVGFGQVA1NHAzQzBqYlROUHF0eElFVTlGbUMzOUw2NWpBM2NESjZwaF9URVlpS3VZQzNDeUxKZGVUT184OUFsZDFKUHNSdzVORkh3Y2trd3BWUURTaGRMVFRfdUc3U3JmcEZWZkZEYlcyWnBsTEJYb0RKVVpEN25RN0pzQm9Ic1Z0VzlFMnhucFk2dGp3UWxTbmVnX2hzdnR4Qw?oc=5",
-        "published": "Fri, 11 Sep 2026 16:07:24 GMT",
+        "headline": "Spot rates hold steady as Hormuz flows improve, but Red Sea risks rise - homeaccentstoday.com",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenlCR0tEOElGMUpXaHhyT1dZNS0ySml2Ql9EaEZHbHFfcGlFS2ktektZOXFPanJLcUpkbHlNbkljV0drNkpkM29EWG4tT0dselUtV3pzOWpYSGtfYjcwVU5wbW1mS2FEMFhkLVpYYkx5aU1VbVRoVGNtbnpzQkJWSVBNa0hqbzJzeDVtb3o1MlhmcFhQVUNDbXc3MGUtQlVPOGtDVjZqNGpwbDZLTVNacnhTS0F2aGc?oc=5",
+        "published": "Fri, 11 Sep 2026 19:37:35 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -119,7 +119,7 @@
           "Steel"
         ],
         "value": null,
-        "severity": "low",
+        "severity": "medium",
         "headline": "T\u00fcrkiye turns to 2nd meeting in talks on 2026 minimum wage hike - Daily Sabah",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSTZpUi1LWWEwWEJienR2U25JVDdSNGNkLXlVNzlKU0F1THotS0Uwa3J2LXBoMGZneGxxbjhVbm1ILThzaExwTFJvN19oTVNvcW16Tm4taTBCd0dyTWU2VnFGWUE0TkhneF9wODNaWnBvYjlLb19pVzV6ZkU4VWZNLXZTaUtKd2k1ZWRvdG9UcWFPb1B6U0t4ZGdGemsxSjc1V3RCamtOWXptMDQ?oc=5",
         "published": "Wed, 17 Dec 2025 08:00:00 GMT",
@@ -234,7 +234,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The minimum wage increase in Turkey of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent per month on average over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons at today's EUR 1.17 per kg without further delay.",
+      "negotiation_argument": "The minimum wage increase in Turkey of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent per month on average over the last three months, the current price of EUR 1.17 per kg will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons per year at today's level and close the negotiation now.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -297,7 +297,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, which is why waiting on the current downward trend of -0.86 percent per month is the riskier path despite the apparent saving of about EUR 178,061 from a six-month delay. On an annual volume of 1,300 tons at EUR 2.64 per kg, the buyer should secure the volume now rather than let freight-driven increases reset the price later. The buyer should open the negotiation on this basis and aim to close the agreement within the current month.",
+      "negotiation_argument": "The Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, so the current price of EUR 2.64 per kg will not hold. Although the price trend is down and delaying six months would save about EUR 178,061 on the annual volume, that saving assumes freight stays out of the price, which the macro risk makes unlikely. The buyer should therefore secure the 1,300 tons per year now, before the freight increase is passed through.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -360,7 +360,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is the macro risk here, and it is pushing steel prices up at an average of 1.05 percent per month, which means committing now at EUR 785.0 per ton risks buying at a peak. Although waiting six months would cost about EUR 246,230 extra on the annual volume, the extreme volatility makes that exposure preferable to locking in at the top, so the buyer should hold the decision and revisit it once the supply picture is clearer.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and with the price already up and averaging +1.05 percent per month over the last three months, committing now risks buying at a peak. Although waiting six months would cost about EUR 246,230 extra on the annual volume, the buyer should delay the commitment and hold the current EUR 785.0 per ton position under review rather than lock in during extreme volatility.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
