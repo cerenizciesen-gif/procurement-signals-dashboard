@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-25T09:58:50+00:00",
+  "generated_at": "2026-09-26T09:41:10+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 48.8549,
-      "rate_date": "2026-09-24",
-      "reference_rate": 48.1157,
-      "reference_date": "2026-08-26",
-      "change_pct": 1.54,
+      "rate": 48.878,
+      "rate_date": "2026-09-25",
+      "reference_rate": 48.1331,
+      "reference_date": "2026-08-27",
+      "change_pct": 1.55,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -34,62 +34,6 @@
         "PP"
       ],
       "value": null,
-      "severity": "low",
-      "headline": "Container Rates Edge Lower Ahead of Golden Week as Suez Traffic Returns - gCaptain",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUzUzcUw2dGtDMkUydVdBd0lkeWJJZWp3MVhoNExpLTlqa05TWWpnWF9wUGZBTnFpOWdZcjY3ZFlsSkhjYTl0RUVxdmxyb2xqNG5PaDROWlFkVkdLMjljcDEzZjBiZU1FcHVnS1h3b3RlSmdoQXEtU2VuemxhYV9VZHFKQ18wQVpXaFNwbmhfOHBhYmxnaGJTMw?oc=5",
-      "published": "Thu, 24 Sep 2026 16:06:10 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Maersk stock surges on higher freight rates - Transport Topics",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iUE15VHVydm9sODNGOEU0enI1LVRFSTAzZnZ1QVJBUXJpeVBnTmhCbFJXQjZIMGljNzJXTVg5S3JweFNnRnZuNzBCQ2RDbDFGVkVRN2todnNzMFhVTlVfUHc1MjN4anktVnc?oc=5",
-      "published": "Tue, 15 Sep 2026 13:20:18 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "low",
-      "headline": "Ocean freight rates cool despite continued price elevation - Supply Chain Dive",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkl2Z1REd0JvNDJ4aVB2bjIyQk53RFZUNGxuc3RSVHdGWGExVk5ZR2RJU1FLTTI0OXpWbzVfRmo3bUFDcHdIV0IzQ2FrUDR0bWlTdHBsUl9LbXdLMzlUQno3Rk83c1hlXzhrdFlIbi16TG1XdlFLZkotSFVfclFfOTdzRmM5RHViVkl2VWpQUmtvdU56NzN6VW5KQnJBNUVtWHB4a0J3?oc=5",
-      "published": "Wed, 09 Sep 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Against the odds: A red-hot ocean freight market takes the headlines - Scan Global Logistics",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY3AxVDNRUzgzT010VXhDX1lZWnRqZERta3ZrU2Y0YlB5RlNZYlUxb1dxbmxMMFNmSWxWNGlkZVVtYWJ6MHNxZC1fSnBVZnI3MmxXSndDYnk4OW9zcTRDWTAyaE5qZHRSN3gwSkE2Y1FyeTQ0dmFKa19qaGpiMkFZTm02dXRZRTFxMVVoRTFMMVl0RWlGYXRULUNEbWE?oc=5",
-      "published": "Mon, 14 Sep 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
       "severity": "medium",
       "headline": "Spot Rates Hold Steady as Hormuz Flows Improve, But Red Sea Risks Rise - Gifts & Decorative Accessories",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVpLUUMxTVU3end5N3RPVGFGQVA1NHAzQzBqYlROUHF0eElFVTlGbUMzOUw2NWpBM2NESjZwaF9URVlpS3VZQzNDeUxKZGVUT184OUFsZDFKUHNSdzVORkh3Y2trd3BWUURTaGRMVFRfdUc3U3JmcEZWZkZEYlcyWnBsTEJYb0RKVVpEN25RN0pzQm9Ic1Z0VzlFMnhucFk2dGp3UWxTbmVnX2hzdnR4Qw?oc=5",
@@ -98,17 +42,30 @@
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "materials": [
-        "Steel",
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "New return: Another container line is back in the Red Sea - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEdJSlZhSFg0VmV2cEJhcFNzZjhZdHZBeUFGbFZNY05KSmNESHNvSERtWTJWS2tzWkVvc2NockJOTjVEejRoclFIZ25vYzZDbjRRTUVpRm9RQzdOdklDdDVZN29tWEd6TnAyYUlneUQtT3ZudGFRZktMRVFVcVY5VDBiOWcyZ1d6dGpIZU9UVTZ3dUNt?oc=5",
+      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
         "PA6",
         "PP"
       ],
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQmVwRXFGcmp1YTI1QmFOc1YyUk5KbXZCdFVBWnNEMWpZeXRuc3NDbEJBMlp0RWdIUjZUT3RQajJEamo0Zi1kcHh1eVhweWRBTjgyam5iclhRYkJpNTg2LWJXbV90WXZsdW9Vd1d3R2daRmdSMXNsWTZSUTFfUjBKeEhMU2U2WktERXZIcXpVTlEtNm9MVkZkTXNZQk5nSDVfYjBvWWEtZndLZkR0X181ZlZNa0V1ak1wZDA4ZWN5SFBPdnplR3FwWlF3eVc?oc=5",
-      "published": "Sat, 28 Feb 2026 17:31:12 GMT",
+      "headline": "The Chokepoint Premium: How the Strait of Hormuz and the Red Sea Are Raising the Cost of Global Trade - International Banker",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcDcxNEl6dnNmREtoR0k1bmlJTV8wRHkyeXZRYUp1cGZtRmRhWFRCN1VmdjBCbkUyRzJsV0VacGN0NDBsZUVNZ0RTS25qUE5HX0lMN3hxQ281VjN0dk5pZF8wNmFvd0hoUm9mVEpzd2R6SURhb2FNUzJSY0c2QnRrM3l1bzBmUW9xV3pwQlhHZG0zTVVHSlV0aENOTnVrNVZIeVRpNGs0VzBxbTI4SENLRkxzS3piODloOEtENEZoRk9UQlg2RHhrai1WVF95YXh6TWRVbQ?oc=5",
+      "published": "Wed, 12 Aug 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -139,21 +96,6 @@
       "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
       "published": "Wed, 24 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": "30%",
-      "severity": "high",
-      "headline": "Turkey announces 30% increase in minimum wage, set to impact foreign skilled workers - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcTRiZ1BnUmJYZHZKdWszNGYxelN5SFA5NC1OSFg4c05yeC00T3dMNzJHVzE4Nk9IZGZ2WWtWSlcxakhQbjNMcmV6MWMwbFVhMWNvaVZUbW50cjkzRHdkbXNlN05QSU5SREh6SEZUcWdIN0M3aDBiMU5BbHNyUWFuMTJsLWR5azJlYm9KT0tIVk81WFdqelFWV1ZtdzNMekEtMHhpVWxlUUluQVZhbklORFU2a1N3SHA3ZXF3bFFLeERUUVZrQnZv?oc=5",
-      "published": "Fri, 08 May 2026 23:52:32 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -196,9 +138,24 @@
       ],
       "value": null,
       "severity": "medium",
-      "headline": "'Condemned to hunger': Turkey's below-inflation minimum wage rise sparks anger - Middle East Eye",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVByNEFlR05IWWhaODBpOVpJMFhCRkpwaXVfWTNpcUs1VDMtczJpY1FDdDZhaGtNZUhCUVJxdzhYanpZbmthWGNfQjNoZWNmZk5PejZRbFNHUURMMVFRSEtXV2JnQnFFMW00cUdoOTFHVGJPdE5UUXo3RTVaaVFXV1ZOVjd6Ukg4ZUZzd0lQRVo?oc=5",
-      "published": "Fri, 27 Dec 2024 08:00:00 GMT",
+      "headline": "Turkish metalworkers must prepare rank-and-file committee led strike against wage misery! - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzT291RHhITlNJQTZZTzZ3NktRdWpEY0lGckt4cUs1VEVjdlEwTkdCX1J2V0Fzc0dNM1dLX0w4d0tJazFvRVRGZHE1MkdWVE44RjdkWWtibEVHcUlBZ1FSUWxjanFQTW96?oc=5",
+      "published": "Fri, 26 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Turkey\u2019s unions press for substantial raise ahead of 2026 minimum wage talks amid soaring cost of living - Turkish Minute",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzllczdBcjlMbkk5RFE5S09CcVU1SnBQeWNyR2lDa2lRLXNhYVdtQTdIYTluMHVPN2ZYVDE0aEtpX05YRGhZNGU0ZHpvSE94b1ZHRGJoMnNkNGM3LUFxVldnZVFibDQ4dk5wdFRodlhxRlhGYi10WWRFVnJwSHcyZVV3dDBUcEpCRXdvbDQ5UHc1NXhrdEp6V1poQ25tV0cyMFNqRVR1MTR3bUVUYXFzdm1ZZU1BWXJseGhyaUVkYldVd0VrY0lBVzNwYnVFUjlJMXJ2ZENORnbSAd4BQVVfeXFMTmhKVGdyUUhQa1kwbUwzcEN3M1ZtSHBldG5HeVptZlBrVktNVWJKVV8yZ3V4aG1FQVYxMzE4VG5yVmQyRnVQaTBVdzBtZ21iNGZpNHVxSG5zWVpveXgyeGphT281WG5SUTU5anRLdkE2TG9UUjR6bTV5Vl9jRGh6anNmSS1MN3Zib0hsV21WN3BmdF9NMnZJbWR2blpsTUVnU09JNDUtdFFyanNtS1pUbTQ5OWUzZ2ZVNVVGUENfUFlhM1h6MGd6T29RVi00UVBqLXlNTENRYW5HSXFOYURB?oc=5",
+      "published": "Wed, 03 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -211,7 +168,7 @@
       ],
       "value": null,
       "severity": "high",
-      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
+      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - plasticsnews.com",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjd1VGU5S0hXR2ROajk4d3ExWDFWY2N5eXBXS2xQSWw4Qm5FTDNLTTNySThud0NGb1hPVHdmX1Z0Rk9leDlRVTRXN0RCUExzYWNNemtRSU5keV9jTDNBTWs3XzFuOE1MTWhSYkRGUFNEQUtDZC1PWDUtaFVpRjR3amhnRnp2UVZoWXJJa19Ha0ZvdlhR?oc=5",
       "published": "Thu, 07 May 2026 07:00:00 GMT",
       "matched_on": null,
@@ -226,7 +183,7 @@
       ],
       "value": null,
       "severity": "high",
-      "headline": "Middle East conflict drives plastics resin costs - plasticstoday.com",
+      "headline": "Middle East conflict drives plastics resin costs - PlasticsToday",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM3lNZ25oQ1NWUlBGY3VnakFYUDF2aGdzWnFBUFlIUXBySGdqSGVWZU9KTWM3V1ZLVjNkTTJGLVMtZzNzdGFGbS1VOWlGZUFfSnU3Qnh2eVpwNE9zbzBZNkluUzh6T0Zja3l2N19SSnZrck9aVnFlbUdYdHFtRzBMLUt0ckdMM2hwbktQTGRwMTN3N2JwV1dlXzdtTzg3VGEy?oc=5",
       "published": "Wed, 25 Mar 2026 07:00:00 GMT",
       "matched_on": null,
@@ -240,34 +197,34 @@
         "PP"
       ],
       "value": null,
-      "severity": "high",
-      "headline": "Iran war leads to unprecedented polymer price hikes in April - Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQXVIcS02R0lVNkJzM2NVLUdtdVhPb1lpVURjYWZZaTVFRnVsWUUxWElMZHRsQ3M0bU9RdHdfekhVUWYyQThLVEd2bEJ1cTd4V1drak9ZVmN3NzVqaVY4QUJQY2tqLWdaWEhURThyQTJ4TEFMS1BicHY4aEhUOV9Hd2ZxekhQa1BkUDk2NE9wNUkwcUE?oc=5",
-      "published": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "headline": "Packaging Raw-Material Prices Rise Amid Geopolitical Tensions - ESM Magazine",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTkV5aG5hRk5tRWRyLVR1RUJnOGhXLUJUbTFyMnZ5TWcyckc3LUhKaFg4V2p3d3Z2ZkFneFhxZGRCVWdzY2xhVDNpYTdxU1lXaWVUaDdTc2dVRXBsWmZyM21tMmxlUUhMTWRmcE9aOFVWVW8wLWxJaEZ5ek81NURMSDdfZEtXWVQ0NURuM01ScVEwTjdBM2ExYV81b2NoeHFORHJrbzFGZ0ZlRmtzUEEwSWJMSVpDQjlHMXpicV93XzVZZHkzMG82a0VPN2pmcFE?oc=5",
+      "published": "Thu, 09 Jul 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     }
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "The Chokepoint Premium: How the Strait of Hormuz and the Red Sea Are Raising the Cost of Global Trade - International Banker",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "The Chokepoint Premium: How the Strait of Hormuz and the Red Sea Are Raising the Cost of Global Trade - International Banker",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
-      "risk_factor": "Geopolitical supply disruption",
-      "value": null,
+      "risk_factor": "Turkey minimum wage increase",
+      "value": "27 percent",
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
       "method": "deepseek-v4-flash"
     }
   }
