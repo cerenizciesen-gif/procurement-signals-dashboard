@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-13T12:26:39+00:00",
+  "generated_at": "2026-10-14T09:54:19+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 49.3358,
-      "rate_date": "2026-10-12",
-      "reference_rate": 48.5178,
-      "reference_date": "2026-09-11",
-      "change_pct": 1.69,
+      "rate": 49.3681,
+      "rate_date": "2026-10-13",
+      "reference_rate": 48.6218,
+      "reference_date": "2026-09-14",
+      "change_pct": 1.53,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -35,37 +35,9 @@
       ],
       "value": null,
       "severity": "medium",
-      "headline": "Container Rates Edge Lower Ahead of Golden Week as Suez Traffic Returns - gCaptain",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUzUzcUw2dGtDMkUydVdBd0lkeWJJZWp3MVhoNExpLTlqa05TWWpnWF9wUGZBTnFpOWdZcjY3ZFlsSkhjYTl0RUVxdmxyb2xqNG5PaDROWlFkVkdLMjljcDEzZjBiZU1FcHVnS1h3b3RlSmdoQXEtU2VuemxhYV9VZHFKQ18wQVpXaFNwbmhfOHBhYmxnaGJTMw?oc=5",
-      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
       "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
       "published": "Fri, 21 Aug 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Maersk stock surges on higher freight rates - Transport Topics",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iUE15VHVydm9sODNGOEU0enI1LVRFSTAzZnZ1QVJBUXJpeVBnTmhCbFJXQjZIMGljNzJXTVg5S3JweFNnRnZuNzBCQ2RDbDFGVkVRN2todnNzMFhVTlVfUHc1MjN4anktVnc?oc=5",
-      "published": "Tue, 15 Sep 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -91,23 +63,9 @@
       ],
       "value": null,
       "severity": "low",
-      "headline": "New return: Another container line is back in the Red Sea - FreightWaves",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEdJSlZhSFg0VmV2cEJhcFNzZjhZdHZBeUFGbFZNY05KSmNESHNvSERtWTJWS2tzWkVvc2NockJOTjVEejRoclFIZ25vYzZDbjRRTUVpRm9RQzdOdklDdDVZN29tWEd6TnAyYUlneUQtT3ZudGFRZktMRVFVcVY5VDBiOWcyZ1d6dGpIZU9UVTZ3dUNt?oc=5",
-      "published": "Tue, 25 Aug 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "low",
-      "headline": "MSC Restores Direct Karachi Service to Seven European Ports - Retail News Asia",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTnk0aDZ6aHM1anRnM2YwZFhHV1B2aUh5eWQ2eWo5RTJvbjkzYXYtTGdVSkRYNEtzQnQwNlFGRkdlMEtuNERlZ3A0T01YWThWQjh6S1AtYl94cFB2enpQeFA3dzJyUlZuUUtTN3hGRTBQN0RWQ0NHcVZqbWVmOVRYeW50OEoyb1RRUnpv?oc=5",
-      "published": "Fri, 09 Oct 2026 05:38:38 GMT",
+      "headline": "Ocean freight rates cool despite continued price elevation - Supply Chain Dive",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkl2Z1REd0JvNDJ4aVB2bjIyQk53RFZUNGxuc3RSVHdGWGExVk5ZR2RJU1FLTTI0OXpWbzVfRmo3bUFDcHdIV0IzQ2FrUDR0bWlTdHBsUl9LbXdLMzlUQno3Rk83c1hlXzhrdFlIbi16TG1XdlFLZkotSFVfclFfOTdzRmM5RHViVkl2VWpQUmtvdU56NzN6VW5KQnJBNUVtWHB4a0J3?oc=5",
+      "published": "Wed, 09 Sep 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -118,7 +76,7 @@
         "PA6",
         "Steel"
       ],
-      "value": "27 percent",
+      "value": "27%",
       "severity": "medium",
       "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
