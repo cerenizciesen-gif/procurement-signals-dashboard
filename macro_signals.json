@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-22T09:49:09+00:00",
+  "generated_at": "2026-10-23T09:43:43+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 49.6015,
-      "rate_date": "2026-10-21",
-      "reference_rate": 48.8201,
-      "reference_date": "2026-09-22",
-      "change_pct": 1.6,
+      "rate": 49.6281,
+      "rate_date": "2026-10-22",
+      "reference_rate": 48.8377,
+      "reference_date": "2026-09-23",
+      "change_pct": 1.62,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -35,6 +35,34 @@
       ],
       "value": null,
       "severity": "medium",
+      "headline": "Suez return piles pressure on Asia-Europe container freight rates - TradeWinds News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaVYzZXBYV1JRczBxYkg2WVBjUl9FeGtkQlZlSjl5eXN4d2lfNWxoSmJuTk9zTElEdW1CY01ZVkFDNFhNTTM0OHR1SURrNnNZRnhtUEhXUWRUT2xWZzE0NFZKT19SdWNKNng0UHYySFN1SnpJRm5xcFdwbjBiUUNCYmg1X1Q1c3VKa2VnN25IeHFsY2hGZDV0ckZmOG01UDRNNG5ud0UzUURCNWh5WjVPOEh6OXJMWExfM0Jr?oc=5",
+      "published": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "high",
+      "headline": "Red Sea Crisis: Impact on Shipping Costs and Freight Rates - Grand View Research",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORUc4ZnBZRzdSeWpVWndHVlhxYWE4QXRaN3F1UHN5UGEtNHZHRUNRLWlCSkdGMjFkVW1FRWhDdE1ySTBqMmtfY25EUTZyU0ZOSGlweWpyUFd5WTJYd2x4enp1dFF4UTJ1NFVJanVmNnpSSHF5WTlzcXg5OEhfeHdwQzFBdVBLS1BfV1ZVSmdHX3lTNHAwemQ2YTBzNA?oc=5",
+      "published": "Thu, 15 Oct 2026 11:19:38 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
       "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
       "published": "Fri, 21 Aug 2026 07:00:00 GMT",
@@ -48,54 +76,10 @@
         "PP"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
-      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQmVwRXFGcmp1YTI1QmFOc1YyUk5KbXZCdFVBWnNEMWpZeXRuc3NDbEJBMlp0RWdIUjZUT3RQajJEamo0Zi1kcHh1eVhweWRBTjgyam5iclhRYkJpNTg2LWJXbV90WXZsdW9Vd1d3R2daRmdSMXNsWTZSUTFfUjBKeEhMU2U2WktERXZIcXpVTlEtNm9MVkZkTXNZQk5nSDVfYjBvWWEtZndLZkR0X181ZlZNa0V1ak1wZDA4ZWN5SFBPdnplR3FwWlF3eVc?oc=5",
-      "published": "Sat, 28 Feb 2026 17:31:12 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
-      "published": "Fri, 29 May 2026 20:16:08 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Maersk raises outlook again as strong demand, freight rates lift profit - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQW5qM2VYQ3RlX1Q5SWhodmtJeXJpTkI3YzNiMFBQc3l5VUlQOTctcGctMHIxaU1hdE03MmdodV9ub1V1YjQzSGlLcTN2MzEyY2dxSnlDSTc1U0JiY1BIcDNZNjk1MmFVVzFIRURheEVUVEwzeDR4S2trQ1B0eUJmWF9mb1F6cl9Kc3V3OWpOMWY4enZMbGd3ZFNjdUpYZHc0aXY0dXRuZkU0a3JHOHVsY3JVdmJGdXNL?oc=5",
-      "published": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "severity": "low",
+      "headline": "Container Rates Edge Lower Ahead of Golden Week as Suez Traffic Returns - gCaptain",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUzUzcUw2dGtDMkUydVdBd0lkeWJJZWp3MVhoNExpLTlqa05TWWpnWF9wUGZBTnFpOWdZcjY3ZFlsSkhjYTl0RUVxdmxyb2xqNG5PaDROWlFkVkdLMjljcDEzZjBiZU1FcHVnS1h3b3RlSmdoQXEtU2VuemxhYV9VZHFKQ18wQVpXaFNwbmhfOHBhYmxnaGJTMw?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -181,11 +165,11 @@
         "PA6",
         "Steel"
       ],
-      "value": null,
-      "severity": "low",
-      "headline": "Turkey\u2019s hunger line nears 30,000 lira for family of 4 as minimum wage talks begin - Stockholm Center for Freedom",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeFFXd3k4TTZzbzdBUXJ4TkJiQXR2dVpDYkNJQnl2SFdrdENveEUzdGtPZVNxQlk3Qnhzc2w0QjZDOHV3bXA1VThSYmRlWTRzTXlPQmdZWHllSXJJT3ZKRjdfVkl5UVhJNndSMXdXOUR4UFdlRFFaMEVqcjZrZDJMQThvR3JPcnR4dGhFOURjUjZYbWxhTm9VYl9ndGU2bVphN1dUN1RCSkg?oc=5",
-      "published": "Mon, 15 Dec 2025 08:00:00 GMT",
+      "value": "27%",
+      "severity": "medium",
+      "headline": "Turkey announces 27% minimum wage hike for 2026 - Bianet",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbXBJMDRKOE01Njdfb0VxQWdiYmVKU2JQM1NmVHgtOGt1eHB0OW9TeXF3MnNBbklkTHNiMGlnU3lfODBsVDloRnVvY01TTHUwckYwV2xlelZoWlFGbTRTMF9IVmplVUg3YjNzb2dodnNaaHU2Y2pOdGtjVVBLTGFnV0VYeGQ?oc=5",
+      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -227,22 +211,7 @@
         "PP"
       ],
       "value": null,
-      "severity": "high",
-      "headline": "Polypropylene prices rise globally following outbreak of Middle East war - S&P Global",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxON3lnT3UtTGlZb0xvR1pqNXBxZkxDM1dnd3d0bFRMa05BUks3bm1DTXptVE9xZnE5VkZRaE9rU0hEUnB0ZkF5SlZ5dVNRVllTQnpVbFVhbW9WU2t0SzNYZGNGeWhNV3Bta05JOHZaZFp2aEV6aWlpelE0dTRGR2V3aUZIVFAzNTU1Vmw3X0VfMlh6M2o4QlgzRU8xR3hnY0pEdnVCV0xfSGhBOEpVNWlpQi1rcDRSVVA3Y1hEVGw3THZmLUxhc01xRkxhRDFlR0pTRGk2YjlfWXdGRUNHQnJnWjZjUjc?oc=5",
-      "published": "Fri, 13 Mar 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "high",
+      "severity": "medium",
       "headline": "INSIGHT: US chemical price hikes ramp up on Middle East crisis, stock prices surge - ICIS",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNHdKZks1OTdXZFpZbmNGUFY3Umd1anhEbXlPaEFIRVBBbURmSTVmQjM5cnRWRzdOR1BaQS1vdzRfanJUWERRZ3FoR0FZZW92YW5BdnlrRm8xZDFNT0kyZ3BHeEZlLVk5a3RYODM2QnRPM0dHMkRfWU1WRGpTSDZTUlhoUVAyQ3dRM2VHdXRGbUNVekQ0enFJWWR3QWtfLUFwb2dzd0dGTndqMGtCeFFGQXAxRXg2aE1mdG9waExlWmE1dmFRbmNIYjYyWmxsR190Zm9mTm1iSWk4cHYtdVE?oc=5",
       "published": "Fri, 13 Mar 2026 07:00:00 GMT",
@@ -267,24 +236,24 @@
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "Red Sea Crisis: Impact on Shipping Costs and Freight Rates - Grand View Research",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Red Sea shipping disruption",
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "Red Sea Crisis: Impact on Shipping Costs and Freight Rates - Grand View Research",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
       "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF CONTAINER SHIPPING RETURN TO RED SEA - Xeneta",
+      "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
       "method": "deepseek-v4-flash"
     }
   }
