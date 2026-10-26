@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:33:24+00:00",
+  "generated_at": "2026-10-26T10:44:44+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,7 +67,7 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-10-25T09:33:19+00:00",
+    "generated_at": "2026-10-26T10:44:39+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
@@ -104,7 +104,7 @@
           "PP"
         ],
         "value": null,
-        "severity": "low",
+        "severity": "medium",
         "headline": "How new capacity is raising rates in chaotic ocean market - FreightWaves",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSV9lN0JoZjhkNDdkaUdVRXB1TWU1bVBwSkRUcmtvaEpjdmlrMEVxM2I5dTM4cmZ0eXdZaUxkSmh5RXItT0VYRl9UN1hFX3N5RXBtdTRVWXBIaHFucmk4SUw4N1liYVJxdHdjakFiVk51LW15ajkwN0VJT2J6eDhXOUlBbDhYTlloM205VFJrblR4QlhFMHc?oc=5",
         "published": "Tue, 20 Oct 2026 14:58:59 GMT",
@@ -133,23 +133,24 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Suez return piles pressure on Asia-Europe container freight rates - TradeWinds News",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaVYzZXBYV1JRczBxYkg2WVBjUl9FeGtkQlZlSjl5eXN4d2lfNWxoSmJuTk9zTElEdW1CY01ZVkFDNFhNTTM0OHR1SURrNnNZRnhtUEhXUWRUT2xWZzE0NFZKT19SdWNKNng0UHYySFN1SnpJRm5xcFdwbjBiUUNCYmg1X1Q1c3VKa2VnN25IeHFsY2hGZDV0ckZmOG01UDRNNG5ud0UzUURCNWh5WjVPOEh6OXJMWExfM0Jr?oc=5",
-        "published": "Wed, 07 Oct 2026 07:00:00 GMT",
+        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
+        "published": "Fri, 21 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Geopolitical supply disruption",
         "materials": [
+          "Steel",
           "PA6",
           "PP"
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Red Sea Crisis: Impact on Shipping Costs and Freight Rates - Grand View Research",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORUc4ZnBZRzdSeWpVWndHVlhxYWE4QXRaN3F1UHN5UGEtNHZHRUNRLWlCSkdGMjFkVW1FRWhDdE1ySTBqMmtfY25EUTZyU0ZOSGlweWpyUFd5WTJYd2x4enp1dFF4UTJ1NFVJanVmNnpSSHF5WTlzcXg5OEhfeHdwQzFBdVBLS1BfV1ZVSmdHX3lTNHAwemQ2YTBzNA?oc=5",
-        "published": "Thu, 15 Oct 2026 11:19:38 GMT",
+        "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
+        "published": "Fri, 29 May 2026 20:16:08 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -161,7 +162,7 @@
           "Steel"
         ],
         "value": "27 percent",
-        "severity": "medium",
+        "severity": "high",
         "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY3VJWWwyQ2h5NWJrd3dacE5HdmlENWliWDQ3UUZjR1VOMlBVLXAtWEZnVUU1QVU0bXlPUHRPdlZfLThJQ3E2THRHSVRVQnF3cDkydDcySVczSnBuU0UyeTZHQkRhU1Bxa2JLckVSQ0YxOTZiZFNQbWJ6UDczNFdXT0o3NEx3S1lsNTVRR2Z6Wjh1YVhzM2ZEN0ticlViZWMzOE1IdGN4X1Z5eU4wMjlDWDNfbE5iUdIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
         "published": "Wed, 24 Dec 2025 08:00:00 GMT",
@@ -184,10 +185,10 @@
       "driver_value": "+15%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
-        "value": null,
+        "risk_factor": "Turkey minimum wage increase",
+        "value": "27 percent",
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -231,7 +232,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up an average of 1.18 percent per month over the last three months, current levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600-ton annual volume now at the current EUR 1.17 per kg.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600-ton annual volume now at the current EUR 1.17 per kg.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -247,10 +248,10 @@
       "driver_value": "Freight costs +20%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
-        "value": null,
+        "risk_factor": "Turkey minimum wage increase",
+        "value": "27 percent",
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -294,7 +295,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, so the current downward trend of -0.86 percent per month should not be read as a reason to wait. Although delaying the decision by 6 months would save about EUR 178,061 on the annual volume of 1,300 tons, that saving depends on prices that the freight effect has not yet reached. The buyer should therefore secure the volume now, at the current EUR 2.64 per kg, before the freight-driven increase is reflected in local prices.",
+      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, so the recent downward trend of -0.86 percent per month should not be read as a reason to wait. Although delaying the decision by six months would save about EUR 178,061 on the annual volume of 1,300 tons, that saving depends on prices that the freight effect has not yet reached. The buyer should therefore secure the volume now, before the freight-driven increase is reflected in local prices.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -310,10 +311,10 @@
       "driver_value": "High severity",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
-        "value": null,
+        "risk_factor": "Turkey minimum wage increase",
+        "value": "27 percent",
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -357,7 +358,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is a high-severity risk that can push steel costs sharply higher, and although the price trend is rising at an average of 1.05 percent per month, market volatility is extreme and committing now risks buying at a peak. The buyer should therefore delay the decision, accepting that waiting six months could cost about EUR 246,230 extra on the annual volume, because that exposure is preferable to locking in at the top of a volatile market.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can abruptly raise steel costs, and although the price trend is rising at an average of 1.05 percent per month, market volatility is extreme, so committing now risks buying at a peak. Waiting six months could cost about EUR 246,230 extra on the annual volume of EUR 3,925,000, and the buyer should accept that exposure and hold the decision for six months rather than lock in at current levels.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
