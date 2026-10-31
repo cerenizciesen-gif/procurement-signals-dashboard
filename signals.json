@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:09:57+00:00",
+  "generated_at": "2026-10-31T10:42:48+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,89 +67,34 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-10-30T11:09:53+00:00",
+    "generated_at": "2026-10-31T10:42:43+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 49.7892,
-      "rate_date": "2026-10-27",
-      "reference_rate": 49.0184,
-      "reference_date": "2026-09-30",
-      "change_pct": 1.57,
+      "rate": 49.8644,
+      "rate_date": "2026-10-30",
+      "reference_rate": 49.0348,
+      "reference_date": "2026-10-01",
+      "change_pct": 1.69,
       "lookback_days": 30,
       "is_risk": false
     },
     "headlines_screened": 24,
     "findings": [
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Turkey minimum wage increase",
         "materials": [
+          "PP",
           "PA6",
-          "PP"
+          "Steel"
         ],
-        "value": null,
+        "value": "27 percent",
         "severity": "medium",
-        "headline": "Why container rates are climbing despite cooling demand - FreightWaves",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2hja1JPTF9ULU5jdUtib0pSTTZidi1PYkJsbFBMU2tLekc1RHlnQ3FvVmRuTTF3YUNRdGZ3b2lBcDYxaG9aajFiYjV5SFItNkhUSVQxTkJfaXdOMDhsMjgyUU1LRXo0am9WenVPS0tqakJEWk5EX0RnUmNiMncyeGswRmNBZTc5UF9adEY3cW9hcW8?oc=5",
-        "published": "Thu, 29 Oct 2026 18:39:34 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "medium",
-        "headline": "Red Sea Container Shipping Return Gains Pace as Capacity Doubles: Xeneta - Ship & Bunker",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdkRGVjVYci1wOUpacWQ0djB6dGhmTXZ0U05YYVRYTGowN1BCb3pEQ3AxZzdzam9CYmtGNGoyNmlDSU1UaFFvaXNiZjRrN1hBeWlpQW5zUDRndUpBWFo2NW1KX2xNMTJlWVdIRjl6ZGZSSWJzdldISkR0bC1sTDRWZE5abURjZFNyY2JUR2hyOVZKVmRpZl96VGM2WUtYU1dYS2JBNU9NN0V0R3lnV1laZl9yR1VDZw?oc=5",
-        "published": "Mon, 19 Oct 2026 05:21:57 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "medium",
-        "headline": "News Shippers stressing over risks from Suez Canal and Red Sea transits - The Loadstar",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdjQ4azJ2UWFoRWpuYVR4X1RKdHAwVkF1azZHX3IzYXNYSXBRbURiWjdkSzl2SEpHdzJIU2ZwVkJPSGFoZHlpclhGVE9FcGRxeWFpTU9hbGl1NktDcHFSU0l6Z09FOUZXTlpVaWZKdFBSazA4LUk5X0pjSmNPQ0hLQzE0dUtkSmpHOW5TRlFTdm9Nd0ZESnc?oc=5",
-        "published": "Mon, 12 Oct 2026 07:00:00 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": "6.8%",
-        "severity": "medium",
-        "headline": "Far East-Europe Spot Rates Rise 6.8% Despite Red Sea Capacity Return - News and Statistics - IndexBox",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUtLcE1kUl9POUFmLWd4UlloRDkyRm9DYXpQVWR2Ri1LaGVZcG53SzZlNFphNHhuTW9IcTUzdW43ZHFmcnFma2lCZGtfXzBVbDlIcDIyUmpsbTJyRktVLTJtbkdsYVZ4bjRCWGRWWVlXU3dNX1l2d200SmJvLURNQTVMVEo5cjJlWG9NNVd5dFpzM0FsSnA5Y2h3aE0?oc=5",
-        "published": "Fri, 23 Oct 2026 16:30:36 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Red Sea shipping disruption",
-        "materials": [
-          "PA6",
-          "PP"
-        ],
-        "value": null,
-        "severity": "medium",
-        "headline": "Maersk ups profit target by $2bn on Red Sea shipping woes - ET Infra",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUVZSQmlwSnR4QkM3UV9DaENLZTZZZ3htQkZSeTViLUtCTVNsVVlhOFJFQ2hkQlpyWXo0cDJvbEQ2Uk5ROWJfT0NHcU56dlQzanAteWN1RDBBNm9ldXZOLUJjSHpLVGNMVWtXNHJBbjM2NkRiUFBHOVBUQjd5R1owZlFKUGpwT1lkYnZUZE9kRWNxaUFyZFpWRnVBempRamhtMGFjSEVjMlJnbVpMUk51TFk5aWZnUUhCN1BqbnhwaEJ5N2VfOVNzeWFPVGI0RktvNEHSAcwBQVVfeXFMTmluZC1BaWNuaFhEZGl1Zllfa2N6elNZVV9Td1dFUjNUaEdVTEhYS1VreFlKa1FtdGUyOTU1YjBxVmJfMzRmOE45cGZIcXlfeDF4ajJFdjdWZkpiZWVnV2t2UmpuamNuUjVLQlBRSHlqR1lsb2RWS0NMeC1IUl9PMldjLWZYdlJUMm9ua2VYdXBQSnQ2U09EN0JwVy1uR05sVy1BeFVwbGhWOEFuWmdIcXBaMl9QWUZUUlc4Q21qOVgzSmhranZNWWh0T0h3?oc=5",
-        "published": "Thu, 29 Oct 2026 10:08:05 GMT",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
+        "published": "Wed, 24 Dec 2025 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -160,11 +105,41 @@
           "PA6",
           "Steel"
         ],
-        "value": null,
+        "value": "27%",
         "severity": "medium",
-        "headline": "Turkey\u2019s unions press for substantial raise ahead of 2026 minimum wage talks amid soaring cost of living - Turkish Minute",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzllczdBcjlMbkk5RFE5S09CcVU1SnBQeWNyR2lDa2lRLXNhYVdtQTdIYTluMHVPN2ZYVDE0aEtpX05YRGhZNGU0ZHpvSE94b1ZHRGJoMnNkNGM3LUFxVldnZVFibDQ4dk5wdFRodlhxRlhGYi10WWRFVnJwSHcyZVV3dDBUcEpCRXdvbDQ5UHc1NXhrdEp6V1poQ25tV0cyMFNqRVR1MTR3bUVUYXFzdm1ZZU1BWXJseGhyaUVkYldVd0VrY0lBVzNwYnVFUjlJMXJ2ZENORnbSAd4BQVVfeXFMTmhKVGdyUUhQa1kwbUwzcEN3M1ZtSHBldG5HeVptZlBrVktNVWJKVV8yZ3V4aG1FQVYxMzE4VG5yVmQyRnVQaTBVdzBtZ21iNGZpNHVxSG5zWVpveXgyeGphT281WG5SUTU5anRLdkE2TG9UUjR6bTV5Vl9jRGh6anNmSS1MN3Zib0hsV21WN3BmdF9NMnZJbWR2blpsTUVnU09JNDUtdFFyanNtS1pUbTQ5OWUzZ2ZVNVVGUENfUFlhM1h6MGd6T29RVi00UVBqLXlNTENRYW5HSXFOYURB?oc=5",
-        "published": "Wed, 03 Dec 2025 08:00:00 GMT",
+        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - Daily Sabah",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB?oc=5",
+        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Turkey minimum wage increase",
+        "materials": [
+          "PP",
+          "PA6",
+          "Steel"
+        ],
+        "value": "27%",
+        "severity": "medium",
+        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 to \u20ba28,075 - T\u00fcrkiye Today",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjlFaC1NMTFEd1piX1dJN1NoZGpfRm9FZ0NUMk1EX0NiWWlBUkRxMnpRLWY1akFzVFBsRVBLVDJLZXFDalpQMW56Z3R4N1VyVnNRbnhhOEZ4d2VXWjBReXhPS2NCaFh1X29WcWV4a2F3RDBHcHJlWkV2c25GSVlCWTdhSmlUTENwTzh2alRpSGp0SUlfZzJ2ZjRwZWM?oc=5",
+        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Turkey minimum wage increase",
+        "materials": [
+          "PP",
+          "PA6",
+          "Steel"
+        ],
+        "value": "27%",
+        "severity": "medium",
+        "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
+        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -185,9 +160,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Turkey minimum wage increase",
-        "value": "27%",
-        "severity": "high",
-        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - Daily Sabah",
+        "value": "27 percent",
+        "severity": "medium",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -231,7 +206,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should conclude the purchase now at the current price of EUR 1.17 per kg.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons at today's EUR 1.17 per kg and close the purchase now.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -248,9 +223,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Turkey minimum wage increase",
-        "value": "27%",
-        "severity": "high",
-        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - Daily Sabah",
+        "value": "27 percent",
+        "severity": "medium",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -294,7 +269,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, so the recent downward trend of -0.86 percent per month should not be read as a reason to wait. Although delaying the decision by six months would save about EUR 178,061 on the annual volume, that saving depends on prices that do not yet reflect the freight impact. The buyer should therefore secure the 1,300 tons per year at EUR 2.64 per kg now, before the freight-driven increase reaches local list prices.",
+      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, so the current downward price trend of -0.86 percent over the last three months should not be read as a reason to wait. Although delaying the decision by six months would save about EUR 178,061 on the annual volume, that saving depends on prices that do not yet reflect the freight increase, so the buyer should secure the 1,300 tons of annual volume now, before the freight-driven adjustment reaches local list prices.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -311,9 +286,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Turkey minimum wage increase",
-        "value": "27%",
-        "severity": "high",
-        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 - Daily Sabah",
+        "value": "27 percent",
+        "severity": "medium",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -357,7 +332,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and although prices rose about 1.05 percent per month over the last three months, market volatility is extreme and committing now risks buying at a peak. Waiting six months could cost roughly EUR 246,230 extra on the annual volume of EUR 3,925,000, so the buyer should hold the decision for six months and use that period to monitor the risk before fixing volume and price.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and although prices rose about 1.05 percent per month over the last three months, the market volatility is extreme enough that committing now risks buying at a peak. Waiting six months could cost about EUR 246,230 extra on the annual volume of EUR 3,925,000, but that is the price of avoiding a worse lock-in at current levels. The buyer should therefore hold the decision for six months and revisit the position then.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
