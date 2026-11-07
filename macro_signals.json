@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:41:58+00:00",
+  "generated_at": "2026-11-07T11:28:37+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
@@ -8,9 +8,9 @@
       "pair": "USD/TRY",
       "rate": 50.0724,
       "rate_date": "2026-11-06",
-      "reference_rate": 49.1976,
-      "reference_date": "2026-10-07",
-      "change_pct": 1.78,
+      "reference_rate": 49.2152,
+      "reference_date": "2026-10-08",
+      "change_pct": 1.74,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -33,50 +33,8 @@
         "PA6",
         "PP"
       ],
-      "value": "30%",
-      "severity": "medium",
-      "headline": "Xeneta Summit: Analysts forecast ocean freight spot rates to fall 30% in 2027 as Red Sea return sees capacity flooding back - Hellenic Shipping News",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQelRVOUtmMEtxUG53X3FIQmpTZmtzM2p3Y3lsMmt4aTdqREZ3Z2JYMHpGbHhSelVidHNNUWF1aHFiVzdYSzJsMkk4UkUzcFFUSjR0MEJoQjNzd3UwZGVqcGRBRndXSXJvOElZOGJ5UmlLNjJRU0V5WFNJNFVtdVgxOXFFRlg5dG04cEVCU0Jyekstc0hkYzNnUzU1UVpQWGxYR1hUZDlwVW5BVW5kcTNWZ1J2Sy00aUljR0xvRTZvRnd2N2JZcG9CUVJmM0JXTWZzWUhVVGR0MFhwUFRHU2xuQjR2di1CNzNjTWNoWmpsMzg?oc=5",
-      "published": "Thu, 05 Nov 2026 22:05:25 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
       "value": null,
-      "severity": "medium",
-      "headline": "Maersk Raises Guidance Again as Congestion Lifts Rates Despite Falling Volumes - WWD",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRlhIRmFPcWpHSzlBZ3Z3ajNUTnVESF9CMUdTZnlrRFV0WnduOHktbEtvUVBtMU9PbnJ4SDlwVkhSc0FrVGtZUVhGMXJnVlBtYkNCQ0JOTDNubVN1cm5odVlIVVp0MW5FQ0VLa1A3S1Nhek01Mk1RdVdWSHlocEpMZU5HSy1iUjVzT3l2b2tpcDZhUUVDTUhfZ3N3MmxhSzVvaTZsRGdLMVFHcWhkYUJCY1pwS0VudTJmNnpjZkZMWQ?oc=5",
-      "published": "Thu, 05 Nov 2026 21:55:35 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": "30%",
-      "severity": "medium",
-      "headline": "Xeneta forecasts 30% fall in container spot rates in 2027 as Red Sea capacity returns - Container Management",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWDdDa0JybkludUhkekE2UUhZcGd0ZmtWbmZzNFUzSlUxNjJsMTJvWDdqX0lYVTFZMkZYRXRVbEhxU3g2a3czQUhEMEl0TC1PdzZfcGtBZjhTSlQxRmNHc1VOWDVmOE1JMVo2MWpZbVZCMmxVVHBTTXRES09mbGtOYm9BeUhFWnVBUUsycHh3TUs2Y0tja2wwNVBGS1hqZ1BZVlBIaA?oc=5",
-      "published": "Thu, 05 Nov 2026 11:12:34 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
+      "severity": "low",
       "headline": "Red Sea Container Shipping Return Gains Pace as Capacity Doubles: Xeneta - Ship & Bunker",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdkRGVjVYci1wOUpacWQ0djB6dGhmTXZ0U05YYVRYTGowN1BCb3pEQ3AxZzdzam9CYmtGNGoyNmlDSU1UaFFvaXNiZjRrN1hBeWlpQW5zUDRndUpBWFo2NW1KX2xNMTJlWVdIRjl6ZGZSSWJzdldISkR0bC1sTDRWZE5abURjZFNyY2JUR2hyOVZKVmRpZl96VGM2WUtYU1dYS2JBNU9NN0V0R3lnV1laZl9yR1VDZw?oc=5",
       "published": "Mon, 19 Oct 2026 05:21:57 GMT",
@@ -149,11 +107,11 @@
         "PA6",
         "Steel"
       ],
-      "value": null,
-      "severity": "low",
-      "headline": "Turkey\u2019s unions press for substantial raise ahead of 2026 minimum wage talks amid soaring cost of living - Turkish Minute",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzllczdBcjlMbkk5RFE5S09CcVU1SnBQeWNyR2lDa2lRLXNhYVdtQTdIYTluMHVPN2ZYVDE0aEtpX05YRGhZNGU0ZHpvSE94b1ZHRGJoMnNkNGM3LUFxVldnZVFibDQ4dk5wdFRodlhxRlhGYi10WWRFVnJwSHcyZVV3dDBUcEpCRXdvbDQ5UHc1NXhrdEp6V1poQ25tV0cyMFNqRVR1MTR3bUVUYXFzdm1ZZU1BWXJseGhyaUVkYldVd0VrY0lBVzNwYnVFUjlJMXJ2ZENORnbSAd4BQVVfeXFMTmhKVGdyUUhQa1kwbUwzcEN3M1ZtSHBldG5HeVptZlBrVktNVWJKVV8yZ3V4aG1FQVYxMzE4VG5yVmQyRnVQaTBVdzBtZ21iNGZpNHVxSG5zWVpveXgyeGphT281WG5SUTU5anRLdkE2TG9UUjR6bTV5Vl9jRGh6anNmSS1MN3Zib0hsV21WN3BmdF9NMnZJbWR2blpsTUVnU09JNDUtdFFyanNtS1pUbTQ5OWUzZ2ZVNVVGUENfUFlhM1h6MGd6T29RVi00UVBqLXlNTENRYW5HSXFOYURB?oc=5",
-      "published": "Wed, 03 Dec 2025 08:00:00 GMT",
+      "value": "49%",
+      "severity": "medium",
+      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQckxuSW5tUXBKMVRRZEJfaDEwWWZoT05lQk45NWc4bjZVeGZOdlhXbnBDWE8wWHFmNzNxdFRQNUlYZmtiYVo2VGVhc0tKX1ExWmxJV1hYZEF0LXlsenhrYndSck1GcnB4WXFrN2dHWmJuMG91eVJORjdhWW5RRUdlNElId05aNEM0UUFLN21mRDNWM3J3QW12eE1n?oc=5",
+      "published": "Thu, 28 Dec 2023 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -169,21 +127,6 @@
       "headline": "Turkey announces 27% minimum wage hike for 2026 - Bianet",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbXBJMDRKOE01Njdfb0VxQWdiYmVKU2JQM1NmVHgtOGt1eHB0OW9TeXF3MnNBbklkTHNiMGlnU3lfODBsVDloRnVvY01TTHUwckYwV2xlelZoWlFGbTRTMF9IVmplVUg3YjNzb2dodnNaaHU2Y2pOdGtjVVBLTGFnV0VYeGQ?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": "49%",
-      "severity": "medium",
-      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQckxuSW5tUXBKMVRRZEJfaDEwWWZoT05lQk45NWc4bjZVeGZOdlhXbnBDWE8wWHFmNzNxdFRQNUlYZmtiYVo2VGVhc0tKX1ExWmxJV1hYZEF0LXlsenhrYndSck1GcnB4WXFrN2dHWmJuMG91eVJORjdhWW5RRUdlNElId05aNEM0UUFLN21mRDNWM3J3QW12eE1n?oc=5",
-      "published": "Thu, 28 Dec 2023 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
