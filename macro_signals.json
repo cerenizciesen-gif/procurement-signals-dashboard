@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-09T13:35:28+00:00",
+  "generated_at": "2026-11-10T13:13:44+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 50.178,
-      "rate_date": "2026-11-09",
+      "rate": 50.1981,
+      "rate_date": "2026-11-10",
       "reference_rate": 49.216,
       "reference_date": "2026-10-09",
-      "change_pct": 1.95,
+      "change_pct": 2.0,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -28,16 +28,17 @@
   },
   "findings": [
     {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "materials": [
+        "Steel",
         "PA6",
         "PP"
       ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
-      "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "value": "343%",
+      "severity": "high",
+      "headline": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUkFnSmd2R0J3V0FUalJZdVBHR1VRNFRNWVNTQV9JdWJGYmVYVG9VUllEa3d5b1Z6THdFUzJRSmtHMnNoU0V1LWZYdVNXNkdnRlYxQkZwWm5ITGJCQjNWMzljTWhRYTBLVlF5VVBrTGdacU1IajJEMGJGcDNSb0JpMzVISVZTUnJOcWhIU0Naak1RR1BfUndWN3JWTmFucjBESl9DcWU4cVUzTEQ2bFM5Z3JWZE42OThMNmVfNlYxcU8?oc=5",
+      "published": "Mon, 09 Nov 2026 18:35:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -93,11 +94,11 @@
         "PA6",
         "Steel"
       ],
-      "value": null,
-      "severity": "low",
-      "headline": "Turkey\u2019s unions press for substantial raise ahead of 2026 minimum wage talks amid soaring cost of living - Turkish Minute",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzllczdBcjlMbkk5RFE5S09CcVU1SnBQeWNyR2lDa2lRLXNhYVdtQTdIYTluMHVPN2ZYVDE0aEtpX05YRGhZNGU0ZHpvSE94b1ZHRGJoMnNkNGM3LUFxVldnZVFibDQ4dk5wdFRodlhxRlhGYi10WWRFVnJwSHcyZVV3dDBUcEpCRXdvbDQ5UHc1NXhrdEp6V1poQ25tV0cyMFNqRVR1MTR3bUVUYXFzdm1ZZU1BWXJseGhyaUVkYldVd0VrY0lBVzNwYnVFUjlJMXJ2ZENORnbSAd4BQVVfeXFMTmhKVGdyUUhQa1kwbUwzcEN3M1ZtSHBldG5HeVptZlBrVktNVWJKVV8yZ3V4aG1FQVYxMzE4VG5yVmQyRnVQaTBVdzBtZ21iNGZpNHVxSG5zWVpveXgyeGphT281WG5SUTU5anRLdkE2TG9UUjR6bTV5Vl9jRGh6anNmSS1MN3Zib0hsV21WN3BmdF9NMnZJbWR2blpsTUVnU09JNDUtdFFyanNtS1pUbTQ5OWUzZ2ZVNVVGUENfUFlhM1h6MGd6T29RVi00UVBqLXlNTENRYW5HSXFOYURB?oc=5",
-      "published": "Wed, 03 Dec 2025 08:00:00 GMT",
+      "value": "49%",
+      "severity": "medium",
+      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQckxuSW5tUXBKMVRRZEJfaDEwWWZoT05lQk45NWc4bjZVeGZOdlhXbnBDWE8wWHFmNzNxdFRQNUlYZmtiYVo2VGVhc0tKX1ExWmxJV1hYZEF0LXlsenhrYndSck1GcnB4WXFrN2dHWmJuMG91eVJORjdhWW5RRUdlNElId05aNEM0UUFLN21mRDNWM3J3QW12eE1n?oc=5",
+      "published": "Thu, 28 Dec 2023 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -123,11 +124,11 @@
         "PA6",
         "Steel"
       ],
-      "value": "49%",
-      "severity": "medium",
-      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQckxuSW5tUXBKMVRRZEJfaDEwWWZoT05lQk45NWc4bjZVeGZOdlhXbnBDWE8wWHFmNzNxdFRQNUlYZmtiYVo2VGVhc0tKX1ExWmxJV1hYZEF0LXlsenhrYndSck1GcnB4WXFrN2dHWmJuMG91eVJORjdhWW5RRUdlNElId05aNEM0UUFLN21mRDNWM3J3QW12eE1n?oc=5",
-      "published": "Thu, 28 Dec 2023 08:00:00 GMT",
+      "value": null,
+      "severity": "low",
+      "headline": "Minimum Salary Changes Announced - Fragomen",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80UnB1R0JGS05lRXlqSTlJVEIzZnhwc3AxWTlwaU8yVERVM0UzV2s0WTRlVnVTLXVUazVfdHB1Yi1UWS1TZloyTWVFSFJxaTl4bXQ0S3RwX3VpMXBEU0xydlpYOUN3YW5wbHV4dHE5NkExZm9IN1ZrZTJfdw?oc=5",
+      "published": "Wed, 04 Nov 2026 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -165,23 +166,23 @@
   "by_material": {
     "PP": {
       "risk_factor": "Geopolitical supply disruption",
-      "value": null,
+      "value": "343%",
       "severity": "high",
-      "headline": "Resin prices surge across the board amid global supply disruption - Plastics News",
+      "headline": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta - FreightWaves",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
       "risk_factor": "Geopolitical supply disruption",
-      "value": null,
+      "value": "343%",
       "severity": "high",
-      "headline": "Resin prices surge across the board amid global supply disruption - Plastics News",
+      "headline": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta - FreightWaves",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
       "risk_factor": "Geopolitical supply disruption",
-      "value": null,
+      "value": "343%",
       "severity": "high",
-      "headline": "Resin prices surge across the board amid global supply disruption - Plastics News",
+      "headline": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta - FreightWaves",
       "method": "deepseek-v4-flash"
     }
   }
