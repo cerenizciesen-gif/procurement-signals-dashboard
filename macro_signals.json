@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:13:44+00:00",
+  "generated_at": "2026-11-11T12:24:40+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
@@ -8,9 +8,9 @@
       "pair": "USD/TRY",
       "rate": 50.1981,
       "rate_date": "2026-11-10",
-      "reference_rate": 49.216,
-      "reference_date": "2026-10-09",
-      "change_pct": 2.0,
+      "reference_rate": 49.3358,
+      "reference_date": "2026-10-12",
+      "change_pct": 1.75,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -28,6 +28,20 @@
   },
   "findings": [
     {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": "30%",
+      "severity": "medium",
+      "headline": "Red Sea return could see container freight rates slump by 30% next year, warns analyst - TradeWinds News",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX0pkaWRtdjRKeWpma185bUtPS1U5WDBKaUdMeXcxZkhYT041ZUdxRktiSHhDU0E3a3dkNjdWLXYyZUdaZ2tGU2d4NGJUNkVaNEMzLTN4anB0eHBWNzFUSkFOZ29icXI5aTBqR0dXVi1RNUx4em5SYmFONTdYZks2ekVEcTJiTmpvdl9zV3VETlpySVhpVllOZ0RxWE1RUXJFRHF3aVMwMnNuZVJORlRIU3c1SFB0Z18yb1JSWGhrTWhYNFFpOHdmR2RxUjAwbGRRZDVaeA?oc=5",
+      "published": "Tue, 10 Nov 2026 15:38:23 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
       "risk_factor": "Geopolitical supply disruption",
       "materials": [
         "Steel",
@@ -43,17 +57,58 @@
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Turkey minimum wage increase",
+      "risk_factor": "Red Sea shipping disruption",
       "materials": [
-        "PP",
         "PA6",
-        "Steel"
+        "PP"
       ],
-      "value": "27 percent",
+      "value": "30%",
       "severity": "medium",
-      "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
-      "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+      "headline": "Ocean freight spot rates to fall 30% in 2027 with return to Red Sea route, predicts Xeneta \u2014 SMI DIGITAL - https://www.shipmanagementinternational.com/",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZHgxcXM5RnFPamF2M0ZBZWtsNjRwTmRVQWpST3lnTVFPZUVyYVRsTG1HU1p0SE55aDJORzNfSVBhTmJQUGtwS1VfcU41U1NRVGVVQVl3SGFmMk5IUG9rd2dRUTl0anBQVVFNTGxLUkUyaU1PQkdYREtVTmhlaHQ2SEtmNVdOVk9UTW5uWXJmYWMxSlhseUlFVV8tQlZVOWZ6ZmxqbXhjMDk0WXJnSTZ1VHNDWVZlZ285UGRXUkFWN1NUa3FfSVdORlVB?oc=5",
+      "published": "Mon, 09 Nov 2026 12:28:34 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": "30%",
+      "severity": "medium",
+      "headline": "Xeneta forecasts 30% decline in ocean freight spot rates in 2027 - safety4sea",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQzFvVnplWTloWUVGRGdSQXN0RVdtLXp2OWtWYVA4OFl6Zk53WUlva3h0NnkzUmdTZWFaUk1mSlBWMG4tVjIxRXVoUWpFZEpaODRVYW4yNzQ2dDBqX1VGeFNtaTMwQ1VNNnpRTFhpWFZVaUQ2ZU9pUnh3MWdqeVlBbU9WWW5TcFo4V1FuM0xDWGk?oc=5",
+      "published": "Fri, 06 Nov 2026 11:50:22 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
+      "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -84,21 +139,6 @@
       "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": "49%",
-      "severity": "medium",
-      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQckxuSW5tUXBKMVRRZEJfaDEwWWZoT05lQk45NWc4bjZVeGZOdlhXbnBDWE8wWHFmNzNxdFRQNUlYZmtiYVo2VGVhc0tKX1ExWmxJV1hYZEF0LXlsenhrYndSck1GcnB4WXFrN2dHWmJuMG91eVJORjdhWW5RRUdlNElId05aNEM0UUFLN21mRDNWM3J3QW12eE1n?oc=5",
-      "published": "Thu, 28 Dec 2023 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
