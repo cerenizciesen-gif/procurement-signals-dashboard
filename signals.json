@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:51:01+00:00",
+  "generated_at": "2026-11-14T11:55:17+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,7 +67,7 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-11-13T12:50:56+00:00",
+    "generated_at": "2026-11-14T11:55:13+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
@@ -75,9 +75,9 @@
       "pair": "USD/TRY",
       "rate": 50.283,
       "rate_date": "2026-11-13",
-      "reference_rate": 49.3929,
-      "reference_date": "2026-10-14",
-      "change_pct": 1.8,
+      "reference_rate": 49.4204,
+      "reference_date": "2026-10-15",
+      "change_pct": 1.75,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -94,21 +94,6 @@
         "headline": "Red Sea return could see container freight rates slump by 30% next year, warns analyst - TradeWinds News",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX0pkaWRtdjRKeWpma185bUtPS1U5WDBKaUdMeXcxZkhYT041ZUdxRktiSHhDU0E3a3dkNjdWLXYyZUdaZ2tGU2d4NGJUNkVaNEMzLTN4anB0eHBWNzFUSkFOZ29icXI5aTBqR0dXVi1RNUx4em5SYmFONTdYZks2ekVEcTJiTmpvdl9zV3VETlpySVhpVllOZ0RxWE1RUXJFRHF3aVMwMnNuZVJORlRIU3c1SFB0Z18yb1JSWGhrTWhYNFFpOHdmR2RxUjAwbGRRZDVaeA?oc=5",
         "published": "Tue, 10 Nov 2026 15:38:23 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Geopolitical supply disruption",
-        "materials": [
-          "Steel",
-          "PA6",
-          "PP"
-        ],
-        "value": "343%",
-        "severity": "high",
-        "headline": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta - FreightWaves",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUkFnSmd2R0J3V0FUalJZdVBHR1VRNFRNWVNTQV9JdWJGYmVYVG9VUllEa3d5b1Z6THdFUzJRSmtHMnNoU0V1LWZYdVNXNkdnRlYxQkZwWm5ITGJCQjNWMzljTWhRYTBLVlF5VVBrTGdacU1IajJEMGJGcDNSb0JpMzVISVZTUnJOcWhIU0Naak1RR1BfUndWN3JWTmFucjBESl9DcWU4cVUzTEQ2bFM5Z3JWZE42OThMNmVfNlYxcU8?oc=5",
-        "published": "Mon, 09 Nov 2026 18:35:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -133,7 +118,7 @@
           "PP"
         ],
         "value": null,
-        "severity": "low",
+        "severity": "medium",
         "headline": "Red Sea Container Shipping Return Gains Pace as Capacity Doubles: Xeneta - Ship & Bunker",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdkRGVjVYci1wOUpacWQ0djB6dGhmTXZ0U05YYVRYTGowN1BCb3pEQ3AxZzdzam9CYmtGNGoyNmlDSU1UaFFvaXNiZjRrN1hBeWlpQW5zUDRndUpBWFo2NW1KX2xNMTJlWVdIRjl6ZGZSSWJzdldISkR0bC1sTDRWZE5abURjZFNyY2JUR2hyOVZKVmRpZl96VGM2WUtYU1dYS2JBNU9NN0V0R3lnV1laZl9yR1VDZw?oc=5",
         "published": "Mon, 19 Oct 2026 05:21:57 GMT",
@@ -148,7 +133,7 @@
           "PP"
         ],
         "value": null,
-        "severity": "high",
+        "severity": "medium",
         "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
         "published": "Fri, 29 May 2026 20:16:08 GMT",
@@ -156,16 +141,32 @@
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Red Sea shipping disruption",
+        "risk_factor": "Turkey minimum wage increase",
         "materials": [
+          "PP",
           "PA6",
-          "PP"
+          "Steel"
         ],
-        "value": null,
+        "value": "27 percent",
         "severity": "medium",
-        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
-        "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBtgFBVV95cUxPUEZvaVFzMUxVVGpfcU5Wc1hjbHRIQmRJeFZYSW4xR1dJVGZBaURDNU1ZOF9ZN0RsVkpHUXF2LUFXMjdzZ1Y0WlNfMTVyY2l1SUVXVHdtYWE5aVI1bk1iclNQeDNNT0NkWk9GcFpLNlZxQzJPck9PU191VzVZaF9QZmtjTVFTSUNnazRtekQ2SUxhR2NXMzdvREF1YllqcFZscFlyZDlEeUxRV0tQajd1OG1vNzJJdw?oc=5",
+        "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Turkey minimum wage increase",
+        "materials": [
+          "PP",
+          "PA6",
+          "Steel"
+        ],
+        "value": "27%",
+        "severity": "medium",
+        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - Daily Sabah",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB0gGTAUFVX3lxTFAzclBHS29xMG8zalJEQ1p3dlVCVHpSSEkwV0tKMmpPdy0zak1YSmt4QUd3UUFROGNJc0dTbGVCZUNvX0ZTaTdQOHZQNjdVTnZJS3FzRUdPTXpTMzFFZ2Qzcm1nV3Zhb0tQNmwwLUVDeVlpQkw2VjBvRVNmSUt1ejlBeFdCbGs1TXlVb2ExMmRiQXpnQQ?oc=5",
+        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -186,9 +187,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Geopolitical supply disruption",
-        "value": "343%",
+        "value": null,
         "severity": "high",
-        "headline": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta - FreightWaves",
+        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -232,7 +233,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons at today's EUR 1.17 per kg now.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons at today's EUR 1.17 per kg and close the purchase now.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -249,9 +250,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Geopolitical supply disruption",
-        "value": "343%",
+        "value": null,
         "severity": "high",
-        "headline": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta - FreightWaves",
+        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -295,7 +296,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local list prices with a delay, which is why the recent downward trend of -0.86 percent per month should not be read as a reason to wait. Although delaying the decision by six months would save about EUR 178,061 on the annual volume, the buyer should secure the 1,300 tons of PA6 now, before the freight-driven increase reaches list prices.",
+      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local PA6 list prices with a delay, so the recent downward trend of -0.86 percent per month should not be read as a reason to wait. Although delaying the decision by six months would save about EUR 178,061 on the annual volume of 1,300 tons, that saving depends on today's falling prices holding, which the freight-driven cost increase makes unlikely. The buyer should therefore secure the annual volume now at EUR 2.64 per kg rather than wait for further declines.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -312,9 +313,9 @@
       "driver_origin": "dataset",
       "detected_risk": {
         "risk_factor": "Geopolitical supply disruption",
-        "value": "343%",
+        "value": null,
         "severity": "high",
-        "headline": "Asia-U.S. West Coast ocean container spot rates up 343% since start of Iran war, says Xeneta - FreightWaves",
+        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -358,7 +359,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and although the price trend is rising, market volatility is currently extreme, so committing now risks buying at a peak. Waiting six months would cost about EUR 246,230 extra on the annual volume, but that is the price of avoiding a worse outcome if disruption hits. The buyer should hold the decision for six months and use that time to monitor the market closely.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and although the price trend is rising at an average of 1.05 percent per month, market volatility is extreme and committing now risks buying at a peak. Waiting six months would cost about EUR 246,230 extra on the annual volume, so the buyer should hold the decision and revisit it once the volatility settles.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
