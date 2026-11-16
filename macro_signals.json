@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-15T12:27:46+00:00",
+  "generated_at": "2026-11-16T13:19:55+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 50.283,
-      "rate_date": "2026-11-13",
+      "rate": 50.3942,
+      "rate_date": "2026-11-16",
       "reference_rate": 49.4463,
       "reference_date": "2026-10-16",
-      "change_pct": 1.69,
+      "change_pct": 1.92,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -33,11 +33,11 @@
         "PA6",
         "PP"
       ],
-      "value": "30%",
+      "value": null,
       "severity": "medium",
-      "headline": "Red Sea return could see container freight rates slump by 30% next year, warns analyst - TradeWinds News",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX0pkaWRtdjRKeWpma185bUtPS1U5WDBKaUdMeXcxZkhYT041ZUdxRktiSHhDU0E3a3dkNjdWLXYyZUdaZ2tGU2d4NGJUNkVaNEMzLTN4anB0eHBWNzFUSkFOZ29icXI5aTBqR0dXVi1RNUx4em5SYmFONTdYZks2ekVEcTJiTmpvdl9zV3VETlpySVhpVllOZ0RxWE1RUXJFRHF3aVMwMnNuZVJORlRIU3c1SFB0Z18yb1JSWGhrTWhYNFFpOHdmR2RxUjAwbGRRZDVaeA?oc=5",
-      "published": "Tue, 10 Nov 2026 15:38:23 GMT",
+      "headline": "Hapag-Lloyd Profit Surges as Freight Rates Rise, Red Sea Services Return - gCaptain",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUml2X0p5WGZidXhoZ2JmUGtZNnNYcDZIcURGOVRJWTB6Q09uYkttckJTS3N3RVNBOWZQUGlwQWJQMWFqYUd2X09mdVZ6QWhhelpxLXFTQmhxSDdnU2FOVUdfbUdjU0RVWnB2ZVpvdGYtclhJd0k0aElKQ19UX0RxTmlsTGR2T3MwdnpER1hBZ21BaUVWZlg2Xw?oc=5",
+      "published": "Fri, 13 Nov 2026 17:09:56 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -52,20 +52,6 @@
       "headline": "Why container rates are climbing despite cooling demand - FreightWaves",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2hja1JPTF9ULU5jdUtib0pSTTZidi1PYkJsbFBMU2tLekc1RHlnQ3FvVmRuTTF3YUNRdGZ3b2lBcDYxaG9aajFiYjV5SFItNkhUSVQxTkJfaXdOMDhsMjgyUU1LRXo0am9WenVPS0tqakJEWk5EX0RnUmNiMncyeGswRmNBZTc5UF9adEY3cW9hcW8?oc=5",
       "published": "Thu, 29 Oct 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Red Sea Return: What It Means for 2026 Container Shipping Contract Rates - Xeneta",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMjBBOVhValhhczdtYm9XUFpaS0pRcnhJLXZVZHlpREVQQ08zeFE3Y3h4Z21NbmowVE9VeHhqR3ZCaUsxeXBDS0VCbmJsUVA0ZzJDRzRkLUtleVdoX0lzbXY4SGxhYTZpLWxVdkZ4Vnd2SUtJQTRBLWJPeW5FOHd5czVFQy12SEc5aGRUVl9QZS01NTY0ekdvZWVnTXAyUEph?oc=5",
-      "published": "Thu, 22 Jan 2026 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -98,16 +84,17 @@
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "materials": [
+        "Steel",
         "PA6",
         "PP"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "Shipping Firms Face Tough 2026 as Reopening of Red Sea Looms - Transport Topics",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aeWY0SGRYT3V6d3FYc2E2SFRMUDlZd2VJMlBySDFjMXVEQV9PMWplWVhKM0daS19DTm1xdUMtRFpUd2RnRk9mSF81bjViTmt5TC1qd2VKSFdGbkZvUFBscUxlTU9kdlFS?oc=5",
-      "published": "Wed, 04 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
+      "published": "Fri, 29 May 2026 20:16:08 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -194,7 +181,7 @@
         "Steel"
       ],
       "value": "49%",
-      "severity": "high",
+      "severity": "medium",
       "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQckxuSW5tUXBKMVRRZEJfaDEwWWZoT05lQk45NWc4bjZVeGZOdlhXbnBDWE8wWHFmNzNxdFRQNUlYZmtiYVo2VGVhc0tKX1ExWmxJV1hYZEF0LXlsenhrYndSck1GcnB4WXFrN2dHWmJuMG91eVJORjdhWW5RRUdlNElId05aNEM0UUFLN21mRDNWM3J3QW12eE1n?oc=5",
       "published": "Thu, 28 Dec 2023 08:00:00 GMT",
@@ -234,24 +221,24 @@
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Turkey minimum wage increase",
-      "value": "49%",
+      "risk_factor": "Geopolitical supply disruption",
+      "value": null,
       "severity": "high",
-      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Turkey minimum wage increase",
-      "value": "49%",
+      "risk_factor": "Geopolitical supply disruption",
+      "value": null,
       "severity": "high",
-      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
-      "risk_factor": "Turkey minimum wage increase",
-      "value": "49%",
+      "risk_factor": "Geopolitical supply disruption",
+      "value": null,
       "severity": "high",
-      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
+      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
       "method": "deepseek-v4-flash"
     }
   }
