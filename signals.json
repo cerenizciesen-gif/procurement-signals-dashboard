@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:05:10+00:00",
+  "generated_at": "2026-11-18T13:39:00+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,17 +67,17 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-11-17T14:05:06+00:00",
+    "generated_at": "2026-11-18T13:38:56+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 50.4199,
-      "rate_date": "2026-11-17",
-      "reference_rate": 49.4463,
-      "reference_date": "2026-10-16",
-      "change_pct": 1.97,
+      "rate": 50.4444,
+      "rate_date": "2026-11-18",
+      "reference_rate": 49.5523,
+      "reference_date": "2026-10-19",
+      "change_pct": 1.8,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -89,11 +89,11 @@
           "PA6",
           "PP"
         ],
-        "value": null,
+        "value": "50%",
         "severity": "medium",
-        "headline": "Hapag-Lloyd Profit Surges as Freight Rates Rise, Red Sea Services Return - gCaptain",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUml2X0p5WGZidXhoZ2JmUGtZNnNYcDZIcURGOVRJWTB6Q09uYkttckJTS3N3RVNBOWZQUGlwQWJQMWFqYUd2X09mdVZ6QWhhelpxLXFTQmhxSDdnU2FOVUdfbUdjU0RVWnB2ZVpvdGYtclhJd0k0aElKQ19UX0RxTmlsTGR2T3MwdnpER1hBZ21BaUVWZlg2Xw?oc=5",
-        "published": "Fri, 13 Nov 2026 17:09:56 GMT",
+        "headline": "Red Sea overcapacity looms as ocean container spot rates still 50% above year-ago - FreightWaves",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjdmako4QzByallQUWF2QnVoQzdNTHhzUndVa1d2MXdRbWU3OTQwaXVvSEFvaVlheTJQazduOWFRbHFrZmpfanZNX2RVR20zSDhERFpkVU1qekxxbEl1aWZqZTNyS0psWlZVd3lCWVZtX2xmVGkxM2wzZzRITnRjSzY4VDNkV2hWWVBacm5LSFl3Z0p0Y2hOLTFuN1JHcDVWRXppYTlBRGtCY2tsQjd1ZXNieVg?oc=5",
+        "published": "Tue, 17 Nov 2026 16:28:34 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -104,10 +104,10 @@
           "PP"
         ],
         "value": null,
-        "severity": "medium",
-        "headline": "Why container rates are climbing despite cooling demand - FreightWaves",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2hja1JPTF9ULU5jdUtib0pSTTZidi1PYkJsbFBMU2tLekc1RHlnQ3FvVmRuTTF3YUNRdGZ3b2lBcDYxaG9aajFiYjV5SFItNkhUSVQxTkJfaXdOMDhsMjgyUU1LRXo0am9WenVPS0tqakJEWk5EX0RnUmNiMncyeGswRmNBZTc5UF9adEY3cW9hcW8?oc=5",
-        "published": "Thu, 29 Oct 2026 07:00:00 GMT",
+        "severity": "low",
+        "headline": "Hapag-Lloyd Profit Surges as Freight Rates Rise, Red Sea Services Return - gCaptain",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUml2X0p5WGZidXhoZ2JmUGtZNnNYcDZIcURGOVRJWTB6Q09uYkttckJTS3N3RVNBOWZQUGlwQWJQMWFqYUd2X09mdVZ6QWhhelpxLXFTQmhxSDdnU2FOVUdfbUdjU0RVWnB2ZVpvdGYtclhJd0k0aElKQ19UX0RxTmlsTGR2T3MwdnpER1hBZ21BaUVWZlg2Xw?oc=5",
+        "published": "Fri, 13 Nov 2026 17:09:56 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -294,7 +294,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that will feed into local PA6 list prices with a delay, which is why the recent downward trend of -0.86 percent per month should not be read as a reason to wait. Waiting six months might save about EUR 178,061 on the annual volume, but that gain is at risk once freight-driven increases reach the market. The buyer should secure the 1,300 tons of annual PA6 volume now, at the current EUR 2.64 per kg, before those costs are passed through.",
+      "negotiation_argument": "Red Sea shipping disruption is raising freight costs by 20 percent, and that increase will feed into local list prices with a delay, so the recent downward trend of -0.86 percent per month should not be read as a reason to wait. Although delaying the decision by 6 months would save about EUR 178,061 on the annual volume, that saving depends on prices that do not yet reflect the freight impact. The buyer should therefore secure the 1,300 tons of PA6 now, before the freight-driven increase reaches local list prices.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -357,7 +357,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can abruptly raise steel costs, and although the price trend is up with an average monthly change of +1.05 percent, market volatility is extreme, so committing now risks buying at a peak. The buyer should therefore delay the decision despite the rising trend, accepting that waiting six months would cost about EUR 246,230 extra on the annual volume as the price of avoiding a worse peak.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity risk that can push steel costs sharply higher, and although the price trend has been rising at an average of 1.05 percent per month, market volatility is currently extreme, so committing now risks buying at a peak. Waiting six months could cost about EUR 246,230 extra on the annual volume of EUR 3,925,000, but that exposure is preferable to locking in at the top of a volatile market. The buyer should therefore delay the commitment and revisit the decision as the supply picture becomes clearer.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
