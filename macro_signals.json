@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-18T13:38:56+00:00",
+  "generated_at": "2026-11-19T14:05:48+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 50.4444,
-      "rate_date": "2026-11-18",
-      "reference_rate": 49.5523,
-      "reference_date": "2026-10-19",
+      "rate": 50.4694,
+      "rate_date": "2026-11-19",
+      "reference_rate": 49.578,
+      "reference_date": "2026-10-20",
       "change_pct": 1.8,
       "lookback_days": 30,
       "is_risk": false
@@ -33,7 +33,7 @@
         "PA6",
         "PP"
       ],
-      "value": "50%",
+      "value": "50% above year-ago",
       "severity": "medium",
       "headline": "Red Sea overcapacity looms as ocean container spot rates still 50% above year-ago - FreightWaves",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjdmako4QzByallQUWF2QnVoQzdNTHhzUndVa1d2MXdRbWU3OTQwaXVvSEFvaVlheTJQazduOWFRbHFrZmpfanZNX2RVR20zSDhERFpkVU1qekxxbEl1aWZqZTNyS0psWlZVd3lCWVZtX2xmVGkxM2wzZzRITnRjSzY4VDNkV2hWWVBacm5LSFl3Z0p0Y2hOLTFuN1JHcDVWRXppYTlBRGtCY2tsQjd1ZXNieVg?oc=5",
@@ -52,6 +52,20 @@
       "headline": "Hapag-Lloyd Profit Surges as Freight Rates Rise, Red Sea Services Return - gCaptain",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUml2X0p5WGZidXhoZ2JmUGtZNnNYcDZIcURGOVRJWTB6Q09uYkttckJTS3N3RVNBOWZQUGlwQWJQMWFqYUd2X09mdVZ6QWhhelpxLXFTQmhxSDdnU2FOVUdfbUdjU0RVWnB2ZVpvdGYtclhJd0k0aElKQ19UX0RxTmlsTGR2T3MwdnpER1hBZ21BaUVWZlg2Xw?oc=5",
       "published": "Fri, 13 Nov 2026 17:09:56 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": "30%",
+      "severity": "medium",
+      "headline": "Red Sea return could see container freight rates slump by 30% next year, warns analyst - TradeWinds News",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX0pkaWRtdjRKeWpma185bUtPS1U5WDBKaUdMeXcxZkhYT041ZUdxRktiSHhDU0E3a3dkNjdWLXYyZUdaZ2tGU2d4NGJUNkVaNEMzLTN4anB0eHBWNzFUSkFOZ29icXI5aTBqR0dXVi1RNUx4em5SYmFONTdYZks2ekVEcTJiTmpvdl9zV3VETlpySVhpVllOZ0RxWE1RUXJFRHF3aVMwMnNuZVJORlRIU3c1SFB0Z18yb1JSWGhrTWhYNFFpOHdmR2RxUjAwbGRRZDVaeA?oc=5",
+      "published": "Tue, 10 Nov 2026 15:38:23 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -95,20 +109,6 @@
       "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
       "published": "Wed, 08 Jul 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Red Sea shipping disruption",
-      "materials": [
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
-      "published": "Fri, 21 Aug 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -164,41 +164,11 @@
         "PA6",
         "Steel"
       ],
-      "value": null,
-      "severity": "low",
-      "headline": "Minimum Salary Changes Announced - Fragomen",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80UnB1R0JGS05lRXlqSTlJVEIzZnhwc3AxWTlwaU8yVERVM0UzV2s0WTRlVnVTLXVUazVfdHB1Yi1UWS1TZloyTWVFSFJxaTl4bXQ0S3RwX3VpMXBEU0xydlpYOUN3YW5wbHV4dHE5NkExZm9IN1ZrZTJfdw?oc=5",
-      "published": "Wed, 04 Nov 2026 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
       "value": "27%",
       "severity": "medium",
       "headline": "Turkey announces 27% minimum wage hike for 2026 - Bianet",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbXBJMDRKOE01Njdfb0VxQWdiYmVKU2JQM1NmVHgtOGt1eHB0OW9TeXF3MnNBbklkTHNiMGlnU3lfODBsVDloRnVvY01TTHUwckYwV2xlelZoWlFGbTRTMF9IVmplVUg3YjNzb2dodnNaaHU2Y2pOdGtjVVBLTGFnV0VYeGQ?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "high",
-      "headline": "Resin prices surge across the board amid global supply disruption - Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRGY4QmpNU3c3T1NRb2k2LVo1LWZqOXhObklSMEs5SEJGRHFWSlk5NFVnTFpQSElPcXBYUTc4YTYxbnpXSW1zWERac2JleUYzV244WWZJMEdIYnptSGlyenU4U1h3QUhZVi1zRG1DWVp2dDRUb1NxX3FsZ2N2ZnhpZUdvblpVWnJMYkpXODhBZXpxOFVLcUlLZk9LTmJ4R0M3TXM3TGl0Y2o4WklLNTd0eEJ3MFZ3R1RjRkE?oc=5",
-      "published": "Tue, 21 Apr 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
