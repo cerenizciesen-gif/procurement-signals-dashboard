@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:48:38+00:00",
+  "generated_at": "2026-11-21T13:13:14+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
@@ -8,9 +8,9 @@
       "pair": "USD/TRY",
       "rate": 50.4936,
       "rate_date": "2026-11-20",
-      "reference_rate": 49.6015,
-      "reference_date": "2026-10-21",
-      "change_pct": 1.8,
+      "reference_rate": 49.6281,
+      "reference_date": "2026-10-22",
+      "change_pct": 1.74,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -38,6 +38,34 @@
       "headline": "Red Sea overcapacity looms as ocean container spot rates still 50% above year-ago - FreightWaves",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjdmako4QzByallQUWF2QnVoQzdNTHhzUndVa1d2MXdRbWU3OTQwaXVvSEFvaVlheTJQazduOWFRbHFrZmpfanZNX2RVR20zSDhERFpkVU1qekxxbEl1aWZqZTNyS0psWlZVd3lCWVZtX2xmVGkxM2wzZzRITnRjSzY4VDNkV2hWWVBacm5LSFl3Z0p0Y2hOLTFuN1JHcDVWRXppYTlBRGtCY2tsQjd1ZXNieVg?oc=5",
       "published": "Tue, 17 Nov 2026 16:28:34 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": "30%",
+      "severity": "medium",
+      "headline": "Red Sea return could see container freight rates slump by 30% next year, warns analyst - TradeWinds News",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX0pkaWRtdjRKeWpma185bUtPS1U5WDBKaUdMeXcxZkhYT041ZUdxRktiSHhDU0E3a3dkNjdWLXYyZUdaZ2tGU2d4NGJUNkVaNEMzLTN4anB0eHBWNzFUSkFOZ29icXI5aTBqR0dXVi1RNUx4em5SYmFONTdYZks2ekVEcTJiTmpvdl9zV3VETlpySVhpVllOZ0RxWE1RUXJFRHF3aVMwMnNuZVJORlRIU3c1SFB0Z18yb1JSWGhrTWhYNFFpOHdmR2RxUjAwbGRRZDVaeA?oc=5",
+      "published": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "low",
+      "headline": "Maersk, Hapag-Lloyd Expand Suez Canal Return With Three More Gemini Services - gCaptain",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeDBpMF80QndzQjM3c0JuTWdLT0lEaVlCR2FCN1A2eURFQlB4X0JnMXNZYmJLeUo3UzJxNFE5a3RDLWJmUDZqdUh4aFVoeThURjN2QndSVXpFMkdUQ0pyNzdYOUxOOVhWZ3FaNTJFV3BkRWFPR0ZSTHNtSUpoVnhTMjdENTVyWXpqRkhveTdKVmt1US1WdVJXT0F5azVndw?oc=5",
+      "published": "Mon, 16 Nov 2026 15:45:05 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -84,31 +112,32 @@
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Turkey minimum wage increase",
       "materials": [
+        "PP",
         "PA6",
-        "PP"
+        "Steel"
       ],
       "value": null,
-      "severity": "high",
-      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kQjB4ckFaQjdsQnZ2bERRbGZZeFJQTHl4YlpKQVpabWJFSWxVUUlRakVlZGl5QnpJME1yd2lqdEdTaDgtYkRYRzFXSGZIU0g3UENwS1RTbmtZNm41TEtsNldiSWdRbzJFT1JlSzctWjF3Sks5aFE?oc=5",
-      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "severity": "low",
+      "headline": "Striking result from the minimum wage survey! Here is the requested figure - Haberler.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOamNxdHdzanNWYWh4UHNaSVY4bmd3cWFua2NMS3gwS2tsblVoQWZQbGRGWk81U1J0czFWVlNKSWlLWnRyeXlwa3E5S3ViV1I3V0hqdkhrUjh5TTVQb3pvODVtLWdLdFM3TzlEVVhRb0hVYml6V0FObFRvaG9seUZVVG14enUxdk1kMUE?oc=5",
+      "published": "Sat, 21 Nov 2026 12:22:22 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Geopolitical supply disruption",
+      "risk_factor": "Turkey minimum wage increase",
       "materials": [
-        "Steel",
+        "PP",
         "PA6",
-        "PP"
+        "Steel"
       ],
       "value": null,
-      "severity": "high",
-      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
-      "published": "Fri, 29 May 2026 20:16:08 GMT",
+      "severity": "low",
+      "headline": "Minimum wage in the TRNC has been increased mid-year! The difference with Turkey is incredible - Haberler.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMzhlRnhvLWRVbFdGZ2xEd2dxOGx3WllsemtJWlFtcUk1TTU3aDV0b2YyVVQ3WVNUVzVKZUVGaUNRQUpWbl9ualZWOWp2WTR3RGJPWDJsb2pUZnRLU1hQNjAyY1FwbU5oaEJPN3JQMy1SbVVhWG83aGlSbzVVa2FwaWtvOGlDVEk?oc=5",
+      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -150,7 +179,7 @@
         "Steel"
       ],
       "value": "49%",
-      "severity": "high",
+      "severity": "medium",
       "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQckxuSW5tUXBKMVRRZEJfaDEwWWZoT05lQk45NWc4bjZVeGZOdlhXbnBDWE8wWHFmNzNxdFRQNUlYZmtiYVo2VGVhc0tKX1ExWmxJV1hYZEF0LXlsenhrYndSck1GcnB4WXFrN2dHWmJuMG91eVJORjdhWW5RRUdlNElId05aNEM0UUFLN21mRDNWM3J3QW12eE1n?oc=5",
       "published": "Thu, 28 Dec 2023 08:00:00 GMT",
@@ -164,26 +193,11 @@
         "PA6",
         "Steel"
       ],
-      "value": "27%",
-      "severity": "medium",
-      "headline": "Turkey announces 27% minimum wage hike for 2026 - Bianet",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbXBJMDRKOE01Njdfb0VxQWdiYmVKU2JQM1NmVHgtOGt1eHB0OW9TeXF3MnNBbklkTHNiMGlnU3lfODBsVDloRnVvY01TTHUwckYwV2xlelZoWlFGbTRTMF9IVmplVUg3YjNzb2dodnNaaHU2Y2pOdGtjVVBLTGFnV0VYeGQ?oc=5",
-      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
-      "value": "1%",
+      "value": "38,000 lira",
       "severity": "low",
-      "headline": "Why Turkish Scrap Slipped 1% to About $400 a Tonne: An Izmir Mill Blast Took a 4.5 Mt Buyer Out of the Market - kalkine.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTEl4QWs4RnhlNXdJd1BPV3hQSTdjNUZIQ2ctNkFOMGJwcU1TaXBEZEE3TFNjT3M0QWFHU0FNY3YzajIydHFrcUpmR0ZLblF2MF9tdWZiTE5NdGRvekNZUF9PeTVMeFB4Ujl2NFJZdDAzVk5LVHAtVWR4OVBGVEozRjJ1WTc3MEQwS1RIN194RzI5UVZXWmxZekRTelAxQ2RPU3hPUDlxNmJzWWNhbHBETG9RNFNlTDgzTUxUaF9vbWx0cWVRa19rdnBTWlBuN201a25DdjhXeEl5T0pKQUE?oc=5",
-      "published": "Fri, 20 Nov 2026 06:20:00 GMT",
+      "headline": "Turkey\u2019s hunger line tops 38,000 lira, widening gap with minimum wage - Turkish Minute",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWldmcE5IU2Jlb0ZSdzlJa3d2TnFHUkd0LVpsckJVNEgyaGZiLWlGckJqTXl1Uld6U3F6ZkVBLUdNTFNuUWUyemVpRFpZZjE3ckdFcmtLY0JBcDZkNUhQcDRTSXVFVFdpbGwyRlV5dDFEUFU5ZmFaYk1JekRrYnJJSUV0ZGtjTllNREhCbnhHSXVFZVZTd0M3OXJRbjYtcFhlSjZPUDN6Mk40MndE0gGyAUFVX3lxTE9NbjlmdXF0dUp0Q1VIZUJOMk55UTRuSmJRS0p5N29KMkFhVG5kWHhZOS1iVE9sS05QdjRoLUxzRzJ3OW1ucmFFUnNxNzhyY3N1ZjRLQnBtMHlwNGpPa1Q4X3NnTWY2eEl0TDFLdXR1SlFMRHRCMmpSTFhpMjZTWnE5eTNoQlRheDh0UmdNWHdlTzlZcUlsQ0k5NElReDNmZVg0NzJlc0Fpb0RrNDJ4a1JQcUE?oc=5",
+      "published": "Mon, 02 Nov 2026 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -195,7 +209,7 @@
         "PP"
       ],
       "value": null,
-      "severity": "high",
+      "severity": "medium",
       "headline": "Resin prices surge across the board amid global supply disruption - Plastics News",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRGY4QmpNU3c3T1NRb2k2LVo1LWZqOXhObklSMEs5SEJGRHFWSlk5NFVnTFpQSElPcXBYUTc4YTYxbnpXSW1zWERac2JleUYzV244WWZJMEdIYnptSGlyenU4U1h3QUhZVi1zRG1DWVp2dDRUb1NxX3FsZ2N2ZnhpZUdvblpVWnJMYkpXODhBZXpxOFVLcUlLZk9LTmJ4R0M3TXM3TGl0Y2o4WklLNTd0eEJ3MFZ3R1RjRkE?oc=5",
       "published": "Tue, 21 Apr 2026 07:00:00 GMT",
@@ -220,24 +234,24 @@
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
+      "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Red Sea shipping disruption",
+      "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
+      "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
       "risk_factor": "Geopolitical supply disruption",
       "value": null,
       "severity": "high",
-      "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
+      "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
       "method": "deepseek-v4-flash"
     }
   }
