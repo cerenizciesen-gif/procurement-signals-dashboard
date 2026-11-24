@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:39:30+00:00",
+  "generated_at": "2026-11-24T15:29:56+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,17 +67,17 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-11-23T15:39:25+00:00",
+    "generated_at": "2026-11-24T15:29:51+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 50.6026,
-      "rate_date": "2026-11-23",
+      "rate": 50.6286,
+      "rate_date": "2026-11-24",
       "reference_rate": 49.654,
       "reference_date": "2026-10-23",
-      "change_pct": 1.91,
+      "change_pct": 1.96,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -104,25 +104,24 @@
           "PP"
         ],
         "value": null,
-        "severity": "medium",
-        "headline": "Red Sea Return: What It Means for 2026 Container Shipping Contract Rates - Xeneta",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMjBBOVhValhhczdtYm9XUFpaS0pRcnhJLXZVZHlpREVQQ08zeFE3Y3h4Z21NbmowVE9VeHhqR3ZCaUsxeXBDS0VCbmJsUVA0ZzJDRzRkLUtleVdoX0lzbXY4SGxhYTZpLWxVdkZ4Vnd2SUtJQTRBLWJPeW5FOHd5czVFQy12SEc5aGRUVl9QZS01NTY0ekdvZWVnTXAyUEph?oc=5",
-        "published": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "severity": "low",
+        "headline": "Why container rates are climbing despite cooling demand - FreightWaves",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2hja1JPTF9ULU5jdUtib0pSTTZidi1PYkJsbFBMU2tLekc1RHlnQ3FvVmRuTTF3YUNRdGZ3b2lBcDYxaG9aajFiYjV5SFItNkhUSVQxTkJfaXdOMDhsMjgyUU1LRXo0am9WenVPS0tqakJEWk5EX0RnUmNiMncyeGswRmNBZTc5UF9adEY3cW9hcW8?oc=5",
+        "published": "Thu, 29 Oct 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "Steel",
           "PA6",
           "PP"
         ],
         "value": null,
-        "severity": "high",
-        "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1RIb2hueS14VmctdHo2VzloNTFzaEIyR0ZpRENCNlZ0M0Y5RFRoeGdRMklGMXFLYjJ2WlYyVlhqTDNJcENxZG1rT0F6ZEo1djR1bHBWcUlaS0dlbFdIYW5CNk1yek5XTGhXM1puQV85SWcxSGVnYzRyWngybmtTZThHdUx0SGRTa2pyUk54TTFSXzBJS1VReHh1YzNabDRhamtVOVpn?oc=5",
-        "published": "Fri, 29 May 2026 20:16:08 GMT",
+        "severity": "medium",
+        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
+        "published": "Fri, 21 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
@@ -148,24 +147,23 @@
         ],
         "value": null,
         "severity": "medium",
-        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
-        "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+        "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kQjB4ckFaQjdsQnZ2bERRbGZZeFJQTHl4YlpKQVpabWJFSWxVUUlRakVlZGl5QnpJME1yd2lqdEdTaDgtYkRYRzFXSGZIU0g3UENwS1RTbmtZNm41TEtsNldiSWdRbzJFT1JlSzctWjF3Sks5aFE?oc=5",
+        "published": "Wed, 19 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Turkey minimum wage increase",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "PP",
           "PA6",
-          "Steel"
+          "PP"
         ],
-        "value": "27%",
+        "value": null,
         "severity": "medium",
-        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - Daily Sabah",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB0gGTAUFVX3lxTFAzclBHS29xMG8zalJEQ1p3dlVCVHpSSEkwV0tKMmpPdy0zak1YSmt4QUd3UUFROGNJc0dTbGVCZUNvX0ZTaTdQOHZQNjdVTnZJS3FzRUdPTXpTMzFFZ2Qzcm1nV3Zhb0tQNmwwLUVDeVlpQkw2VjBvRVNmSUt1ejlBeFdCbGs1TXlVb2ExMmRiQXpnQQ?oc=5",
-        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+        "headline": "Container freight rates continue march northwards - Seatrade Maritime News",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ2ptYW9UWWxmbFFzVnVqTTJTLXNBQzVwVDlqcjRqS29pb3g4dFJyTENKWmQ4dFIzYzJPZUpkTkdNcjJ2QUx5bkFXdXk4RW15YXpocTVnYUN5M2xLS3ZlQTBhMVRHcV9VUG9UX0ZBQzdEcHFGTmt6R2pVeWdWcTBjb0YwaTV2Qnp4SjNaU0J5MEpWMVBNOU9LRFln?oc=5",
+        "published": "Fri, 12 Jun 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -185,10 +183,10 @@
       "driver_value": "+15%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
-        "value": null,
+        "risk_factor": "Turkey minimum wage increase",
+        "value": "49%",
         "severity": "high",
-        "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
+        "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -232,7 +230,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons now at EUR 1.17 per kg.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons at today's EUR 1.17 per kg now.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -248,10 +246,10 @@
       "driver_value": "Freight costs +20%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
-        "value": null,
+        "risk_factor": "Turkey minimum wage increase",
+        "value": "49%",
         "severity": "high",
-        "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
+        "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -295,7 +293,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local list prices with a delay, which is why the current downward price trend of -0.86 percent over the last three months should not be read as a reason to wait. Although delaying the decision by six months would save about EUR 178,061 on the annual volume of 1,300 tons, that saving depends on prices that do not yet reflect the freight increase, so the buyer should secure the PA6 volume now rather than wait for further declines.",
+      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local list prices with a delay, so the current price of EUR 2.64 per kg will not hold. Although the price trend is down and delaying by six months would save about EUR 178,061 on the annual volume, that saving depends on freight staying out of the price, which the macro risk makes unlikely. The buyer should therefore secure the 1,300 tons per year now, before the freight increase passes through.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -311,10 +309,10 @@
       "driver_value": "High severity",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
-        "value": null,
+        "risk_factor": "Turkey minimum wage increase",
+        "value": "49%",
         "severity": "high",
-        "headline": "Hormuz crisis side effect: a sharp rise in container shipping rates - Lloyd's List",
+        "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
         "method": "deepseek-v4-flash"
       },
       "signal": "Delay",
@@ -358,7 +356,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is a high-severity risk that can push steel costs sharply higher, and although the price trend is rising at an average of 1.05 percent per month, market volatility is extreme and committing now risks buying at a peak. Waiting six months could cost about EUR 246,230 extra on the annual volume of EUR 3,925,000, so the buyer should hold the decision for six months and use that period to monitor the market rather than lock in at current levels.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and although prices rose about 1.05 percent per month over the last three months, market volatility is extreme and committing now risks buying at a peak. Waiting six months could cost about EUR 246,230 extra on the annual volume of EUR 3,925,000, so the buyer should hold the decision for six months and use that period to monitor the market before committing.",
       "argument_source": "deepseek-v4-flash"
     }
   ]
