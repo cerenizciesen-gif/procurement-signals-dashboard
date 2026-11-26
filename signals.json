@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:16:31+00:00",
+  "generated_at": "2026-11-26T14:42:00+00:00",
   "source_file": "procurement_dataset.csv",
   "as_of": "2026-07-01",
   "scope": {
@@ -67,109 +67,103 @@
   "market_monitor": {
     "available": true,
     "drives_decision": false,
-    "generated_at": "2026-11-25T15:16:26+00:00",
+    "generated_at": "2026-11-26T14:41:56+00:00",
     "classification_method": "deepseek-v4-flash",
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 50.6441,
-      "rate_date": "2026-11-25",
-      "reference_rate": 49.7627,
-      "reference_date": "2026-10-26",
-      "change_pct": 1.77,
+      "rate": 50.6777,
+      "rate_date": "2026-11-26",
+      "reference_rate": 49.7892,
+      "reference_date": "2026-10-27",
+      "change_pct": 1.78,
       "lookback_days": 30,
       "is_risk": false
     },
     "headlines_screened": 24,
     "findings": [
       {
-        "risk_factor": "Turkey minimum wage increase",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "PP",
           "PA6",
-          "Steel"
+          "PP"
         ],
-        "value": "27 percent",
-        "severity": "medium",
-        "headline": "Turkey raises minimum wage by 27 percent, drawing sharp political backlash - Turkish Minute",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDV5cm5nOVZWNzRNOV8tSHpGUXp5NHV2dkV3M1JkUW1rRktwTjRXTmdnU2VFaHo3VzU5dDZfZWFkY0tJTERFamt2WnVsOUlxVG52MlhQeXg1SDNJdlV0aG42WjRFYXBsLWJPcXpBWWlEZmV1eVRtZ2FSbExkN2RnUmhpUTJjVlB3Qi1KTDRLVWtmNWg0RUNvREExN3l0T1ZKVDkxM1J5X0dHY2hQSnhWWtIBuwFBVV95cUxNc3hFRU1PQUxEbkFUcjcxeVlWWno1dTN4QXlxZl9uNDFpcUlQdGotMTJQMDN3Yi05T09pX2pNQTZqVnNSdzR3ZmJMZWxpa0dHVVRSYThzTnpjazhjbTJYX2xYMFZsWHQ5dmR5R2h3dm9nUEdCNXl0QlVWOVpWX2RUVTkzNnFQSk5QTE9JeXRvMkpjcmNJZW8xUGZzOHRxOHpmT0I5blItS2Z2cjJwWmlmU3BSc3BPdzc2bU1j?oc=5",
-        "published": "Wed, 24 Dec 2025 08:00:00 GMT",
+        "value": "$10,000",
+        "severity": "high",
+        "headline": "Asia\u2013US East Coast ocean freight rates top $10,000, up 300% from a year ago - FreightWaves",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2p4MFduR0pmX25iWjI2bFFnYXRBZHZOYXNOaGxZYWs5RXFveWFFd1pCUlhtY0hINkRBS0pQQ0VsMWxlNFBULUZ5MXdhN3p6NWNqUl8taWVqMFlGeWVHclNIN1o2Sno4Z0I4RkdHZnRkckFXNGF3bVF5czQ5WUdqa19TQURzUkpTRG1sem1CRkpMLWxyekxXU082VFF0T180a1p5YUZ0QnU?oc=5",
+        "published": "Mon, 23 Nov 2026 14:35:03 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Turkey minimum wage increase",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "PP",
           "PA6",
-          "Steel"
+          "PP"
         ],
-        "value": "27%",
+        "value": "30%",
         "severity": "medium",
-        "headline": "T\u00fcrkiye hikes minimum wage by 27% for 2026 | Daily Sabah - Daily Sabah",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEt5a3pUZ0xvRHN5TFpBTml4RmtLU2VqdklyOGVsVUlvdy1mczVjSHZjYTAzd0VodWNQeVltNEFjS2JnclZlTndhZ0xuWDZXYlpvMFA4bDJJTGlfNUR3eFNNN1lLaHp6b0h6bHVNSXhKQUxTNnFCZmJNcldWRzA4Z2gxTkRzcmlVTXQzYmhB0gGTAUFVX3lxTFAzclBHS29xMG8zalJEQ1p3dlVCVHpSSEkwV0tKMmpPdy0zak1YSmt4QUd3UUFROGNJc0dTbGVCZUNvX0ZTaTdQOHZQNjdVTnZJS3FzRUdPTXpTMzFFZ2Qzcm1nV3Zhb0tQNmwwLUVDeVlpQkw2VjBvRVNmSUt1ejlBeFdCbGs1TXlVb2ExMmRiQXpnQQ?oc=5",
-        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+        "headline": "Red Sea return could see container freight rates slump by 30% next year, warns analyst - TradeWinds News",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX0pkaWRtdjRKeWpma185bUtPS1U5WDBKaUdMeXcxZkhYT041ZUdxRktiSHhDU0E3a3dkNjdWLXYyZUdaZ2tGU2d4NGJUNkVaNEMzLTN4anB0eHBWNzFUSkFOZ29icXI5aTBqR0dXVi1RNUx4em5SYmFONTdYZks2ekVEcTJiTmpvdl9zV3VETlpySVhpVllOZ0RxWE1RUXJFRHF3aVMwMnNuZVJORlRIU3c1SFB0Z18yb1JSWGhrTWhYNFFpOHdmR2RxUjAwbGRRZDVaeA?oc=5",
+        "published": "Tue, 10 Nov 2026 08:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Turkey minimum wage increase",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "PP",
           "PA6",
-          "Steel"
+          "PP"
         ],
         "value": null,
         "severity": "medium",
-        "headline": "'Condemned to hunger': Turkey's below-inflation minimum wage rise sparks anger - Middle East Eye",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVByNEFlR05IWWhaODBpOVpJMFhCRkpwaXVfWTNpcUs1VDMtczJpY1FDdDZhaGtNZUhCUVJxdzhYanpZbmthWGNfQjNoZWNmZk5PejZRbFNHUURMMVFRSEtXV2JnQnFFMW00cUdoOTFHVGJPdE5UUXo3RTVaaVFXV1ZOVjd6Ukg4ZUZzd0lQRVo?oc=5",
-        "published": "Fri, 27 Dec 2024 08:00:00 GMT",
+        "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
+        "published": "Fri, 21 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Turkey minimum wage increase",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "PP",
           "PA6",
-          "Steel"
+          "PP"
         ],
         "value": null,
-        "severity": "low",
-        "headline": "Turkey\u2019s hunger line nears 30,000 lira for family of 4 as minimum wage talks begin - Stockholm Center for Freedom",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeFFXd3k4TTZzbzdBUXJ4TkJiQXR2dVpDYkNJQnl2SFdrdENveEUzdGtPZVNxQlk3Qnhzc2w0QjZDOHV3bXA1VThSYmRlWTRzTXlPQmdZWHllSXJJT3ZKRjdfVkl5UVhJNndSMXdXOUR4UFdlRFFaMEVqcjZrZDJMQThvR3JPcnR4dGhFOURjUjZYbWxhTm9VYl9ndGU2bVphN1dUN1RCSkg?oc=5",
-        "published": "Mon, 15 Dec 2025 08:00:00 GMT",
-        "matched_on": null,
-        "method": "deepseek-v4-flash"
-      },
-      {
-        "risk_factor": "Turkey minimum wage increase",
-        "materials": [
-          "PP",
-          "PA6",
-          "Steel"
-        ],
-        "value": "27%",
         "severity": "medium",
-        "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
-        "published": "Tue, 23 Dec 2025 08:00:00 GMT",
+        "headline": "Why container rates are climbing despite cooling demand - FreightWaves",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2hja1JPTF9ULU5jdUtib0pSTTZidi1PYkJsbFBMU2tLekc1RHlnQ3FvVmRuTTF3YUNRdGZ3b2lBcDYxaG9aajFiYjV5SFItNkhUSVQxTkJfaXdOMDhsMjgyUU1LRXo0am9WenVPS0tqakJEWk5EX0RnUmNiMncyeGswRmNBZTc5UF9adEY3cW9hcW8?oc=5",
+        "published": "Thu, 29 Oct 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       },
       {
-        "risk_factor": "Geopolitical supply disruption",
+        "risk_factor": "Red Sea shipping disruption",
         "materials": [
-          "Steel",
+          "PA6",
+          "PP"
+        ],
+        "value": null,
+        "severity": "medium",
+        "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+        "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "matched_on": null,
+        "method": "deepseek-v4-flash"
+      },
+      {
+        "risk_factor": "Red Sea shipping disruption",
+        "materials": [
           "PA6",
           "PP"
         ],
         "value": null,
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZHAyS2dPMm9PMWdudW5FSUw2Mk5OQllpU2xkTEMxb0R3T015Vk9fMXY0cEFobGR0UnZPRldYSzg2WS1UbURHUlQ5RUxsNGNRTk1KQVliYWZmc3VnYjJqY3ZIaTRzc0lIYXo2SXFHakY4UmJEaEtMb1JuWUxBSERTd0J4NFltdVBEVEY0eTBZclYzeTdnZjdN?oc=5",
-        "published": "Tue, 17 Mar 2026 07:00:00 GMT",
+        "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kQjB4ckFaQjdsQnZ2bERRbGZZeFJQTHl4YlpKQVpabWJFSWxVUUlRakVlZGl5QnpJME1yd2lqdEdTaDgtYkRYRzFXSGZIU0g3UENwS1RTbmtZNm41TEtsNldiSWdRbzJFT1JlSzctWjF3Sks5aFE?oc=5",
+        "published": "Wed, 19 Aug 2026 07:00:00 GMT",
         "matched_on": null,
         "method": "deepseek-v4-flash"
       }
@@ -189,10 +183,10 @@
       "driver_value": "+15%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
-        "value": null,
+        "risk_factor": "Red Sea shipping disruption",
+        "value": "$10,000",
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+        "headline": "Asia\u2013US East Coast ocean freight rates top $10,000, up 300% from a year ago - FreightWaves",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -236,7 +230,7 @@
         "monthly_volatility_pct": 1.44,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600 tons now at EUR 1.17 per kg.",
+      "negotiation_argument": "The Turkish minimum wage increase of 15 percent raises local conversion costs, and with PP prices already up 1.18 percent on average per month over the last three months, current price levels will not hold. Delaying the decision by six months would cost about EUR 49,600 extra on the annual volume of EUR 702,000, so the buyer should secure the 600-ton annual volume now at the current EUR 1.17 per kg.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -252,10 +246,10 @@
       "driver_value": "Freight costs +20%",
       "driver_origin": "dataset",
       "detected_risk": {
-        "risk_factor": "Geopolitical supply disruption",
-        "value": null,
+        "risk_factor": "Red Sea shipping disruption",
+        "value": "$10,000",
         "severity": "high",
-        "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+        "headline": "Asia\u2013US East Coast ocean freight rates top $10,000, up 300% from a year ago - FreightWaves",
         "method": "deepseek-v4-flash"
       },
       "signal": "Buy now",
@@ -299,7 +293,7 @@
         "monthly_volatility_pct": 0.77,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that will feed into local PA6 list prices with a delay, so the recent downward trend of -0.86 percent per month should not be read as a reason to wait. Although delaying the decision by 6 months would save about EUR 178,061 on the annual volume of 1,300 tons, that saving depends on prices that the freight increase has not yet reached. The buyer should therefore secure the annual volume now, at the current EUR 2.64 per kg, before the freight-driven increase is reflected in local list prices.",
+      "negotiation_argument": "Red Sea shipping disruption is pushing freight costs up by 20 percent, and that increase will feed into local list prices with a delay, which is why the current price of EUR 2.64 per kg should be secured now rather than later. Although the price trend is down and delaying the decision by 6 months would save about EUR 178,061 on the annual volume, that saving depends on freight staying calm, and the macro risk points the other way. The buyer should therefore close the deal at today's price within the current negotiation round, before the freight increase reaches local list prices.",
       "argument_source": "deepseek-v4-flash"
     },
     {
@@ -362,7 +356,7 @@
         "monthly_volatility_pct": 0.79,
         "method": "three-month trend extrapolation, band = historical volatility x sqrt(month)"
       },
-      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and although prices rose about 1.05 percent per month over the last three months, that volatility is extreme enough that committing now risks buying at a peak. The buyer should therefore hold the decision rather than lock in at EUR 785.0 per ton, accepting that waiting six months could add roughly EUR 246,230 on the annual volume as the price of avoiding a worse entry point.",
+      "negotiation_argument": "Geopolitical supply disruption is a high-severity macro risk that can push steel costs sharply higher, and while the price trend is up at an average of +1.05 percent per month, market volatility is extreme and committing now risks buying at a peak. Waiting six months could cost about EUR 246,230 extra on the annual volume, but that is the price of avoiding a worse outcome, so the buyer should hold the decision and not commit at the current EUR 785.0 per ton.",
       "argument_source": "deepseek-v4-flash"
     }
   ]

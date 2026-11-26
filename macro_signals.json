@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-25T15:16:26+00:00",
+  "generated_at": "2026-11-26T14:41:56+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
       "available": true,
       "source": "Turkish central bank daily reference rate",
       "pair": "USD/TRY",
-      "rate": 50.6441,
-      "rate_date": "2026-11-25",
-      "reference_rate": 49.7627,
-      "reference_date": "2026-10-26",
-      "change_pct": 1.77,
+      "rate": 50.6777,
+      "rate_date": "2026-11-26",
+      "reference_rate": 49.7892,
+      "reference_date": "2026-10-27",
+      "change_pct": 1.78,
       "lookback_days": 30,
       "is_risk": false
     },
@@ -22,13 +22,110 @@
         "polypropylene polyamide resin supply Europe",
         "export ban sanctions raw material supply disruption"
       ],
-      "unavailable_queries": [
-        "Red Sea shipping container freight rates"
-      ],
+      "unavailable_queries": [],
       "headlines_screened": 24
     }
   },
   "findings": [
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": "$10,000",
+      "severity": "high",
+      "headline": "Asia\u2013US East Coast ocean freight rates top $10,000, up 300% from a year ago - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2p4MFduR0pmX25iWjI2bFFnYXRBZHZOYXNOaGxZYWs5RXFveWFFd1pCUlhtY0hINkRBS0pQQ0VsMWxlNFBULUZ5MXdhN3p6NWNqUl8taWVqMFlGeWVHclNIN1o2Sno4Z0I4RkdHZnRkckFXNGF3bVF5czQ5WUdqa19TQURzUkpTRG1sem1CRkpMLWxyekxXU082VFF0T180a1p5YUZ0QnU?oc=5",
+      "published": "Mon, 23 Nov 2026 14:35:03 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": "30%",
+      "severity": "medium",
+      "headline": "Red Sea return could see container freight rates slump by 30% next year, warns analyst - TradeWinds News",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX0pkaWRtdjRKeWpma185bUtPS1U5WDBKaUdMeXcxZkhYT041ZUdxRktiSHhDU0E3a3dkNjdWLXYyZUdaZ2tGU2d4NGJUNkVaNEMzLTN4anB0eHBWNzFUSkFOZ29icXI5aTBqR0dXVi1RNUx4em5SYmFONTdYZks2ekVEcTJiTmpvdl9zV3VETlpySVhpVllOZ0RxWE1RUXJFRHF3aVMwMnNuZVJORlRIU3c1SFB0Z18yb1JSWGhrTWhYNFFpOHdmR2RxUjAwbGRRZDVaeA?oc=5",
+      "published": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Port congestion and Red Sea risks keep container shipping under pressure - Kuehne+Nagel",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVnFnVEpJd09lNUtPeEI0a0N1aGpZdTQwWlNLcm5EVm14TnVJMGJPb2xkYUN6WTRwYVgySmtQOWhtX1ZjR0VTRXVOWUV0Nkx4Q1ZySTVLUTlJR2RVRzczWUVjb1BrNFpacU1nNkp3UGV5N2dxYWpCX2RPVS1NdGZhMnRKYmNtRjNO?oc=5",
+      "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Why container rates are climbing despite cooling demand - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2hja1JPTF9ULU5jdUtib0pSTTZidi1PYkJsbFBMU2tLekc1RHlnQ3FvVmRuTTF3YUNRdGZ3b2lBcDYxaG9aajFiYjV5SFItNkhUSVQxTkJfaXdOMDhsMjgyUU1LRXo0am9WenVPS0tqakJEWk5EX0RnUmNiMncyeGswRmNBZTc5UF9adEY3cW9hcW8?oc=5",
+      "published": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "medium",
+      "headline": "Ocean freight market turns red hot, prompting freight rate rally - Scan Global Logistics",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYU5Cc0o3ZlBMSXlKMnVLOWJsUndjU2VJdnRaNnVlOHBvNnk0cHMzT3JQRlVzcmpLR0FuWVQyVFk1dF9RVlo0Vm1fUHM3STdqSzNWRzZRSEhtbFB0bjJJc0otNEtiM2d6VXF2YTdqVGVtcVdNWWp1dnRfVHExeEg3MVNYc2xFVHRVRWE2bEZ0NmlPUjZtbTBR?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Red Sea shipping disruption",
+      "materials": [
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "high",
+      "headline": "T3ex: Red Sea Crisis Unresolved, Container Freight Rates to Stay Elevated Through at Least September; Air Freight Q3 Even Stronger - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kQjB4ckFaQjdsQnZ2bERRbGZZeFJQTHl4YlpKQVpabWJFSWxVUUlRakVlZGl5QnpJME1yd2lqdEdTaDgtYkRYRzFXSGZIU0g3UENwS1RTbmtZNm41TEtsNldiSWdRbzJFT1JlSzctWjF3Sks5aFE?oc=5",
+      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Geopolitical supply disruption",
+      "materials": [
+        "Steel",
+        "PA6",
+        "PP"
+      ],
+      "value": null,
+      "severity": "low",
+      "headline": "Fidan says Turkish policy under Mecca pact aimed at Saudi defence, no decision on Yemen deployment - TRT World",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95TUpia0xYU0lhckxQd3EzdzZXV1RNS0xDTXRtMWZ3dHVMandRelduVTVqM2RqWmhUUTg1TEtnNFdjTXlNVmRWXzk5ZjFxWmc5NE5wTEU4Ylk?oc=5",
+      "published": "Sun, 22 Nov 2026 01:36:37 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
     {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
@@ -81,26 +178,11 @@
         "PA6",
         "Steel"
       ],
-      "value": null,
+      "value": "30,000 lira",
       "severity": "low",
       "headline": "Turkey\u2019s hunger line nears 30,000 lira for family of 4 as minimum wage talks begin - Stockholm Center for Freedom",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeFFXd3k4TTZzbzdBUXJ4TkJiQXR2dVpDYkNJQnl2SFdrdENveEUzdGtPZVNxQlk3Qnhzc2w0QjZDOHV3bXA1VThSYmRlWTRzTXlPQmdZWHllSXJJT3ZKRjdfVkl5UVhJNndSMXdXOUR4UFdlRFFaMEVqcjZrZDJMQThvR3JPcnR4dGhFOURjUjZYbWxhTm9VYl9ndGU2bVphN1dUN1RCSkg?oc=5",
       "published": "Mon, 15 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": "27%",
-      "severity": "medium",
-      "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
-      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -128,9 +210,9 @@
       ],
       "value": null,
       "severity": "high",
-      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjd1VGU5S0hXR2ROajk4d3ExWDFWY2N5eXBXS2xQSWw4Qm5FTDNLTTNySThud0NGb1hPVHdmX1Z0Rk9leDlRVTRXN0RCUExzYWNNemtRSU5keV9jTDNBTWs3XzFuOE1MTWhSYkRGUFNEQUtDZC1PWDUtaFVpRjR3amhnRnp2UVZoWXJJa19Ha0ZvdlhR?oc=5",
-      "published": "Thu, 07 May 2026 07:00:00 GMT",
+      "headline": "Iran war leads to unprecedented polymer price hikes in April - Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQXVIcS02R0lVNkJzM2NVLUdtdVhPb1lpVURjYWZZaTVFRnVsWUUxWElMZHRsQ3M0bU9RdHdfekhVUWYyQThLVEd2bEJ1cTd4V1drak9ZVmN3NzVqaVY4QUJQY2tqLWdaWEhURThyQTJ4TEFMS1BicHY4aEhUOV9Hd2ZxekhQa1BkUDk2NE9wNUkwcUE?oc=5",
+      "published": "Tue, 21 Apr 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -142,27 +224,27 @@
         "PP"
       ],
       "value": null,
-      "severity": "medium",
-      "headline": "Middle East Disruptions Push Global Plastics Pricing - PlasticsToday",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNFd5QmVoVDh4Rmo0di1lcE1QRVdaaU8tQUdRcHRkT0NQM24tcHY1LTJyWURrU0ZiX2lKZEQ0Q3RXT2lSOTVscUdBNHQ5bklfVWVNSllsd055TzBHcnA2VDJwN2FaWTRHRDgzUThrNDdvSzZXTmlTRUJYZVBad1dDX20xNjN6WURkRklyT0J3UWdxc0wyVmxkQXJackc5QkhnNzl5ZzJ4WFFyVXdGZnVnSmM5NnlnbE96?oc=5",
-      "published": "Mon, 04 May 2026 13:29:31 GMT",
+      "severity": "high",
+      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjd1VGU5S0hXR2ROajk4d3ExWDFWY2N5eXBXS2xQSWw4Qm5FTDNLTTNySThud0NGb1hPVHdmX1Z0Rk9leDlRVTRXN0RCUExzYWNNemtRSU5keV9jTDNBTWs3XzFuOE1MTWhSYkRGUFNEQUtDZC1PWDUtaFVpRjR3amhnRnp2UVZoWXJJa19Ha0ZvdlhR?oc=5",
+      "published": "Thu, 07 May 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     }
   ],
   "by_material": {
     "PP": {
-      "risk_factor": "Geopolitical supply disruption",
-      "value": null,
+      "risk_factor": "Red Sea shipping disruption",
+      "value": "$10,000",
       "severity": "high",
-      "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+      "headline": "Asia\u2013US East Coast ocean freight rates top $10,000, up 300% from a year ago - FreightWaves",
       "method": "deepseek-v4-flash"
     },
     "PA6": {
-      "risk_factor": "Geopolitical supply disruption",
-      "value": null,
+      "risk_factor": "Red Sea shipping disruption",
+      "value": "$10,000",
       "severity": "high",
-      "headline": "Iran War Creates a Dire Strait for Resin Markets - PlasticsToday",
+      "headline": "Asia\u2013US East Coast ocean freight rates top $10,000, up 300% from a year ago - FreightWaves",
       "method": "deepseek-v4-flash"
     },
     "Steel": {
