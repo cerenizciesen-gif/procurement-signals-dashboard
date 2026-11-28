@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:39:49+00:00",
+  "generated_at": "2026-11-28T13:51:34+00:00",
   "classification_method": "deepseek-v4-flash",
   "sources": {
     "exchange_rate": {
@@ -84,21 +84,6 @@
       "method": "deepseek-v4-flash"
     },
     {
-      "risk_factor": "Geopolitical supply disruption",
-      "materials": [
-        "Steel",
-        "PA6",
-        "PP"
-      ],
-      "value": null,
-      "severity": "medium",
-      "headline": "War and climate change drive surge in global shipping costs - Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkR3T19kbXlPWHFhTy1udUtVWVZoamRFajczam13MmRIYWZTd21PWGxaZkhtN1R4V01hUHZNVlVuR2xvNFhaUENUYk14Nmtycko2dE5oZzB1ajBFcXU1UTJDT28yd3NFVXRvNUdoNjlQRDhlenNZa1d0Rmx5RmxpNm5XRGU?oc=5",
-      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
       "risk_factor": "Turkey minimum wage increase",
       "materials": [
         "PP",
@@ -135,41 +120,41 @@
         "PA6",
         "Steel"
       ],
+      "value": null,
+      "severity": "low",
+      "headline": "No figure has been decided on the minimum wage; the decision has been postponed until July 16th - Cyprus Today - Bug\u00fcn K\u0131br\u0131s",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2FKdnprRFo1dmFTMjlyeXBtb3lZd2NwM1R4eTlJWGNZUnNaTVZwc3hIS1hDZkVJbWtkZGt1aXV4WV9BcHJDVWhyekx6SkczbER4YkJKZk9TMmd4OC05aTRqSmppdGZ4XzVUUGNqelZxZUlEaUtCaWE0SUcwQWhUV3FOM3A4UQ?oc=5",
+      "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
+      "value": "30,000 lira",
+      "severity": "low",
+      "headline": "Turkey\u2019s hunger line nears 30,000 lira for family of 4 as minimum wage talks begin - Stockholm Center for Freedom",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeFFXd3k4TTZzbzdBUXJ4TkJiQXR2dVpDYkNJQnl2SFdrdENveEUzdGtPZVNxQlk3Qnhzc2w0QjZDOHV3bXA1VThSYmRlWTRzTXlPQmdZWHllSXJJT3ZKRjdfVkl5UVhJNndSMXdXOUR4UFdlRFFaMEVqcjZrZDJMQThvR3JPcnR4dGhFOURjUjZYbWxhTm9VYl9ndGU2bVphN1dUN1RCSkg?oc=5",
+      "published": "Mon, 15 Dec 2025 08:00:00 GMT",
+      "matched_on": null,
+      "method": "deepseek-v4-flash"
+    },
+    {
+      "risk_factor": "Turkey minimum wage increase",
+      "materials": [
+        "PP",
+        "PA6",
+        "Steel"
+      ],
       "value": "27%",
       "severity": "medium",
       "headline": "Turkey Raises Minimum Wage by 27%, in Line With Expectations - Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnRWcjY3TDlBSElBc1cyeGdRbXlDNkxUOGg0SllpdThlSjBTMDVTOVpaZHhqbmhQV1pNM0FUNFZ3VDYyM0pBSnVySmNCNjN6a0lYeXYzMlpxNGNXZ2loTmt4d3JhdXNCWXB0WUVRcWVnUnIyb1hpS3hwVFhZNUpKWHJkWWU3dXR2T3lIWF93WlBPX2gwNUNjTmczX2UzY1VYZmwwLWpQcnprYjlPSEE?oc=5",
       "published": "Tue, 23 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": null,
-      "severity": "low",
-      "headline": "Turkey\u2019s unions press for substantial raise ahead of 2026 minimum wage talks amid soaring cost of living - Turkish Minute",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzllczdBcjlMbkk5RFE5S09CcVU1SnBQeWNyR2lDa2lRLXNhYVdtQTdIYTluMHVPN2ZYVDE0aEtpX05YRGhZNGU0ZHpvSE94b1ZHRGJoMnNkNGM3LUFxVldnZVFibDQ4dk5wdFRodlhxRlhGYi10WWRFVnJwSHcyZVV3dDBUcEpCRXdvbDQ5UHc1NXhrdEp6V1poQ25tV0cyMFNqRVR1MTR3bUVUYXFzdm1ZZU1BWXJseGhyaUVkYldVd0VrY0lBVzNwYnVFUjlJMXJ2ZENORnbSAd4BQVVfeXFMTmhKVGdyUUhQa1kwbUwzcEN3M1ZtSHBldG5HeVptZlBrVktNVWJKVV8yZ3V4aG1FQVYxMzE4VG5yVmQyRnVQaTBVdzBtZ21iNGZpNHVxSG5zWVpveXgyeGphT281WG5SUTU5anRLdkE2TG9UUjR6bTV5Vl9jRGh6anNmSS1MN3Zib0hsV21WN3BmdF9NMnZJbWR2blpsTUVnU09JNDUtdFFyanNtS1pUbTQ5OWUzZ2ZVNVVGUENfUFlhM1h6MGd6T29RVi00UVBqLXlNTENRYW5HSXFOYURB?oc=5",
-      "published": "Wed, 03 Dec 2025 08:00:00 GMT",
-      "matched_on": null,
-      "method": "deepseek-v4-flash"
-    },
-    {
-      "risk_factor": "Turkey minimum wage increase",
-      "materials": [
-        "PP",
-        "PA6",
-        "Steel"
-      ],
-      "value": "49%",
-      "severity": "medium",
-      "headline": "Minimum-wage workers in Turkey just got a 49% pay rise, but they're probably not that happy about it - Business Insider",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQckxuSW5tUXBKMVRRZEJfaDEwWWZoT05lQk45NWc4bjZVeGZOdlhXbnBDWE8wWHFmNzNxdFRQNUlYZmtiYVo2VGVhc0tKX1ExWmxJV1hYZEF0LXlsenhrYndSck1GcnB4WXFrN2dHWmJuMG91eVJORjdhWW5RRUdlNElId05aNEM0UUFLN21mRDNWM3J3QW12eE1n?oc=5",
-      "published": "Thu, 28 Dec 2023 08:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     },
@@ -212,9 +197,9 @@
       ],
       "value": null,
       "severity": "high",
-      "headline": "Resin prices surge as Iran conflict triggers supply shock across plastics - Plastics News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjd1VGU5S0hXR2ROajk4d3ExWDFWY2N5eXBXS2xQSWw4Qm5FTDNLTTNySThud0NGb1hPVHdmX1Z0Rk9leDlRVTRXN0RCUExzYWNNemtRSU5keV9jTDNBTWs3XzFuOE1MTWhSYkRGUFNEQUtDZC1PWDUtaFVpRjR3amhnRnp2UVZoWXJJa19Ha0ZvdlhR?oc=5",
-      "published": "Thu, 07 May 2026 07:00:00 GMT",
+      "headline": "Iran war leads to unprecedented polymer price hikes in April - Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQXVIcS02R0lVNkJzM2NVLUdtdVhPb1lpVURjYWZZaTVFRnVsWUUxWElMZHRsQ3M0bU9RdHdfekhVUWYyQThLVEd2bEJ1cTd4V1drak9ZVmN3NzVqaVY4QUJQY2tqLWdaWEhURThyQTJ4TEFMS1BicHY4aEhUOV9Hd2ZxekhQa1BkUDk2NE9wNUkwcUE?oc=5",
+      "published": "Tue, 21 Apr 2026 07:00:00 GMT",
       "matched_on": null,
       "method": "deepseek-v4-flash"
     }
